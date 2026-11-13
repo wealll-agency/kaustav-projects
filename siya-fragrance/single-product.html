@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Product</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Owl Carousel Css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Start Navbar Area -->
+    <div class="navbar-area">
+        <div class="main-navbar">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo.png" alt="image">
+                    </a>
+
+                    <!-- TOGGLER BUTTON (Hamburger) -->
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent">
+                        <!-- Hamburger → X icon -->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">
+                                    About Us
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="products.html" class="nav-link">
+                                    Collections
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">
+                                    Contact Us
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar Area -->
+
+
+
+    <!-- Product Details Area -->
+    <section class="product-details-area pt-50 pb-50">
+        <div class="container-fluid">
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="products.html">Collections</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Shanaya Luxury Attar Perfume</li>
+                </ol>
+            </nav>
+
+            <div class="row">
+                <!-- Product Gallery -->
+                <!-- Product Gallery (Left Side) -->
+                <div class="col-lg-6 col-md-12 text-center">
+                    <div class="image-area mb-4" id="imageArea">
+                        <img id="mainImage" src="assets/images/bestseller1.jpg" alt="Shanaya Luxury Attar"
+                            class="img-fluid main-image">
+                        <div id="zoomLens" class="zoom-lens"></div>
+                        <div id="zoomResult" class="zoom-result"></div>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center mt-3 thumb-container-wrapper">
+                        <div class="thumb-controls me-2">
+                            <button id="thumbPrev" class="thumb-arrow-btn">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                        </div>
+                        <div id="thumbWrapper" class="thumbs overflow-hidden d-flex">
+                            <div class="thumb-item active" onclick="changeImage('assets/images/bestseller1.jpg', this)">
+                                <img src="assets/images/bestseller1.jpg" alt="Thumb 1">
+                            </div>
+                            <div class="thumb-item" onclick="changeImage('assets/images/bestseller2.jpg', this)">
+                                <img src="assets/images/bestseller2.jpg" alt="Thumb 2">
+                            </div>
+                            <div class="thumb-item" onclick="changeImage('assets/images/category1.jpg', this)">
+                                <img src="assets/images/category1.jpg" alt="Thumb 3">
+                            </div>
+                            <div class="thumb-item" onclick="changeImage('assets/images/category2.jpg', this)">
+                                <img src="assets/images/category2.jpg" alt="Thumb 4">
+                            </div>
+                            <div class="thumb-item" onclick="changeImage('assets/images/bestseller3.jpg', this)">
+                                <img src="assets/images/bestseller3.jpg" alt="Thumb 5">
+                            </div>
+                        </div>
+                        <div class="thumb-controls ms-2">
+                            <button id="thumbNext" class="thumb-arrow-btn">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Info (Right Side) -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="product_description ps-lg-4">
+                        <h2 class="product-title-detailed">Shanaya Luxury Attar Perfume (6ml) - Long Lasting</h2>
+
+                        <div class="product-price-box mt-2 mb-3">
+                            <h3 class="product_price">₹499.00 <sub class="text-muted fw-normal"
+                                    style="font-size: 14px; text-decoration: line-through;">₹1,499.00</sub></h3>
+                        </div>
+
+                        <div class="ShippingInfo__RatingsRow d-flex align-items-center mb-4">
+                            <span class="review-badge me-2">4.7 <i class="fa-solid fa-star"></i></span>
+                            <p class="mb-0 text-muted">1,204 Ratings, 450 Reviews</p>
+                        </div>
+
+                        <h4 class="mb-3 fs-6 fw-bold">Also check</h4>
+                        <div class="product_d_thumbnails d-flex gap-2 mb-4">
+                            <div class="single_d_thumbnail"><img src="assets/images/bestseller2.jpg" alt="Related 1"
+                                    class="img-fluid rounded" style="width: 60px;"></div>
+                            <div class="single_d_thumbnail"><img src="assets/images/category1.jpg" alt="Related 2"
+                                    class="img-fluid rounded" style="width: 60px;"></div>
+                            <div class="single_d_thumbnail"><img src="assets/images/category2.jpg" alt="Related 3"
+                                    class="img-fluid rounded" style="width: 60px;"></div>
+                        </div>
+
+                        <button type="button" class="send_btn btn w-100 mb-4">Send Enquiry</button>
+
+                        <div class="accordion product_accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Product Description
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="mb-3">Step into timeless elegance with our <strong>Shanaya Luxury
+                                                Attar</strong> — a masterpiece that celebrates the richness of
+                                            traditional perfumery with a modern twist. Crafted to perfection, this attar
+                                            adds a royal touch to any festive or daily wear.</p>
+
+                                        <h4 class="fs-6 fw-bold mb-2">🧡 Key Features:</h4>
+                                        <ul class="list-unstyled mb-0" style="font-size: 14px; line-height: 1.8;">
+                                            <li class="mb-2"><strong>Exotic Premium Blends</strong> — Gives a rich,
+                                                long-lasting aroma that captivates the senses instantly.</li>
+                                            <li class="mb-2"><strong>Alcohol-Free Formula</strong> — 100% pure
+                                                concentrated perfume oil, safe for skin and perfect for prayer.</li>
+                                            <li class="mb-2"><strong>Roll-on Application</strong> — Designed for easy,
+                                                precise application on pulse points for maximum projection.</li>
+                                            <li class="mb-2"><strong>Skin-Friendly & Long Lasting</strong> — Ideal for
+                                                long wear during weddings, parties, or office hours without irritation.
+                                            </li>
+                                            <li><strong>Perfect for:</strong> Weddings, festive occasions, parties, and
+                                                daily elegance.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products-area pb-50">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>You May Also Like</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="owl-carousel owl-theme related-products-slides">
+                <!-- Product Item 1 -->
+                <div class="single-product-item">
+                    <div class="product-image">
+                        <a href="#">
+                            <img src="assets/images/bestseller2.jpg" alt="image">
+                        </a>
+                    </div>
+                    <div class="product-content">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="category-tag">PERFUME</span>
+                            <div class="rating">4.9 <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <h3><a href="#">AQ 365 - Long Lasting Perfume</a></h3>
+                        <div class="price-box">
+                            <span class="new-price">₹899</span>
+                            <span class="old-price">₹2999</span>
+                        </div>
+                        <a href="#" class="add-to-cart-btn">Send Enquiry</a>
+                    </div>
+                </div>
+                <!-- Product Item 2 -->
+                <div class="single-product-item">
+                    <div class="product-image">
+                        <a href="#">
+                            <img src="assets/images/bestseller3.jpg" alt="image">
+                        </a>
+                    </div>
+                    <div class="product-content">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="category-tag">COMBO</span>
+                            <div class="rating">4.8 <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <h3><a href="#">Summer Sale - Get 3 Attar</a></h3>
+                        <div class="price-box">
+                            <span class="new-price">₹999</span>
+                            <span class="old-price">₹1499</span>
+                        </div>
+                        <a href="#" class="add-to-cart-btn">Send Enquiry</a>
+                    </div>
+                </div>
+                <!-- Product Item 3 -->
+                <div class="single-product-item">
+                    <div class="product-image">
+                        <a href="#">
+                            <img src="assets/images/bestseller4.jpg" alt="image">
+                        </a>
+                    </div>
+                    <div class="product-content">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="category-tag">ATTAR</span>
+                            <div class="rating">4.8 <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <h3><a href="#">AQ 365 Luxury Attar Perfume</a></h3>
+                        <div class="price-box">
+                            <span class="new-price">₹399</span>
+                            <span class="old-price">₹999</span>
+                        </div>
+                        <a href="#" class="add-to-cart-btn">Send Enquiry</a>
+                    </div>
+                </div>
+                <!-- Product Item 4 -->
+                <div class="single-product-item">
+                    <div class="product-image">
+                        <a href="#">
+                            <img src="assets/images/bestseller5.jpg" alt="image">
+                        </a>
+                    </div>
+                    <div class="product-content">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="category-tag">Body Spray</span>
+                            <div class="rating">4.5 <i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <h3><a href="#">Oudh Al Misk - Premium Spray</a></h3>
+                        <div class="price-box">
+                            <span class="new-price">₹299</span>
+                            <span class="old-price">₹599</span>
+                        </div>
+                        <a href="#" class="add-to-cart-btn">Send Enquiry</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section -->
+
+    <footer class="footer_section">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer_block">
+                            <div class="footer_logo">
+                                <img src="assets/images/logo.png" alt="">
+                            </div>
+                            <p>At Siya Fragrance , we bring you a vibrant collection of fragrances Where every scent
+                                enchant your senses! From perfumes to attars, room & wardrobe fresheners... experience
+                                freshness that lasts & make moments magical!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer_block">
+                            <h5>OUR COMPANY</h5>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Our Collections</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer_block">
+                            <h5>Contact Info</h5>
+                            <p class="mb-0"> Phone: <a href="tel:+06295 714 700">+06295 714 700</a></p>
+                            <p>Email: <a href="mailto:titli7487@gmail.com">titli7487@gmail.com</a> </p>
+                            <h5 class="mb-3">Follow Us</h5>
+                            <ul class="footer_social">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><i class="fa-brands fa-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <div class="container">
+                <p>© <span id="copyright-year">2025</span> Siya Fragrance . All Rights Reserved.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- End Footer Section -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Owl Js -->
+    <script src="assets/js/owl.carousel.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+
+
+
+    <!-- Main JS -->
+    <script src="assets/js/custom.js"></script>
+
+
+</body>
+
+</html>

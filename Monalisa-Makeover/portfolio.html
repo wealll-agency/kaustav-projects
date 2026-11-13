@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monalisa Makeover | Portfolio Page</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="site-header" id="siteHeader">
+        <nav class="navbar navbar-expand-lg navbar-dark pb-0 pt-0">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" alt="Monalisa Makeover Logo" class="brand-logo">
+                </a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="academy.html">Academy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ==================== PORTFOLIO HERO SECTION ==================== -->
+    <section class="portfolio-hero">
+        <div class="container position-relative z-3" data-aos="fade-down">
+            <span class="portfolio-hero-subtitle">The Archive</span>
+            <h1 class="portfolio-hero-title">
+                Masterpiece <span class="gold-text font-playfair font-italic fw-normal">Collection</span>
+            </h1>
+            <div class="portfolio-hero-breadcrumbs mt-4">
+                <a href="index.html">Home</a> <span class="mx-2">/</span> Portfolio
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PORTFOLIO FILTERS ==================== -->
+    <section class="portfolio-filters">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <button class="filter-btn active" data-filter="all">All Artistry</button>
+            <button class="filter-btn" data-filter="bridal">Bridal Elegance</button>
+            <button class="filter-btn" data-filter="editorial">Editorial & Fashion</button>
+            <button class="filter-btn" data-filter="party">Party Glamour</button>
+            <button class="filter-btn" data-filter="airbrush">Airbrush Mastery</button>
+        </div>
+    </section>
+
+    <!-- ==================== PORTFOLIO GRID ==================== -->
+    <section class="portfolio-grid-wrapper">
+        <div class="container">
+            <div class="portfolio-grid" id="portfolioGrid" data-aos="fade-up" data-aos-delay="200">
+
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item bridal">
+                    <img src="assets/images/portfolio1.jpg" alt="Bridal Elegance">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Bridal Elegance</span>
+                            <h3 class="portfolio-title">The Royal Silhouette</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item party">
+                    <img src="assets/images/portfolio2.jpg" alt="Party Glamour">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Party Glamour</span>
+                            <h3 class="portfolio-title">Evening Radiance</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item editorial">
+                    <img src="assets/images/portfolio3.jpg" alt="Editorial Fashion">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Editorial & Fashion</span>
+                            <h3 class="portfolio-title">Vogue Noir</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item bridal">
+                    <img src="assets/images/portfolio4.jpg" alt="Bridal Elegance">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Bridal Elegance</span>
+                            <h3 class="portfolio-title">Classic Vermilion</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item airbrush">
+                    <img src="assets/images/portfolio5.jpg" alt="Airbrush Mastery">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Airbrush Mastery</span>
+                            <h3 class="portfolio-title">Flawless Canvas</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item party">
+                    <img src="assets/images/portfolio6.jpg" alt="Party Glamour">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Party Glamour</span>
+                            <h3 class="portfolio-title">Midnight Glow</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 7 -->
+                <div class="portfolio-item editorial">
+                    <img src="assets/images/portfolio7.jpg" alt="Editorial & Fashion">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Editorial & Fashion</span>
+                            <h3 class="portfolio-title">Modern Muse</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 8 -->
+                <div class="portfolio-item bridal">
+                    <img src="assets/images/portfolio8.jpg" alt="Bridal Elegance">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-icon">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Bridal Elegance</span>
+                            <h3 class="portfolio-title">Golden Aura</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER SECTION ==================== -->
+    <footer class="site-footer">
+        <div class="footer-top pt-5 pb-4">
+            <div class="container container-custom">
+                <div class="row">
+                    <!-- Column 1: Logo & About -->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 footer-col">
+                        <a href="index.html" class="d-inline-block mb-4">
+                            <img src="assets/images/logo.png" alt="Monalisa Makeover Logo" class="footer-logo">
+                        </a>
+                        <p class="footer-text mb-4">
+                            Elevating bridal beauty with the precision of a Fine Artist.<br>
+                            Transforming dreams into timeless elegance across Kolkata and beyond.
+                        </p>
+                        <div class="footer-social">
+                            <a href="https://facebook.com/MonalisazMakeup.Studio" target="_blank" class="social-icon"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/monalisam2016" target="_blank" class="social-icon"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://youtube.com/" target="_blank" class="social-icon"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Useful Links -->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 footer-col">
+                        <h4 class="footer-heading">USEFUL LINKS</h4>
+                        <div class="footer-heading-line"></div>
+                        <ul class="footer-links list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="academy.html">Academy</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Explore -->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 footer-col">
+                        <h4 class="footer-heading">EXPLORE</h4>
+                        <div class="footer-heading-line"></div>
+                        <ul class="footer-links list-unstyled">
+                            <li><a href="#">Our Narrative</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="#">Luxury Journals</a></li>
+                            <li><a href="#">Client Reviews</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4: Get In Touch -->
+                    <div class="col-lg-3 col-md-6 footer-col">
+                        <h4 class="footer-heading">GET IN TOUCH</h4>
+                        <div class="footer-heading-line"></div>
+                        <div class="contact-info-list">
+                            <div class="contact-item d-flex mb-4">
+                                <div class="contact-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="contact-details ms-3">
+                                    <h6 class="contact-title text-gold mb-1">THE STUDIO</h6>
+                                    <p class="contact-text mb-0">Burdwan Boronilpur more, Aryapally,<br>Burdwan,
+                                        India,
+                                        713103</p>
+                                </div>
+                            </div>
+                            <div class="contact-item d-flex mb-4">
+                                <div class="contact-icon">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <div class="contact-details ms-3">
+                                    <h6 class="contact-title text-gold mb-1">INSTAGRAM</h6>
+                                    <a href="https://instagram.com/monalisazmakeup.studio" target="_blank"
+                                        class="contact-text d-block">@monalisazmakeup.studio</a>
+                                </div>
+                            </div>
+                            <div class="contact-item d-flex">
+                                <div class="contact-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="contact-details ms-3">
+                                    <h6 class="contact-title text-gold mb-1">LET'S TALK</h6>
+                                    <a href="tel:+918101548276" class="contact-text d-block">+91 81015 48276</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container container-custom">
+                <div class="row align-items-center justify-content-center text-center">
+                    <div class="col-12">
+                        <p class="mb-0 footer-copyright d-flex align-items-center justify-content-center flex-wrap">
+                            Monalisa'z Makeup Studio & Academy &copy; ALL RIGHTS RESERVED <i
+                                class="fa-solid fa-heart text-gold mx-2" style="font-size: 0.7rem;"></i> AND
+                            DEVELOPED
+                            BY <a href="#" target="_blank"><img src="assets/images/Wealll_new.webp" alt="We Alll"
+                                    class="developer-logo mx-2"></a> - <span id="currentYear"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ==================== FOOTER SECTION END ==================== -->
+
+    <div class="whatsapp-chatbox" aria-hidden="false">
+        <a id="whatsapp-btn" class="whatsapp-btn" href="#" target="_blank" rel="noopener noreferrer">
+            <!-- WhatsApp SVG icon -->
+            <svg width="32" height="32" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path fill="white"
+                    d="M20.52 3.48A11.86 11.86 0 0 0 12 .5C6.21.5 1.5 5.2 1.5 11c0 2.02.53 3.92 1.54 5.62L.5 23.5l6.98-2.03A11.45 11.45 0 0 0 12 22.5c5.79 0 10.5-4.7 10.5-10.5 0-2.82-1.1-5.46-3.98-8.52zM12 20.3c-1.18 0-2.34-.3-3.35-.86l-.24-.13-4.16 1.21 1.17-3.86-.16-.25A8.45 8.45 0 0 1 3.5 11c0-4.14 3.36-7.5 7.5-7.5S18.5 6.86 18.5 11 15.14 20.3 12 20.3z" />
+                <path fill="white"
+                    d="M17.1 14.02c-.25-.12-1.48-.73-1.71-.81-.23-.09-.4-.13-.57.13-.18.26-.68.81-.84.98-.16.18-.33.2-.61.07-.28-.13-1.18-.43-2.25-1.39-.83-.71-1.39-1.6-1.55-1.88-.17-.28-.02-.43.12-.57.12-.12.28-.32.44-.48.15-.15.19-.26.28-.43.09-.18.05-.33-.02-.45-.07-.12-.57-1.37-.78-1.86-.2-.48-.41-.41-.57-.42l-.48-.01c-.16 0-.42.06-.64.31-.22.25-.86.84-.86 2.06s.88 2.39 1 2.56c.12.17 1.72 2.72 4.17 3.84 2.45 1.12 2.45.75 2.89.7.44-.05 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.23-.16-.48-.28z" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- jQuery (Required for Owl Carousel) -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- AOS DOM Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

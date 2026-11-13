@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- Main Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <div class="logo-container">
+            <div class="logo-text">
+              <img src="assets/images/logo.png" alt="">
+            </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#exactNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="exactNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="service.html">Treatments</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Slider -->
+  <section class="exact-hero">
+    <div class="swiper hero-swiper">
+      <div class="swiper-wrapper">
+        <!-- Slide 1: Discover the Magic -->
+        <div class="swiper-slide hero-slide slide-1">
+          <div class="vector-overlay"></div>
+          <img src="https://magicsmiledentalclinic.com/wp-content/uploads/2023/10/Group-2317.png" alt="Drill"
+            class="deco-icon icon-drill">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-lg-7">
+                <div class="hero-text-content">
+                  <h1 class="fade-left">Discover the</h1>
+                  <h2 class="fade-left delay-1">Magic of your <span class="gold-text">perfect Smile</span></h2>
+                  <p class="fade-left delay-2">Let your smile speak volumes, and let us help you unveil the true
+                    enchantment of your perfect, radiant smile.</p>
+                  <a href="#" class="btn-appointment  delay-3">Make an appointment</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2: World-Class Dental Care -->
+        <div class="swiper-slide hero-slide slide-2">
+          <div class="vector-overlay"></div>
+          <img src="https://magicsmiledentalclinic.com/wp-content/uploads/2023/10/Group-2317.png" alt="Drill"
+            class="deco-icon icon-drill">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-lg-7">
+                <div class="hero-text-content">
+                  <h1 class="fade-left">World-Class Dental Care</h1>
+                  <h2 class="fade-left delay-1">Trusted by <span class="gold-text">International Athletes</span></h2>
+                  <p class="fade-left delay-2">The famous Brazilian footballer and former Captain of East Bengal FC
+                    trusted us for international-grade dental solutions.</p>
+                  <a href="#" class="btn-appointment delay-3">Make an appointment</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3: Crafting Smiles -->
+        <div class="swiper-slide hero-slide slide-3">
+          <div class="vector-overlay"></div>
+          <img src="https://magicsmiledentalclinic.com/wp-content/uploads/2023/10/Group-2317.png" alt="Drill"
+            class="deco-icon icon-drill">
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <div class="col-lg-7">
+                <div class="hero-text-content">
+                  <h1 class="fade-left">Crafting Smiles,</h1>
+                  <h2 class="fade-left delay-1">Unveiling <span class="gold-text">Confidence</span></h2>
+                  <p class="fade-left delay-2">From teeth whitening to smile designing, we offer a range of options to
+                    transform your smile into a work of art.</p>
+                  <a href="#" class="btn-appointment delay-3">Make an appointment</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slider Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- Swiper Pagination Dots -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Stats Ticker Section -->
+  <section class="stats-ticker-section">
+    <div class="ticker-wrapper">
+      <div class="ticker-track">
+        <!-- Set 1 (Visible initially) -->
+        <div class="ticker-item"><span>3000+</span> Expert dentist network</div>
+        <div class="ticker-item"><span>200+</span> Clinics globally</div>
+        <div class="ticker-item"><span>100k+</span> Happy smiles delivered</div>
+        <div class="ticker-item"><span>3000+</span> Expert dentist network</div>
+        <div class="ticker-item"><span>200+</span> Clinics globally</div>
+        <div class="ticker-item"><span>100k+</span> Happy smiles delivered</div>
+
+        <!-- Set 2 (Duplicate for infinite loop effect) -->
+        <div class="ticker-item"><span>3000+</span> Expert dentist network</div>
+        <div class="ticker-item"><span>200+</span> Clinics globally</div>
+        <div class="ticker-item"><span>100k+</span> Happy smiles delivered</div>
+        <div class="ticker-item"><span>3000+</span> Expert dentist network</div>
+        <div class="ticker-item"><span>200+</span> Clinics globally</div>
+        <div class="ticker-item"><span>100k+</span> Happy smiles delivered</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Column: Arch Image -->
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <div class="arch-image-wrapper">
+            <!-- Placeholder for the clinic interior -->
+            <img src="assets/images/home-abo-img.jpg" alt="Rana Dental Clinic Interior" class="arch-image">
+          </div>
+        </div>
+
+        <!-- Right Column: Text Content -->
+        <div class="col-lg-6 position-relative">
+          <span class="about-header-small">About Us</span>
+          <h2 class="about-title">Best Dental Clinic in Newtown, Kolkata</h2>
+          <p class="about-text">
+            Welcome to Rana Dental Clinic, where we believe in the transformative power of a confident smile. At
+            our clinic, we strive to provide a magical experience for our patients by combining cutting-edge dentistry
+            with compassionate care.
+          </p>
+
+          <div class="feature-list">
+            <!-- Feature 1 -->
+            <div class="feature-item">
+              <div class="feature-icon-box">
+                <i class="fas fa-user-md"></i>
+              </div>
+              <span class="feature-text">Painless dentistry</span>
+            </div>
+            <!-- Feature 2 -->
+            <div class="feature-item">
+              <div class="feature-icon-box">
+                <i class="fas fa-users"></i>
+              </div>
+              <span class="feature-text">Skilled and experienced team</span>
+            </div>
+            <!-- Feature 3 -->
+            <div class="feature-item">
+              <div class="feature-icon-box">
+                <i class="fas fa-microscope"></i>
+              </div>
+              <span class="feature-text">Modern and latest equipment</span>
+            </div>
+            <!-- Feature 4 -->
+            <div class="feature-item">
+              <div class="feature-icon-box">
+                <i class="fas fa-clock"></i>
+              </div>
+              <span class="feature-text">Emergency services and flexibility</span>
+            </div>
+          </div>
+
+          <a href="#" class="btn-know-more">Know More</a>
+
+          <!-- Decorative Illustration Placeholder -->
+          <!-- <img src="assets/images/dentist-illustration.png" class="about-illustration" alt=""> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Smile Health Test Section -->
+  <section class="smile-test-section">
+    <div class="container">
+      <div class="smile-header-wrapper">
+        <div class="section-title-box">
+          <h2 class="smile-title">Take the Dezy Smile Health Test</h2>
+          <p class="smile-subtitle">Assess your overall dental health from anywhere, in 2 easy steps</p>
+        </div>
+        <a href="#" class="btn-how-it-works"><i class="fas fa-video"></i> See how it works?</a>
+      </div>
+
+      <!-- Steps Navigation -->
+      <div class="smile-steps-nav">
+        <div class="step-nav-item active" data-tab="tab-overview">Overview</div>
+        <div class="step-nav-item" data-tab="tab-step1">1. Tell us about you</div>
+        <div class="step-nav-item" data-tab="tab-step2">2. Receive Dental Report</div>
+      </div>
+
+      <!-- Tab 1: Overview -->
+      <div id="tab-overview" class="tab-content active">
+        <div class="row g-4">
+          <!-- Card 1: Free of Cost -->
+          <div class="col-md-6 col-lg-3">
+            <div class="smile-card">
+              <div class="smile-icon-wrapper-img">
+                <img src="assets/images/icon-money-bag.png" alt="Free of cost">
+              </div>
+              <p class="smile-card-text">Absolutely free of cost</p>
+            </div>
+          </div>
+          <!-- Card 2: Comprehensive Score -->
+          <div class="col-md-6 col-lg-3">
+            <div class="smile-card">
+              <div class="smile-icon-wrapper-img">
+                <img src="assets/images/icon-dental-score.png" alt="Dental Score">
+              </div>
+              <p class="smile-card-text">Comprehensive dental score</p>
+            </div>
+          </div>
+          <!-- Card 3: Detailed Diagnosis -->
+          <div class="col-md-6 col-lg-3">
+            <div class="smile-card">
+              <div class="smile-icon-wrapper-img">
+                <img src="assets/images/icon-mouth-diagnosis.png" alt="Detailed Diagnosis">
+              </div>
+              <p class="smile-card-text">Detailed diagnosis & treatment recommendations</p>
+            </div>
+          </div>
+          <!-- Card 4: Pre-purchase Clarity -->
+          <div class="col-md-6 col-lg-3">
+            <div class="smile-card">
+              <div class="smile-icon-wrapper-img">
+                <img src="assets/images/icon-purchase-clarity.png" alt="Complete pre-purchase clarity">
+              </div>
+              <p class="smile-card-text">Complete pre-purchase clarity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 2: Tell us about you -->
+      <div id="tab-step1" class="tab-content">
+        <div class="row align-items-center">
+          <!-- Left: Text Content -->
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <h3 class="tab-inner-header text-start ms-0 mb-4">Input your daily habits, teeth concerns & upload photos.
+              That’s it, your Smile Health Test is done!</h3>
+            <a href="#" class="btn-smile-test mt-0">Take Free Smile Health Test</a>
+          </div>
+          <!-- Right: Visuals (2 Phones) -->
+          <div class="col-lg-7">
+            <div class="tab2-visuals">
+              <!-- Phone 1: Assessment -->
+              <div class="phone-mockup-card left-phone">
+                <img src="assets/images/app-screen-assessment.png" alt="Smile Assessment">
+              </div>
+              <!-- Phone 2: Camera -->
+              <div class="phone-mockup-card right-phone">
+                <img src="assets/images/app-screen-camera.png" alt="Upload Photos">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 3: Receive Dental Report -->
+      <div id="tab-step2" class="tab-content">
+        <div class="row align-items-center">
+          <!-- Left: Text Content -->
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h3 class="tab-inner-header text-start ms-0 mb-4">Get an analysis of your overall dental health and receive
+              a Smile Scorecard with an initial diagnosis from our expert dentists.</h3>
+            <a href="#" class="btn-smile-test mt-0">Take Free Smile Health Test</a>
+          </div>
+          <!-- Right: Visuals (Card + Phone + Card) -->
+          <div class="col-lg-8">
+            <div class="tab3-visuals">
+              <!-- Left Card: Detailed Diagnosis -->
+              <div class="report-card left-card">
+                <div class="card-header-sm">Detailed Diagnosis by Expert Dentists</div>
+                <img src="assets/images/icon-mouth-diagnosis.png" class="report-img" alt="Diagnosis">
+                <div class="diagnosis-tags">
+                  <span class="tag">A: Misaligned right 1st premolar</span>
+                  <span class="tag">B: Protruded and misaligned mandibular left central incisor</span>
+                </div>
+              </div>
+              <!-- Center Phone: Doctor Analysis -->
+              <div class="report-phone">
+                <img src="assets/images/app-screen-report.png" alt="Doctor Analysis">
+              </div>
+              <!-- Right Card: Simulation -->
+              <div class="report-card right-card">
+                <div class="card-header-sm">Simulated Smile Outcome by AI</div>
+                <img src="assets/images/img-before-after.png" class="report-img" alt="Simulation">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Button -->
+      <div class="text-center mt-5">
+        <a href="#" class="btn-smile-test">Take Free Smile Health Test</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-choose-us-section">
+    <!-- Abstract Bg Shape -->
+    <div class="why-bg-shape">
+      <img src="assets/images/abstract-shape.webp" alt="shape">
+    </div>
+
+    <div class="container-fluid p-0">
+      <div class="row g-0 align-items-stretch">
+        <!-- Text Column -->
+        <div class="col-lg-7">
+          <div class="why-content-wrapper">
+            <div class="why-subtitle">
+              <div class="icon-tooth-bg"><i class="fas fa-tooth"></i></div>
+              <span>Why Choose Us</span>
+            </div>
+            <h2 class="why-title">Exceptional Care, <br> <span class="highlight-blue">Brilliant Smiles</span></h2>
+
+            <p class="why-desc">
+              ‘Dr. Rana’s Dental Clinic’ is committed to delivering exceptional care & creating healthy smiles, with a
+              focus on patient comfort, well-being & long-term oral health.
+            </p>
+
+            <div class="row g-4 pt-2">
+              <!-- Card 1 -->
+              <div class="col-md-6">
+                <div class="why-card">
+                  <h3 class="why-card-title">Expert Care</h3>
+                  <p class="why-card-text">Led by experienced professionals with a focus on precision & personalized
+                    treatment.</p>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-6">
+                <div class="why-card">
+                  <h3 class="why-card-title">State-of-the-Art Technology</h3>
+                  <p class="why-card-text">The Clinic utilizes the latest equipment for accurate diagnostics & effective
+                    treatments.</p>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-6">
+                <div class="why-card">
+                  <h3 class="why-card-title">Economical Treatment Cost</h3>
+                  <p class="why-card-text">Our Clinic provides modern treatment for all patients. So, we restrict our
+                    treatment cost & make It affordable for all patients. We produce High Quality treatment in less
+                    expensive budget.</p>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-6">
+                <div class="why-card">
+                  <h3 class="why-card-title">Hygiene & Sterilization</h3>
+                  <p class="why-card-text">Strict adherence to international sterilization standards, to ensure the
+                    patient's safety.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Image Column -->
+        <div class="col-lg-5">
+          <div class="why-image-wrapper" style="background-image: url('assets/images/doctor-indra.webp');">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clinic Tabs Section -->
+  <section class="clinic-tabs-section">
+    <!-- Background Floating Teeth -->
+    <div class="tooth-bg tooth-1"><img src="assets/images/home-04-tooth.webp" alt=""></div>
+    <div class="tooth-bg tooth-2"><img src="assets/images/home-04-tooth2.webp" alt=""></div>
+    <div class="tooth-bg tooth-3"><img src="assets/images/home-04-tooth1.webp" alt=""></div>
+
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left: Tab Navigation -->
+        <div class="col-lg-4">
+          <div class="clinic-tabs-nav">
+            <div class="clinic-tab-item active" data-tab="tab-best-clinic">
+              <span class="tab-indicator"></span>
+              Best Dental Clinic
+            </div>
+            <div class="clinic-tab-item" data-tab="tab-clinical">
+              <span class="tab-indicator"></span>
+              Clinical Facilities
+            </div>
+            <div class="clinic-tab-item" data-tab="tab-patients">
+              <span class="tab-indicator"></span>
+              Facilities for Patients
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Tab Content -->
+        <div class="col-lg-8">
+          <div class="clinic-tab-content-wrapper">
+
+            <!-- Tab 1: Best Dental Clinic -->
+            <div class="clinic-tab-pane active" id="tab-best-clinic">
+              <span class="clinic-badge">Best Dental Clinic</span>
+              <h2 class="clinic-tab-heading">‘Dr. Rana’s Dental Clinic’</h2>
+              <p class="clinic-tab-desc">
+                Established on July 1st, 2015, the clinic is run by Dr. Shubhasatta Indra, a Senior Dental
+                Surgeon & Clinic In-Charge, along with Dr. Romila Paul, an Implantologist. The clinic is
+                equipped with advanced technology & offers a wide range of clinical services & patient-friendly
+                facilities.
+              </p>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="clinic-feature-list">
+                    <li><i class="fas fa-chevron-circle-right"></i> Personalized Care</li>
+                    <li><i class="fas fa-chevron-circle-right"></i> Commitment to Comfort</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="clinic-feature-list">
+                    <li><i class="fas fa-chevron-circle-right"></i> Up-to-Date Knowledge</li>
+                    <li><i class="fas fa-chevron-circle-right"></i> Long-Term Results</li>
+                  </ul>
+                </div>
+              </div>
+              <a href="#" class="btn-clinic-contact">Contact Us <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+
+            <!-- Tab 2: Clinical Facilities -->
+            <div class="clinic-tab-pane" id="tab-clinical">
+              <span class="clinic-badge">The Facilities</span>
+              <h2 class="clinic-tab-heading">Designed for Excellence</h2>
+              <h3 class="clinic-tab-subheading">Clinical Facilities</h3>
+              <p class="clinic-tab-desc">
+                The clinic & patient facilities combine advanced technology with modern equipment and patient-centered
+                amenities, providing exceptional care while ensuring a comfortable experience for every patient.
+              </p>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="clinic-feature-list">
+                    <li><i class="fas fa-chevron-circle-right"></i> International Standard Sterilization</li>
+                    <li><i class="fas fa-chevron-circle-right"></i> ISO Certified Clinic</li>
+                    <li><i class="fas fa-chevron-circle-right"></i> Automatic RCT Instrument</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="clinic-feature-list">
+                    <li><i class="fas fa-chevron-circle-right"></i> Minor Dental OT Facility</li>
+                    <li><i class="fas fa-chevron-circle-right"></i> Fully Equipped Dental Chairs</li>
+                  </ul>
+                </div>
+              </div>
+              <a href="#" class="btn-clinic-contact">Contact Us <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+
+            <!-- Tab 3: Facilities for Patients -->
+            <div class="clinic-tab-pane" id="tab-patients">
+              <span class="clinic-badge">The Facilities</span>
+              <h2 class="clinic-tab-heading">Designed for Excellence</h2>
+              <h3 class="clinic-tab-subheading">Facilities for Patients</h3>
+              <p class="clinic-tab-desc">
+                The clinic & patient facilities combine advanced technology with modern equipment and patient-centered
+                amenities,
+                providing exceptional care while ensuring a comfortable experience for every patient.
+              </p>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="clinic-feature-list">
+                    <li><i class="fas fa-chevron-circle-right"></i> Car Parking Spaces</li>
+                    <li><i class="fas fa-chevron-circle-right"></i> Hygienic Toilets</li>
+                    <li><i class="fas fa-chevron-circle-right"></i> Reception Area with Adequate Spaces</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="clinic-feature-list">
+                    <li><i class="fas fa-chevron-circle-right"></i> Wheelchair Accessible Clinic</li>
+                    <li><i class="fas fa-chevron-circle-right"></i> Purified Water</li>
+                  </ul>
+                </div>
+              </div>
+              <a href="#" class="btn-clinic-contact">Contact Us <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expert Dentist Section -->
+  <section class="expert-dentist-section">
+    <div class="container">
+      <div class="expert-header-wrapper d-flex justify-content-between align-items-end mb-5">
+        <div class="section-title-box">
+          <div class="expert-subtitle">
+            <div class="icon-tooth-outline"><img src="assets/images/tooth-icon-outline.svg"
+                style="width: 20px; height: 20px;" alt=""></div>
+            <span>Best Dental Care</span>
+          </div>
+          <h2 class="expert-title">Our Expert Dentist</h2>
+        </div>
+        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-circle-right"></i></a>
+      </div>
+
+      <div class="row g-4">
+        <!-- Dentist Card 1 -->
+        <div class="col-lg-6">
+          <div class="dentist-card">
+            <div class="dentist-image align-self-stretch"
+              style="background-image: url('assets/images/dr-shubhasatta-indra.jpg');"></div>
+            <div class="dentist-info">
+              <h3 class="dentist-name">Dr. SHUBHASATTA INDRA</h3>
+              <p class="dentist-qual">BDS(Kolkata), MIDA Senior Dental Surgeon & Clinic In Charge 10 years + Experience
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dentist Card 2 -->
+        <div class="col-lg-6">
+          <div class="dentist-card">
+            <div class="dentist-image align-self-stretch"
+              style="background-image: url('assets/images/dr-romila-paul.jpg');"></div>
+            <div class="dentist-info">
+              <h3 class="dentist-name">Dr. ROMILA PAUL(INDRA)</h3>
+              <p class="dentist-qual">BDS (Kolkata), Implantologist 10 years + Experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Patient Reviews Section -->
+  <section class="patient-reviews-section">
+    <div class="container">
+      <div class="reviews-header text-center mb-5">
+        <h2 class="reviews-title">What Our Patients Say</h2>
+        <p class="reviews-subtitle">Explore the Inspiring Stories of Our Patients and Witness the Remarkable Smile <br>
+          Transformations Achieved Through Our Dentistry Treatments.</p>
+      </div>
+
+      <div class="row">
+        <!-- Google Summary Box -->
+        <div class="col-lg-3 mb-4 mb-lg-0">
+          <div class="google-summary-box">
+            <div class="d-flex align-items-center mb-3">
+              <div class="clinic-logo-circle">
+                <img src="assets/images/tooth-icon-outline.svg" alt="Logo" style="width: 30px; height: 30px;">
+              </div>
+              <div class="ms-3 text-start">
+                <h3 class="summary-clinic-name">Magic Smile | Best Dental Clinic in NewTown</h3>
+                <div class="summary-rating">
+                  <span class="rating-num">4.9</span>
+                  <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <p class="summary-count">Based on 214 reviews</p>
+                <div class="powered-by">powered by <span>Google</span></div>
+              </div>
+            </div>
+            <a href="#" class="btn-review-google">
+              review us on <i class="fab fa-google ms-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Reviews Slider -->
+        <div class="col-lg-9">
+          <div class="swiper reviews-swiper">
+            <div class="swiper-wrapper">
+              <!-- Review 1: Preeti Gautam -->
+              <div class="swiper-slide">
+                <div class="review-card">
+                  <div class="review-header">
+                    <div class="reviewer-info">
+                      <img
+                        src="https://www.magicsmiledentalclinic.com/wp-content/uploads/2025/12/ChIJrw1Tlml1AjoRuY32aWcr-mI_2cfad00c125f48541e3474844f6170f5.jpg"
+                        alt="Preeti Gautam" class="reviewer-img"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Preeti+Gautam&background=random'">
+                      <div>
+                        <h4 class="reviewer-name">Preeti Gautam</h4>
+                        <span class="review-date">20 days ago</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/new-google-icon.png" alt="Google" class="google-icon-small">
+                  </div>
+                  <div class="review-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <p class="review-text">I am so thankful to both the Doctors who has so much patience, kind and
+                    extremely co-operative professionals .My 5 year son recently got the Pulpectomy treatment done by Dr
+                    Debarpan & Dr Jayashree. Best dental clinic with latest equipments.</p>
+                </div>
+              </div>
+              <!-- Review 2: Surbhi Nangalia -->
+              <div class="swiper-slide">
+                <div class="review-card">
+                  <div class="review-header">
+                    <div class="reviewer-info">
+                      <img
+                        src="https://www.magicsmiledentalclinic.com/wp-content/uploads/2025/12/ChIJrw1Tlml1AjoRuY32aWcr-mI_33268a4cf0dcd33245a52f656a6ec1c3.jpg"
+                        alt="Surbhi Nangalia" class="reviewer-img"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Surbhi+Nangalia&background=random'">
+                      <div>
+                        <h4 class="reviewer-name">Surbhi Nangalia</h4>
+                        <span class="review-date">26 days ago</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/new-google-icon.png" alt="Google" class="google-icon-small">
+                  </div>
+                  <div class="review-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <p class="review-text">Really good, I went to her for my husband's tooth extraction and everything was
+                    very well taken care of and recovery was even quick post surgery. Their in moment analysis of the
+                    situation is also on point.</p>
+                </div>
+              </div>
+              <!-- Review 3: Zaim Ahmed 3 -->
+              <div class="swiper-slide">
+                <div class="review-card">
+                  <div class="review-header">
+                    <div class="reviewer-info">
+                      <img
+                        src="https://www.magicsmiledentalclinic.com/wp-content/uploads/2025/12/ChIJrw1Tlml1AjoRuY32aWcr-mI_50adb53247724536dd47b6d1d0899d95.jpg"
+                        alt="Zaim Ahmed 3" class="reviewer-img"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Zaim+Ahmed&background=random'">
+                      <div>
+                        <h4 class="reviewer-name">Zaim Ahmed 3</h4>
+                        <span class="review-date">a month ago</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/new-google-icon.png" alt="Google" class="google-icon-small">
+                  </div>
+                  <div class="review-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <p class="review-text">I recently got my root canal treatment done by Dr. Debarpan and Dr. Jayashree,
+                    and the entire experience was absolutely exceptional. Both doctors were extremely professional,
+                    patient, and skilled. They explained every step clearly, made sure I was comfortable throughout the
+                    procedure, and handled everything with great care.</p>
+                </div>
+              </div>
+              <!-- Review 4: Ratna Dey -->
+              <div class="swiper-slide">
+                <div class="review-card">
+                  <div class="review-header">
+                    <div class="reviewer-info">
+                      <img
+                        src="https://www.magicsmiledentalclinic.com/wp-content/uploads/2025/12/ChIJrw1Tlml1AjoRuY32aWcr-mI_0442750e417161741753c1533cfc2d0f.jpg"
+                        alt="Ratna Dey" class="reviewer-img"
+                        onerror="this.src='https://ui-avatars.com/api/?name=Ratna+Dey&background=random'">
+                      <div>
+                        <h4 class="reviewer-name">Ratna Dey</h4>
+                        <span class="review-date">a month ago</span>
+                      </div>
+                    </div>
+                    <img src="assets/images/new-google-icon.png" alt="Google" class="google-icon-small">
+                  </div>
+                  <div class="review-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <p class="review-text">They say, half of your pain & worry vanishes if you find a good doctor and
+                    thats exactly what happened with me. I visited MAGIC SMILE with an acute pain in my tooth just to
+                    find out it was a cavity & I had to undergo a root canal. The name itself scares most of us.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next review-next"></div>
+            <div class="swiper-button-prev review-prev"></div>
+            <div class="swiper-pagination review-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-overlay"></div>
+    <div class="container position-relative">
+      <div class="row pt-5 pb-5">
+        <!-- Brand & About -->
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="footer-brand mb-3">
+            <div class="d-flex align-items-center gap-3">
+              <div class="footer-logo-circle">
+                <img src="assets/images/logo.png" alt="Magic Smile">
+              </div>
+            </div>
+          </div>
+          <p class="footer-about-text">
+            With a focus on restorative, preventative, and cosmetic dentistry, the doctors at the best dental clinic in
+            Newtown offer a varied range of services to meet your unique needs. From routine check-ups and cleanings to
+            advanced cosmetic treatments and restorations, our experienced dentists uses modern technology and the
+            latest techniques to deliver exceptional results.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-lg-3 mb-4 mb-lg-0">
+          <h5 class="footer-heading">Quick Links</h5>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Treatments</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <div class="social-icons mt-4">
+            <a href="#" class="footer-social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer-social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div class="col-lg-2 mb-4 mb-lg-0">
+          <h5 class="footer-heading">Services</h5>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#">Smile Designing</a></li>
+            <li><a href="#">Dental Implants</a></li>
+            <li><a href="#">Root canal treatment</a></li>
+            <li><a href="#">Laser Dentistry</a></li>
+            <li><a href="#">Teeth whitening</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Us -->
+        <div class="col-lg-3">
+          <h5 class="footer-heading">Contact Us</h5>
+          <ul class="footer-contact list-unstyled">
+            <li class="d-flex gap-2 mb-3">
+              <i class="fas fa-map-marker-alt mt-1 text-dark"></i>
+              <span>Newtown CC147, St. no 227, Kolkata - 700056</span>
+            </li>
+
+            <li class="d-flex gap-2 mb-3">
+              <i class="fas fa-map-marker-alt mt-1 text-dark"></i>
+              <span>Beliaghata CIT More, Beside Thana Kolkata - 700010</span>
+            </li>
+
+            <li class="d-flex gap-2 mb-3">
+              <i class="fas fa-map-marker-alt mt-1 text-dark"></i>
+              <span>Baguiati Aswininagar, VIP DENTAL Kolkata - 700059</span>
+            </li>
+
+            <li class="d-flex gap-2 mb-3">
+              <i class="fas fa-phone-alt mt-1 text-dark"></i>
+              <span>+91-9831276659 / 7980484618</span>
+            </li>
+            <li class="d-flex gap-2 mb-3">
+              <i class="fas fa-envelope mt-1 text-dark"></i>
+              <span> info@ranadentalclinic.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2">
+          <div class="text-white text-center">
+            &copy; 2025 Rana Dental Clinic | All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

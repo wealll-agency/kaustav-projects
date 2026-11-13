@@ -1,0 +1,6220 @@
+{
+  "categoryData": [
+    {
+      "id": "popular",
+      "name": "Popular",
+      "icon": "ri-vip-crown-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "╰‿╯ ϟ [TEXT] ✯꧂"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "꧁༒♛ [TEXT]♛༒꧂"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "亗 𝙲𝙾𝙾𝙻 [TEXT] ×͜×"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "꧁☬ [TEXT] ☬꧂"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "꧁༒♛ [TEXT]♛༒꧂"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "꧁࿇ [TEXT]࿇꧂"
+        },
+        {
+          "t": "d",
+          "pat": "༄ᶦᶰᵈ ᖶᘿ᙭ᖶ ࿐ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "꧁✧ 𝘛 𝘌 𝘟 𝘛 ࿐ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ᶦᶰᵈ᭄ [TEXT] 亗"
+        },
+        {
+          "t": "d",
+          "pat": "♔〘 ᖶᘿ᙭ᖶ〙♔ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "×͜×ㅤ𝙰𝙻𝙾𝙽𝙴ㅤ𝙱𝙾𝚈 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "Cᵒᵒˡジ ｲ乇ﾒｲ 乄 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "░T░E░X░T░ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "▄︻デ [TEXT] ═━一"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic",
+          "pat": "꧁❀ [TEXT] ❀꧂"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "✧༝ [TEXT] ༝✧"
+        },
+        {
+          "t": "d",
+          "pat": "༶ ₮ɆӾ₮ ༶ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "☾𓂃 ₮ɆӾ₮ 𓂃☽ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(≧ᴗ≦) 🆃🅴🆇🆃 ✦꧂ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "꧁(✿◠‿◠) ⓉⒺⓍⓉ ✦ [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "love",
+      "name": "Love",
+      "icon": "ri-heart-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "╰‿╯ ϟ [TEXT] ✯꧂"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "꧁༒♛ [TEXT]♛༒꧂"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "亗 𝙲𝙾𝙾𝙻 [TEXT] ×͜×"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "꧁☬ [TEXT] ☬꧂"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "꧁༒♛ [TEXT]♛༒꧂"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "꧁࿇ [TEXT]࿇꧂"
+        },
+        {
+          "t": "d",
+          "pat": "༄ᶦᶰᵈ ᖶᘿ᙭ᖶ ࿐ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "꧁✧ 𝘛 𝘌 𝘟 𝘛 ࿐ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ᶦᶰᵈ᭄ [TEXT] 亗"
+        },
+        {
+          "t": "d",
+          "pat": "♔〘 ᖶᘿ᙭ᖶ〙♔ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "×͜×ㅤ𝙰𝙻𝙾𝙽𝙴ㅤ𝙱𝙾𝚈 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "Cᵒᵒˡジ ｲ乇ﾒｲ 乄 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "░T░E░X░T░ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "▄︻デ [TEXT] ═━一"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic",
+          "pat": "꧁❀ [TEXT] ❀꧂"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "✧༝ [TEXT] ༝✧"
+        },
+        {
+          "t": "d",
+          "pat": "༶ ₮ɆӾ₮ ༶ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "☾𓂃 ₮ɆӾ₮ 𓂃☽ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(≧ᴗ≦) 🆃🅴🆇🆃 ✦꧂ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "꧁(✿◠‿◠) ⓉⒺⓍⓉ ✦ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "♡〜٩( ˃▿˂ )۶〜♡  [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "♡⸝⸝> ̫ <⸝⸝♡ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ღゝ◡╹)ノ♡ [TEXT] ♡(╹◡ゝღ"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "♡ℒฺℴฺνℯฺ♡ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "ℐ 𝓁ℴ𝓋ℯ 𝓎ℴ𝓊 <3 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ŦєҲŦℓo͟v͟E ყOυ .ᐟ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "⸝⸝⸝♡⸝⸝⸝ [TEXT]⸝⸝⸝♡⸝⸝⸝"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "꧁❤️ [TEXT]❤️꧂"
+        },
+        {
+          "t": "d",
+          "pat": "❥˙˚ 𓆩♡𓆪 ˚˙❥ [TEXT] ❥˙˚ 𓆩♡𓆪 ˚˙❥"
+        },
+        {
+          "t": "d",
+          "pat": "T♥E♥X♥T [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "T♡E♡X♡T [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "💝💘 [TEXT]💖🤍"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ͲᗴӾͲ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "💖 [TEXT]💖"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "⸜(｡˃ ᵕ ˂ )⸝♡ [TEXT] ♡⸜(｡˃ ᵕ ˂ )⸝"
+        },
+        {
+          "t": "d",
+          "pat": "𝐓ⓔ𝔁ţ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(っ◔◡◔)っ ♥ [TEXT] ♥"
+        },
+        {
+          "t": "d",
+          "pat": "☾✬✵(｡♥ᴗ♥｡) ｲ乇ﾒｲ ☬✯꧂ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "⸜(♡’ᗜ’♡)⸝ [TEXT] ✦☾"
+        },
+        {
+          "t": "d",
+          "pat": "✦☾(ღ‿ღ✿) ｲ乇ﾒｲ ☬✵ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "☾✯(｡♥‿♥｡) ⓉⒺⓍⓉ ❀꧂ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🥰😘 ⓉⒺⓍⓉ😍❤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "꧁༺♡༻ [TEXT] ༺♡༻꧂"
+        },
+        {
+          "t": "d",
+          "pat": "(⁄ ⁄•⁄ω⁄•⁄ ⁄) [TEXT] ❤✨"
+        },
+        {
+          "t": "d",
+          "pat": "(ღ˘⌣˘ღ) ᖶᘿ᙭ᖶ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(♥ω♥) [TEXT] (♥ᴗ♥)"
+        },
+        {
+          "t": "d",
+          "pat": "꧁♡ [TEXT] ♡꧂"
+        },
+        {
+          "t": "d",
+          "pat": "ͲᗴӾͲ ☾ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "♡︎༺☆༻♡︎ [TEXT] 🧡 ♡︎༺☆༻♡︎"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "♡（ ˘ ³˘）♥︎ [TEXT] ♥︎ ♥︎ ♥︎ ♡（ ˘ ³˘）♥︎"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "꧁・┆✦ʚ [TEXT] ♡ ɞ✦ ┆・꧂"
+        },
+        {
+          "t": "d",
+          "pat": "ღ´ ᵕ ` ) 🅃🄴🅇🅃 ♡⃛ ♡⃛ ♡⃛ ( ´ ᵕ ` ღ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "❝☆_♡ ○_ 𝕿𝕰𝖃𝕿 _○ ♡_☆❞ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "━━╬٨ـﮩﮩ❤٨ـﮩﮩـ╬━❤️❥❥═══ 🅣🅔🅧🅣══ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "┈━═☆❣️ [TEXT]❣️☆═━┈"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "╬━❤️❥❥═══ [TEXT] ══"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "꧁♡ [TEXT] ♡꧂"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "Ꭵ°᭄ᶫᵒᵛᵉᵧₒᵤ࿐ [TEXT] 🌹"
+        },
+        {
+          "t": "d",
+          "pat": "💞 ꧁ [TEXT]꧂ 💞"
+        },
+        {
+          "t": "d",
+          "pat": "❤️⃟ [TEXT]❤️⃟"
+        },
+        {
+          "t": "d",
+          "pat": "💖❥ [TEXT] ❥💖"
+        },
+        {
+          "t": "d",
+          "pat": "꧁☾♡ [TEXT] ♡☽꧂"
+        },
+        {
+          "t": "d",
+          "pat": "♛♡ [TEXT] ♡♛"
+        },
+        {
+          "t": "d",
+          "pat": "💘 ꧁༺ [TEXT]༻꧂ 💘"
+        },
+        {
+          "t": "d",
+          "pat": "♥(ˆ⌣ˆԅ) [TEXT] (づ￣ ³￣)づ♥"
+        },
+        {
+          "t": "d",
+          "pat": "꒰ঌ❤️ [TEXT] ❤️໒꒱"
+        },
+        {
+          "t": "d",
+          "pat": "♡̷̷̷ [TEXT] ♡̷̷̷"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "✿♡ [TEXT] ♡✿"
+        },
+        {
+          "t": "d",
+          "pat": "❥(っ´ω`)っ [TEXT] (っ´ω`c)❥"
+        },
+        {
+          "t": "d",
+          "pat": "♡⃝(⋆ʾ ˙̫̮ ʿ⋆)♡⃝ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "༺❤༻ [TEXT] ༺❤༻"
+        },
+        {
+          "t": "d",
+          "pat": "꧁♥︎꧂ [TEXT] ꧁♥︎꧂"
+        },
+        {
+          "t": "d",
+          "pat": "❤️(ˆ⌣ˆԅ) [TEXT] (づ￣ ³￣)づ❤️"
+        },
+        {
+          "t": "d",
+          "pat": "✦︎⸝⸝♡︎ [TEXT] ♡︎⸜⸜✦︎"
+        },
+        {
+          "t": "d",
+          "pat": "ღゝ◡╹)ノ♡ [TEXT] ♡(╹◡ゝღ"
+        },
+        {
+          "t": "d",
+          "pat": "♡(˘▽˘)っ♬ [TEXT] ♬っ(˘▽˘)♡"
+        },
+        {
+          "t": "d",
+          "pat": "❥ꕤ [TEXT] ꕤ❥"
+        },
+        {
+          "t": "d",
+          "pat": "💖⎯⎯❥ [TEXT] ❥⎯⎯💖"
+        },
+        {
+          "t": "d",
+          "pat": "ღ(っ´▽`)っ [TEXT] (っ´▽`)っღ"
+        },
+        {
+          "t": "d",
+          "pat": "⸜(｡˃ ᵕ ˂ )⸝♡ [TEXT] ♡⸜(｡˃ ᵕ ˂ )⸝"
+        },
+        {
+          "t": "d",
+          "pat": "♡(⸝⸝>ᯅ<⸝⸝)♡ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "✧♡✧ [TEXT] ✧♡✧"
+        },
+        {
+          "t": "d",
+          "pat": "☾✩♥ [TEXT] ♥✩☽"
+        },
+        {
+          "t": "d",
+          "pat": "꧁༒♡༒꧂ [TEXT] ꧁༒♡༒꧂"
+        },
+        {
+          "t": "d",
+          "pat": "💓 [TEXT] 💓"
+        },
+        {
+          "t": "d",
+          "pat": "💗⎯⎯❥ [TEXT] ❥⎯⎯💗"
+        },
+        {
+          "t": "d",
+          "pat": "♡(>ᴗ•) [TEXT] (•ᴗ<)♡"
+        },
+        {
+          "t": "d",
+          "pat": "💘(っ´∀｀)っ [TEXT]っ(´∀｀っ)💘"
+        },
+        {
+          "t": "d",
+          "pat": "ꕤ╰(°▽°)╯ꕤ [TEXT] ꕤ╰(°▽°)╯ꕤ"
+        },
+        {
+          "t": "d",
+          "pat": "♡༄ [TEXT] ༄♡"
+        },
+        {
+          "t": "d",
+          "pat": "♥︎꧁༒༻ [TEXT] ༺༒꧂♥︎"
+        },
+        {
+          "t": "d",
+          "pat": "⸝⸝⸝♡⸝⸝⸝ [TEXT] ⸝⸝⸝♡⸝⸝⸝"
+        },
+        {
+          "t": "d",
+          "pat": "♥︎‧₊˚ [TEXT] ˚₊‧♥︎"
+        },
+        {
+          "t": "d",
+          "pat": "⭑(｡♡‿♡｡)⭑ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "💝•°¯`•• [TEXT] ••´¯°•💝"
+        },
+        {
+          "t": "d",
+          "pat": "ꕥ♡ꕥ [TEXT] ꕥ♡ꕥ"
+        },
+        {
+          "t": "d",
+          "pat": "♡̆̈ [TEXT] ♡̆̈"
+        },
+        {
+          "t": "d",
+          "pat": "꧁𓆩❤︎𓆪꧂ [TEXT] ꧁𓆩❤︎𓆪꧂"
+        },
+        {
+          "t": "d",
+          "pat": "❥◦•♥ [TEXT] ♥•◦❥"
+        },
+        {
+          "t": "d",
+          "pat": "♡(ღ◕ܫ◕ღ) [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ღ(◕‿◕｡)ღ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "♡ෆ꒰ঌ [TEXT] ໒꒱ෆ♡"
+        }
+      ]
+    },
+    {
+      "id": "freefire",
+      "name": "Free Fire",
+      "icon": "ri-fire-line",
+      "styles": [
+        {
+          "t": "d",
+          "pat": "ᴳᵒᵈ𐍉ƒ[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "★ᴄ͢͢͢ʀɪᴍɪɴᴀʟ  [TEXT]  ⁰⁰⁷★࿐"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "︻╦̵̵̿╤─[TEXT]♥"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "ᏦᏁᏋ✿[TEXT]꧁"
+        },
+        {
+          "t": "d",
+          "pat": "☸₮ɆӾ₮࿐ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "『[TEXT]』０００７𒆜"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "★彡[TEXT]₄₄₄彡★"
+        },
+        {
+          "t": "d",
+          "pat": "Ꮪɪʟᴇɴᴛ☬[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "⚡ŦєXŦ⚡ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "꧁•[TEXT]࿐"
+        },
+        {
+          "t": "d",
+          "pat": "꧁•[TEXT]YT࿐"
+        },
+        {
+          "t": "d",
+          "pat": "꧁• King 々 [TEXT]࿐"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "𓆩[TEXT]𓆪꧂"
+        },
+        {
+          "t": "d",
+          "pat": "Sᴋ᭄[TEXT]ᴮᴼˢˢツ"
+        },
+        {
+          "t": "d",
+          "pat": "Sᴋ᭄[TEXT]ᴮᴼˢˢ亗"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "꧁Sᴋ᭄[TEXT]ᴮᴼˢˢ꧂"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "〆[TEXT]々"
+        },
+        {
+          "t": "d",
+          "pat": "亗ᵀʰᵉ᭄[TEXT]亗"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "༆[TEXT]亗"
+        },
+        {
+          "t": "d",
+          "pat": "ⓟⓡⓞ么[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "꧁ꪾᴍʀ͢.[TEXT]꧂"
+        },
+        {
+          "t": "d",
+          "pat": "☯[TEXT]☃️࿐"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]☯乡"
+        },
+        {
+          "t": "d",
+          "pat": "꧁༺[TEXT]༻꧂"
+        },
+        {
+          "t": "d",
+          "pat": "ᴳᵒᵈツ[TEXT]⚡"
+        },
+        {
+          "t": "d",
+          "map": "boxed_black",
+          "pat": "彡★[TEXT]★彡"
+        },
+        {
+          "t": "d",
+          "pat": "❖[TEXT]メ™"
+        },
+        {
+          "t": "d",
+          "pat": "꧁[TEXT]𒆜"
+        },
+        {
+          "t": "d",
+          "pat": "░T░E░᙭░T░•ツ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "꧁[TEXT]꧂"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "『𝕯𝖊𝖒𝖔𝖓𐍉[TEXT]』"
+        },
+        {
+          "t": "d",
+          "pat": "☠︎[TEXT]☠︎"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "乂[TEXT]乂"
+        },
+        {
+          "t": "d",
+          "pat": "✿[TEXT]✿"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "☬『𖤍[TEXT]𖤍』☬"
+        },
+        {
+          "t": "d",
+          "pat": "꧁⚡[TEXT]⚡꧂"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "▄︻デ[TEXT]══━一"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "乂[TEXT]乂"
+        },
+        {
+          "t": "d",
+          "map": "bubble_black",
+          "pat": "『[TEXT]』"
+        },
+        {
+          "t": "d",
+          "pat": "❖꧁💀[TEXT]💀꧂❖"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "❖[TEXT]❖"
+        },
+        {
+          "t": "d",
+          "pat": "☆彡[TEXT]彡☆"
+        },
+        {
+          "t": "d",
+          "pat": "꧁❖[TEXT]☠"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "𓆩[TEXT]𓆪"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "✪[TEXT]✪"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "♜[TEXT]♜"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "『☠︎[TEXT]☠︎』"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "꧁❁[TEXT]❁꧂"
+        },
+        {
+          "t": "d",
+          "pat": "★Vɪ𝓼𝓲𝓸𝓷✘[TEXT]★"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "⚡[TEXT]ツ"
+        }
+      ]
+    },
+    {
+      "id": "stylish",
+      "name": "Stylish",
+      "icon": "ri-t-shirt-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "small_caps",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "circled",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "boxed_black",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "👑 [TEXT]👑"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "▄︻テ [TEXT]══━一💥"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "ⲯ﹍︿﹍︿﹍ [TEXT]﹍ⲯ﹍ⲯ﹍︿﹍☼"
+        },
+        {
+          "t": "d",
+          "map": "small_caps",
+          "pat": "▁ ▂ ▄ ▅ ▆ ▇ █ [TEXT] █ ▇ ▆ ▅ ▄ ▂ ▁"
+        },
+        {
+          "t": "d",
+          "map": "small_caps",
+          "pat": "✩░▒▓▆▅▃▂▁ [TEXT] ▁▂▃▅▆▓▒░✩"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "▌│█║▌║▌║ [TEXT] ║▌║▌║█│▌"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "★彡 [TEXT]彡★"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "♛ [TEXT] ♛"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "༺🔥 [TEXT] 🔥༻"
+        },
+        {
+          "t": "d",
+          "map": "boxed",
+          "pat": "░▒▓█►─═ [TEXT] ═─◄█▓▒░"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "☾ [TEXT] ☽ ✧"
+        },
+        {
+          "t": "d",
+          "pat": "𓆩 🅣🅔🅧🅣𓆪 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "꧁𓊈𒆜 [TEXT] 𒆜𓊉꧂"
+        },
+        {
+          "t": "d",
+          "map": "small_caps",
+          "pat": "▀▄▀▄▀▄ [TEXT] ▄▀▄▀▄▀"
+        },
+        {
+          "t": "d",
+          "pat": "🅣🅔🅧🅣 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "꧁✩ [TEXT] ✩꧂"
+        },
+        {
+          "t": "d",
+          "map": "boxed",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "꧁💫 [TEXT] 💫꧂"
+        }
+      ]
+    },
+    {
+      "id": "sad",
+      "name": "Sad",
+      "icon": "ri-emotion-sad-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "💢😭 [TEXT]😭🥀"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "🥀 [TEXT]🥀"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "💔 [TEXT]💔"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "꧁😔 [TEXT] 😔꧂"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "🖤 [TEXT]🖤"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "( ´･･) [TEXT] (._.`)"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "꧁🥺 [TEXT] 🥺꧂"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "(╯︵╰,) [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "༼☁༽ [TEXT] ༼☁༽"
+        },
+        {
+          "t": "d",
+          "pat": "(T⌓T) T❅E❅X❅T [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "⊹⋆⁺₊ [TEXT] ₊⋆⊹ (｡╯︵╰｡)"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "(｡•́︿•̀｡) [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "( •̥̥̥ω•̥̥̥ ) [TEXT] ☁"
+        },
+        {
+          "t": "d",
+          "pat": "(ᗒᗣᗕ)՞ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "😭😢 [TEXT]😢"
+        },
+        {
+          "t": "d",
+          "pat": "😓 [TEXT]😖"
+        },
+        {
+          "t": "d",
+          "pat": "😔 [TEXT]😞💔"
+        },
+        {
+          "t": "d",
+          "pat": "😢💔 [TEXT] 😢"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "💔(╥﹏╥) [TEXT] 💔"
+        },
+        {
+          "t": "d",
+          "pat": "💔😭 [TEXT] 😭💔"
+        },
+        {
+          "t": "d",
+          "pat": "🥀⛈️ [TEXT] ⛈️🥀"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "😞😔 [TEXT] 😞😔"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "☾✦(❁ᴗ͈ˬᴗ͈) [TEXT] 💔🥀"
+        },
+        {
+          "t": "d",
+          "map": "circled",
+          "pat": "(｡•́︿•̀｡) [TEXT](｡•́︿•̀｡)"
+        },
+        {
+          "t": "d",
+          "map": "boxed_black",
+          "pat": "(˚ ˃̣̣̥⌓˂̣̣̥ ) [TEXT](˚ ˃̣̣̥⌓˂̣̣̥ )"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "(,,>﹏<,,) [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "( •̯́ ^ •̯̀) [TEXT]( •̯́ ^ •̯̀)"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "૮₍˶Ó﹏Ò ⑅₎ა [TEXT]૮₍˶Ó﹏Ò ⑅₎ა"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "【=◈︿◈=】 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🥀༺ [TEXT] ༻🥀"
+        },
+        {
+          "t": "d",
+          "pat": "༼ ╯ ෴ ╰, [TEXT] ༼ ╯ ෴ ╰,"
+        },
+        {
+          "t": "d",
+          "pat": "💧( ˘︹˘ ) [TEXT] ( ˘︹˘ )💧"
+        },
+        {
+          "t": "d",
+          "pat": "😭☔ [TEXT] ☔😭"
+        },
+        {
+          "t": "d",
+          "pat": "😢(｡•́︿•̀｡) [TEXT] (｡•́︿•̀｡)😢"
+        },
+        {
+          "t": "d",
+          "pat": "💔(ಥ﹏ಥ) [TEXT] (ಥ﹏ಥ)💔"
+        },
+        {
+          "t": "d",
+          "pat": "🥀༄༅༎ຶ [TEXT] ༎ຶ༄༅🥀"
+        },
+        {
+          "t": "d",
+          "pat": "༻❀༺ [TEXT] ༻❀༺🥀"
+        },
+        {
+          "t": "d",
+          "pat": "💧🌧️ [TEXT] 🌧️💧"
+        },
+        {
+          "t": "d",
+          "pat": "꧁🥀༒ [TEXT] ༒🥀꧂"
+        },
+        {
+          "t": "d",
+          "pat": "😥⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "༺༻(∩︵∩) [TEXT] (∩︵∩)༺༻"
+        },
+        {
+          "t": "d",
+          "pat": "☔(´•̥̥̥ ̯ •̥̥̥`)☔ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "😢💧 [TEXT] 💧😢"
+        },
+        {
+          "t": "d",
+          "pat": "༄🥀༅ [TEXT] ༄🥀༅"
+        },
+        {
+          "t": "d",
+          "pat": "🌧(｡•́︿•̀｡)🌧 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🥀✦༺ [TEXT] ༻✦🥀"
+        },
+        {
+          "t": "d",
+          "pat": "☂️(´。＿。｀)☂️ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "༻🥀༺ [TEXT] ༻🥀༺"
+        },
+        {
+          "t": "d",
+          "pat": "🌧️(´；ω；`)🌧️ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "✿🥀✿ [TEXT] ✿🥀✿"
+        },
+        {
+          "t": "d",
+          "pat": "💔⊹⊰ [TEXT] ⊱⊹💔"
+        },
+        {
+          "t": "d",
+          "pat": "😭༒༻ [TEXT] ༺༒😭"
+        },
+        {
+          "t": "d",
+          "pat": "🥀☁️ [TEXT] ☁️🥀"
+        },
+        {
+          "t": "d",
+          "pat": "༼ಥ︵ಥ༽ [TEXT] ༼ಥ︵ಥ༽"
+        },
+        {
+          "t": "d",
+          "pat": "🌧️(∩︵∩)🌧️ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🥀(⌯˃̶᷄ ﹏ ˂̶᷄⌯)🥀 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "(｡Ó﹏Ò｡) [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "[TEXT]૮(˶╥︿╥)ა"
+        },
+        {
+          "t": "d",
+          "pat": "(ㅅꈍ﹃ꈍ)* [TEXT] *(ꈍ﹃ꈍㅅ)♡"
+        },
+        {
+          "t": "d",
+          "pat": "(˚ ˃̣̣̥⌓˂̣̣̥ ) 😾 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "[TEXT](⸝⸝๑﹏๑⸝⸝)"
+        },
+        {
+          "t": "d",
+          "pat": "(*ᴗ͈ˬᴗ͈)ꕤ*.ﾟ 𝐓є𝐗𝐓 [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "star",
+      "name": "Stars",
+      "icon": "ri-star-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "✧༝ [TEXT] ༝✧"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "꧁⭐ [TEXT]⭐꧂"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "🎉 [TEXT]🎉"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "✨ [TEXT]✨"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "💫 [TEXT]💫"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "⭐🌟 [TEXT]🌟⭐"
+        },
+        {
+          "t": "d",
+          "pat": "𝑻✦𝑬✦𝑿✦𝑻 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "👑☆ [TEXT]☆👑"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "★ [TEXT]★"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "🌠 [TEXT]🌠"
+        },
+        {
+          "t": "d",
+          "map": "circled",
+          "pat": "☆彡 [TEXT]彡☆"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "✦彡 [TEXT]彡✦"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "✩彡 [TEXT]彡✩"
+        },
+        {
+          "t": "d",
+          "map": "circled",
+          "pat": "✯彡 [TEXT]彡✯"
+        },
+        {
+          "t": "d",
+          "pat": "★• [TEXT]•★"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "⋆彡 [TEXT]彡⋆"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "✵彡 [TEXT]彡✵"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "✧彡 [TEXT]彡✧"
+        },
+        {
+          "t": "d",
+          "pat": "✬彡 𝘛𝘌𝘟𝘛彡✬ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "✰彡 𝘛𝘌𝘟𝘛彡✰ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "☄彡 𝘛𝘌𝘟𝘛彡☄ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "circled",
+          "pat": "⚝彡 [TEXT]彡⚝"
+        },
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "⭑彡 [TEXT]彡⭑"
+        },
+        {
+          "t": "d",
+          "pat": "⭒彡 𝘛𝘌𝘟𝘛彡⭒ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "⚝• [TEXT]•⚝"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "✵• [TEXT]•✵"
+        },
+        {
+          "t": "d",
+          "pat": "⋆彡★ 𝘛𝘌𝘟𝘛★彡⋆ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "✵彡☆ [TEXT]☆彡✵"
+        },
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "✰彡☾ [TEXT]☾彡✰"
+        },
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "☄彡⚝ [TEXT]⚝彡☄"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "★彡 [TEXT]彡★"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "✯彡 [TEXT]彡✯"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "☄彡 [TEXT]彡☄"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "⭑彡 [TEXT]彡⭑"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "✵彡☆ [TEXT]☆彡✵"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "⋆彡★ [TEXT]★彡⋆"
+        },
+        {
+          "t": "d",
+          "pat": "★⋆ [TEXT] ⋆★"
+        },
+        {
+          "t": "d",
+          "pat": "✩･ﾟ [TEXT] ･ﾟ✩"
+        },
+        {
+          "t": "d",
+          "pat": "✦･ﾟ✧ [TEXT] ✧ﾟ･✦"
+        },
+        {
+          "t": "d",
+          "pat": "⋆｡°✩ [TEXT] ✩°｡⋆"
+        },
+        {
+          "t": "d",
+          "pat": "☆彡 [TEXT] 彡☆"
+        },
+        {
+          "t": "d",
+          "pat": "✶˚ [TEXT] ˚✶"
+        },
+        {
+          "t": "d",
+          "pat": "✷✦ [TEXT] ✦✷"
+        },
+        {
+          "t": "d",
+          "pat": "☆゛ [TEXT] ゛☆"
+        },
+        {
+          "t": "d",
+          "pat": "☄✧ [TEXT] ✧☄"
+        },
+        {
+          "t": "d",
+          "pat": "⋆｡°✮ [TEXT] ✮°｡⋆"
+        },
+        {
+          "t": "d",
+          "pat": "✧*̣̩⋆̩ [TEXT] ⋆̩*̣̩✧"
+        },
+        {
+          "t": "d",
+          "pat": "✦˖° [TEXT] °˖✦"
+        },
+        {
+          "t": "d",
+          "pat": "✩°｡⋆⸜ [TEXT] ⸝⋆｡°✩"
+        },
+        {
+          "t": "d",
+          "pat": "⋆｡ﾟ☁︎｡⋆｡ [TEXT] ⋆｡ﾟ☁︎｡⋆｡"
+        },
+        {
+          "t": "d",
+          "pat": "✮彡 [TEXT] 彡✮"
+        },
+        {
+          "t": "d",
+          "pat": "⭒☆ [TEXT] ☆⭒"
+        },
+        {
+          "t": "d",
+          "pat": "✰✵ [TEXT] ✵✰"
+        },
+        {
+          "t": "d",
+          "pat": "✶☾ [TEXT] ☾✶"
+        },
+        {
+          "t": "d",
+          "pat": "⭑⭒ [TEXT] ⭒⭑"
+        },
+        {
+          "t": "d",
+          "pat": "✦✧ [TEXT] ✧✦"
+        },
+        {
+          "t": "d",
+          "pat": "⋆⚝ [TEXT] ⚝⋆"
+        },
+        {
+          "t": "d",
+          "pat": "☄⋆ [TEXT] ⋆☄"
+        },
+        {
+          "t": "d",
+          "pat": "⭐⭒ [TEXT] ⭒⭐"
+        },
+        {
+          "t": "d",
+          "pat": "✮⭑ [TEXT] ⭑✮"
+        },
+        {
+          "t": "d",
+          "pat": "☆✩ [TEXT] ✩☆"
+        },
+        {
+          "t": "d",
+          "pat": "⋆✰ [TEXT] ✰⋆"
+        },
+        {
+          "t": "d",
+          "pat": "✶⋆ [TEXT] ⋆✶"
+        },
+        {
+          "t": "d",
+          "pat": "⚝˚⋆ [TEXT] ⋆˚⚝"
+        },
+        {
+          "t": "d",
+          "pat": "☾⋆✩ [TEXT] ✩⋆☾"
+        },
+        {
+          "t": "d",
+          "pat": "✵✩ [TEXT] ✩✵"
+        },
+        {
+          "t": "d",
+          "pat": "⭐⋆ [TEXT] ⋆⭐"
+        },
+        {
+          "t": "d",
+          "pat": "✧˚⋆ [TEXT] ⋆˚✧"
+        },
+        {
+          "t": "d",
+          "pat": "✯✰ [TEXT] ✰✯"
+        },
+        {
+          "t": "d",
+          "pat": "⋆✶ [TEXT] ✶⋆"
+        },
+        {
+          "t": "d",
+          "pat": "☆✧ [TEXT] ✧☆"
+        },
+        {
+          "t": "d",
+          "pat": "✬⋆ [TEXT] ⋆✬"
+        },
+        {
+          "t": "d",
+          "pat": "✯˚✩ [TEXT] ✩˚✯"
+        },
+        {
+          "t": "d",
+          "pat": "☄✯ [TEXT] ✯☄"
+        },
+        {
+          "t": "d",
+          "pat": "⚝✵ [TEXT] ✵⚝"
+        },
+        {
+          "t": "d",
+          "pat": "✧⚝✧ [TEXT] ✧⚝✧"
+        },
+        {
+          "t": "d",
+          "pat": "✶⚝✶ [TEXT] ✶⚝✶"
+        },
+        {
+          "t": "d",
+          "pat": "✧･ﾟ:*✧･ﾟ:* Much Appreciated *:･ﾟ✧*:･ﾟ✧ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "꧁✬◦°˚°◦. Deeply Grateful .◦°˚°◦✬꧂ [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "happy",
+      "name": "Happy",
+      "icon": "ri-emotion-happy-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "🎉 [TEXT]🎉"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "😉😉 [TEXT]😋😋"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "😊 [TEXT]😊"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "💛 [TEXT]💛"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "O( ❛ᴗ❛ )O [TEXT]O( ❛ᴗ❛ )O"
+        },
+        {
+          "t": "d",
+          "pat": "꧁❀ 𝘛𝘌𝘟𝘛 ❀꧂ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "😊💖🌟 [TEXT]🌟💖😊"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "☾𓂃 [TEXT] 𓂃☽"
+        },
+        {
+          "t": "d",
+          "map": "boxed_black",
+          "pat": "(≧ᴗ≦) [TEXT] ✦꧂"
+        },
+        {
+          "t": "d",
+          "map": "circled",
+          "pat": "꧁(✿◠‿◠) [TEXT] ✦"
+        },
+        {
+          "t": "d",
+          "map": "boxed",
+          "pat": "𝕁𝕠𝕪𝕗𝕦𝕝 ✧ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "small_caps",
+          "pat": "⎛(⌒‿⌒)⎞ [TEXT] ⎛✿◡✿⎞"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "✨(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ [TEXT] ✧*:･ﾟヽ(•‿•✿)🎉"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "✦༆ [TEXT] ꧁(•‿•)༻"
+        },
+        {
+          "t": "d",
+          "pat": "😁🎈 [TEXT] 🎈😁"
+        },
+        {
+          "t": "d",
+          "pat": "😆✨ [TEXT] ✨😆"
+        },
+        {
+          "t": "d",
+          "pat": "🥳🎉 [TEXT] 🎉🥳"
+        },
+        {
+          "t": "d",
+          "pat": "😄💫 [TEXT] 💫😄"
+        },
+        {
+          "t": "d",
+          "pat": "😎🎊 [TEXT] 🎊😎"
+        },
+        {
+          "t": "d",
+          "pat": "😜🎈 [TEXT] 🎈😜"
+        },
+        {
+          "t": "d",
+          "pat": "😂🎇 [TEXT] 🎇😂"
+        },
+        {
+          "t": "d",
+          "pat": "🤩✨ [TEXT] ✨🤩"
+        },
+        {
+          "t": "d",
+          "pat": "🥰🎉 [TEXT] 🎉🥰"
+        },
+        {
+          "t": "d",
+          "pat": "😋🎊 [TEXT] 🎊😋"
+        },
+        {
+          "t": "d",
+          "pat": "😊🎆 [TEXT] 🎆😊"
+        },
+        {
+          "t": "d",
+          "pat": "😻🎇 [TEXT] 🎇😻"
+        },
+        {
+          "t": "d",
+          "pat": "😁(ﾉ≧ڡ≦) [TEXT] (≧ڡ≦)ﾉ😁"
+        },
+        {
+          "t": "d",
+          "pat": "😸(o^▽^o) [TEXT] (o^▽^o)😸"
+        },
+        {
+          "t": "d",
+          "pat": "✨(๑˃ᴗ˂)ﻭ [TEXT] (๑˃ᴗ˂)ﻭ✨"
+        },
+        {
+          "t": "d",
+          "pat": "🤗(≧◡≦) [TEXT] (≧◡≦)🤗"
+        },
+        {
+          "t": "d",
+          "pat": "😇( ＾◡＾)っ [TEXT] っ(＾◡＾ )😇"
+        },
+        {
+          "t": "d",
+          "pat": "😝⎯⎯❥ [TEXT] ❥⎯⎯😝"
+        },
+        {
+          "t": "d",
+          "pat": "😆⎛⎝( •⌄• )⎠⎞ [TEXT] ⎛⎝( •⌄• )⎠⎞😆"
+        },
+        {
+          "t": "d",
+          "pat": "😉(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ [TEXT] ✧ﾟ･:*(ﾉ◕ヮ◕)ﾉ😉"
+        },
+        {
+          "t": "d",
+          "pat": "🤩(ᵔᴥᵔ) [TEXT] (ᵔᴥᵔ)🤩"
+        },
+        {
+          "t": "d",
+          "pat": "😄(°◡°♡).:｡ [TEXT] ｡:.♡(°◡°)😄"
+        },
+        {
+          "t": "d",
+          "pat": "😁o(≧▽≦)o [TEXT] o(≧▽≦)o😁"
+        },
+        {
+          "t": "d",
+          "pat": "😆｡･:*:･ﾟ★,｡･:*:･ﾟ☆ [TEXT] ☆ﾟ･:*:･｡★･:*:･｡😆"
+        },
+        {
+          "t": "d",
+          "pat": "✨｡ﾟ( ﾟ^∀^ﾟ)ﾟ｡✨ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🎉(ノ◕ヮ◕)ノ*:･ﾟ✧ [TEXT] ✧ﾟ･:*(ノ◕ヮ◕)ノ🎉"
+        },
+        {
+          "t": "d",
+          "pat": "🥳٩(◕‿◕｡)۶ [TEXT] ٩(◕‿◕｡)۶🥳"
+        },
+        {
+          "t": "d",
+          "pat": "😋(⌒▽⌒) [TEXT] (⌒▽⌒)😋"
+        },
+        {
+          "t": "d",
+          "pat": "😂(＾▽＾) [TEXT] (＾▽＾)😂"
+        },
+        {
+          "t": "d",
+          "pat": "😄(≧◡≦) [TEXT] (≧◡≦)😄"
+        },
+        {
+          "t": "d",
+          "pat": "🤩(*≧ω≦) [TEXT] (*≧ω≦)🤩"
+        },
+        {
+          "t": "d",
+          "pat": "😎(¬‿¬) [TEXT] (¬‿¬)😎"
+        },
+        {
+          "t": "d",
+          "pat": "😸(≧▽≦) [TEXT] (≧▽≦)😸"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "٩(^ᗜ^ )و ´- [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "[TEXT]૮꒰˶ᵔ ᗜ ᵔ˶꒱ა"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "≽^•⩊•^≼ [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "emoji",
+      "name": "Emojis",
+      "icon": "ri-emotion-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "boxed_black",
+          "pat": "✯(✿✧✿) [TEXT] ✧☾✵🌸💫🌟🌈🍀🍄🪐🛸"
+        },
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "☬(≖ᴗ≖) [TEXT] 🌈🌟😁🌌🌈"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "☾(✿✿✿) [TEXT] ✵༄🌟🌈🎧🖥️💻🎮💥🍀"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "꧁(ღᴗღ✿) [TEXT] ✵☾🌸🪐🍄🎤📱🖥️🌙🎮"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "✯(≖‿≖✿) [TEXT] ✵꧂✨🌠🍭🛸🍬💥🎧"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "༄(≖‿≖) [TEXT] ✧༺💫🌙🎧📸🍄🌟🎮"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "☾(✿´‿) [TEXT] ✯٩(˘◡˘)۶🌸🛸🍕🍬💎🎮"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "☾✬ [TEXT] (っ◔◡◔)っ✰🌟🌼🛸🍀🪐🎧"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "(≧◡≦) [TEXT] ✦꧂🌠🧸🎮🎤🛸🍓🌙"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "(╹◡╹) [TEXT] ✵🌙✨🍀🍭🍓📸🖥️"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "(ღ◡ღ) [TEXT] 🎇🎆✨☾"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "☬(๑˃ᴗ˂) [TEXT] ✵⭐🌙🎮🛸💥🎧📸🖥️"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "☾(✿_✿)✦ [TEXT] ☾༺🌸💫🎤📱🛸🍕🎧"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "☾(≖ᴗ≖✿) [TEXT] ✯✦🌠🪙🍒🎮🛸💥🍓"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "༄(≧◡≦) [TEXT] ✦꧂😎😋😊😉"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "✵(≧ᴗ≦) [TEXT] ✦꧂🌟🌌🍭🍬🛸📸🎮"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "༄(•̀ᴗ•́) [TEXT] ✰🛸✨🎮🧸📱💻💎"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "☄(≖‿≖✿) [TEXT] ✵꧂🌌🌠🍀🛸🎮🎧📸"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "☾(❁ᴗ͈ˬᴗ͈) [TEXT] ✵☬🌙🌟🎮🖥️🧸🎧🍄"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🌸🌷💐 [TEXT] 🌸💮🌹🌼🍃🌸"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🌈✨🌠 [TEXT] 🌈🌟💫🌌🌈"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🪐💫🚀 [TEXT] 🪐✨🌙🌠🛸"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🛸🚀🌟 [TEXT] 🛸💥🌠💫🪐"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "🧸🎀💖 [TEXT] 🧸🐻💖🎀🧸"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🌌💫✨ [TEXT] 🌌⭐🌠💫🌙"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍒🍓🍇 [TEXT] 🍒🍓🍉🍇🍍"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🍭🍬🍩 [TEXT] 🍭🍬🍫🍪🍩"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": " cupcake🍰🍩 [TEXT] 🧁🍰🍩🍮🍫"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🍓🍇🍒 [TEXT] 🍓🍇🍉🍒🍍"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🍬🍭🍪 [TEXT] 🍬🍭🍩🍪🍩"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🌂☂️🌧️ [TEXT] 🌂🌧️💧🌦️🌂"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🧃🍹🥤 [TEXT] 🧃🍸🥤🍷🍺"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🌽🍅🥕 [TEXT] 🌽🥦🍅🥕🍍"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🧂🍕🍟 [TEXT] 🧂🍔🌮🍕🍟"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🧠💡🔋 [TEXT] 🧠⚡🔌💡🔋"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🎮🕹️💻 [TEXT] 🎮🖥️🕹️🎧🎮"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "😁😄😊 [TEXT] 😁😄😆🤣😊"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🙄🤦‍♀️🤦‍♂️ [TEXT] 🙄🤦‍♂️🤦‍♀️😒"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🤐🙊🙉 [TEXT] 🤐🙈🙊👐"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "😯😮😲 [TEXT] 😯😱😳😲"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "😝😜😍 [TEXT] 😝😜😛😋😍"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🤑💰💸 [TEXT] 🤑💰💎💸🪙"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "👀👁️💭 [TEXT] 👀👁️👀💬"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🎈🎉🎊 [TEXT] 🎈🎉🎊🎇"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🎗🎁🏅 [TEXT] 🎗🏅🎖️🥇🎁"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🏆🥇🏅 [TEXT] 🏆🥇🏅🎖️"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🥈🎖️🏅 [TEXT] 🥈🏅🎖️🏆"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "📸🎥📷 [TEXT] 📸📹🎥📸"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "💢⚡💥 [TEXT] 💢🔥💥💣⚡"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🛸🚀🪐 [TEXT] 🛸🌠🚀🪐"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🧸🐻🎀 [TEXT] 🧸🎀🐻🎀"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🎮🕹️🎮 [TEXT] 🎮🎮🕹️🎮🎮"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🌠✨🌟 [TEXT] 🌠💫🪐🌠🌌"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🍀🌸💐 [TEXT] 🍀🌸💐🌷"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "💎🥰💰 [TEXT] 💎💍✨💰💸"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🔥⚡💥 [TEXT] 🔥🌋⚡💥🔥"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "☬✵✰(≖ᴗ≖) [TEXT] ✧☾✯🌠🪄🎤📱💥🎧"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🌸 [TEXT] 🌸"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🌈 [TEXT] 🌈"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🪐 [TEXT] 🪐"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🛸 [TEXT] 🛸"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "🧸 [TEXT] 🧸"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🌌 [TEXT] 🌌"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍒 [TEXT] 🍒"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🍓 [TEXT] 🍓"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🌂 [TEXT] 🌂"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🧃 [TEXT] 🧃"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🌽 [TEXT] 🌽"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🧂 [TEXT] 🧂"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🧠 [TEXT] 🧠"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🎮 [TEXT] 🎮"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "😁 [TEXT] 😁"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🙄 [TEXT] 🙄"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🤐 [TEXT] 🤐"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "😯 [TEXT] 😯"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "😝 [TEXT] 😝"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🤑 [TEXT] 🤑"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "👀 [TEXT] 👀"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🎈 [TEXT] 🎈"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🎗 [TEXT] 🎗"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🏅 [TEXT] 🏅"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🥈 [TEXT] 🥈"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🏆 [TEXT] 🏆"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "📸 [TEXT] 📸"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "💢 [TEXT] 💢"
+        }
+      ]
+    },
+    {
+      "id": "symbol",
+      "name": "Symbols",
+      "icon": "ri-symbol-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "✦➳➴ [TEXT] ➵➸✦"
+        },
+        {
+          "t": "d",
+          "pat": "⁺˚⋆｡°✩ 𝚃✵𝙴✵𝚇✵𝚃 ✩°｡⋆˚⁺ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "·°˖✧◝(⁰ [TEXT] ⁰)◜✧˖°."
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "♡ ⋆˙⟡♡⋆˙⟡♡ [TEXT] ♡ ⋆˙⟡♡⋆˙⟡♡"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "⋆ ˚｡⋆୨ [TEXT] ୧⋆ ˚｡⋆"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "꧁・┆✦ʚ [TEXT] ɞ✦ ┆・꧂"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "❤◦•❣◉✿ [TEXT] ✿◉❣•◦❤"
+        },
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "★彡❦ [TEXT]❦彡★"
+        },
+        {
+          "t": "d",
+          "map": "boxed",
+          "pat": "╭━━━╮ [TEXT] ╰━╯"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "✧༺❀༻✧ [TEXT] ✧༺❀༻✧"
+        },
+        {
+          "t": "d",
+          "map": "circled_black",
+          "pat": "➻❥❥ [TEXT] ❥❥➻"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "✺⟢⟣⟠ [TEXT] ⟡⟠⟣⟢✺"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "╰⊱♥⊱╮ [TEXT] ╭⊱♥⊱╯"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "⧼⧽⊹ [TEXT]⊹⧼⧽"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "✪彡 [TEXT] 彡✪"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "╰༒╮ [TEXT] ╭༒╯"
+        },
+        {
+          "t": "d",
+          "pat": "ღ(`◕‿◕) ♫ ♪ ♫ [TEXT]♫ ♪ ♫ (`◕‿◕)ღ"
+        },
+        {
+          "t": "d",
+          "pat": ".•♫•♬• [TEXT]•♬•♫•."
+        },
+        {
+          "t": "d",
+          "pat": "➷➹➷ [TEXT] ➷➹➷"
+        },
+        {
+          "t": "d",
+          "pat": "༻꧂༒☬ [TEXT] ☬༒꧁༺"
+        },
+        {
+          "t": "d",
+          "pat": "꧁༺✿༻꧂ [TEXT] ꧁༺✿༻꧂"
+        }
+      ]
+    },
+    {
+      "id": "cool",
+      "name": "Cool",
+      "icon": "ri-thumb-up-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "⚜ ᴾᴿᴼ COOL ᴾᴿᴼ ⚜ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "☁♡⭒ [TEXT] ⭒♡☁"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "亗 COOL [TEXT] ✓"
+        },
+        {
+          "t": "d",
+          "pat": "꧁ ༺ yOu [TEXT] cOOl ༻ ꧂"
+        },
+        {
+          "t": "d",
+          "pat": "♛✧⚜ COOL KING ⚜✧♛ 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "✰✦⛧ COOL ANGEL ⛧✦✰ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "👑✵✧ COOL QUEEN ✧✵👑 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "༒ ⚡ COOL BOY ⚡ ༒ 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "꒰ᐢ⸝⸝•༝•⸝⸝ᐢ꒱⸒⸒ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "┗(^o^ )┓三 ⁅T⁆⁅E⁆⁅X⁆⁅T⁆ 三 ┗(^o^ )┓ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "╚»★«╝ [TEXT] ╚»★«╝"
+        },
+        {
+          "t": "d",
+          "pat": "ஜ۩۞۩ஜ ╚»★«╝ Ŧ𝐸𝑋Ŧ ╚»★«╝ ஜ۩۞۩ஜ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "╚»★«╝ ••.•´¯`•.•• 𝐓є𝐗𝐓 ••.•´¯`•.•• ╚»★«╝ [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "crazy",
+      "name": "Crazy",
+      "icon": "ri-flashlight-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "(☞ﾟヮﾟ)☞  [TEXT] ☝️"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "(⌐■_■)╯︵ ┻━┻  [TEXT] 🧠"
+        },
+        {
+          "t": "d",
+          "pat": "( ͡☉ ͜ʖ ͡☉) 🅣🅔🅧𝅘𝅥𝅱 👀 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "乁( •_• )ㄏ [TEXT] 🕶️"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "乂(◜▿◝)乂 [TEXT] 乂(◉‿◉)乂"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "(╭ರ_•́) [TEXT] 👽"
+        },
+        {
+          "t": "d",
+          "pat": "(ﾉ◕ヮ◕)ﾉ*:・ﾟ 🅣🅔🅧𝅘𝅥𝅱 ✧ 🌀 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "( ͡~ ͜ʖ ͡°) 🅃🄴🅇𝅘𝅥𝅱 🎮 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "(∵)🌀  [TEXT] 🌑"
+        },
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "🤖 [TEXT] ✨"
+        },
+        {
+          "t": "d",
+          "map": "chinese_style",
+          "pat": "🎴 [TEXT] 🔮"
+        },
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "(¬(¬‿¬(¬‿¬) [TEXT] (¬ (¬‿¬ (¬‿¬)"
+        },
+        {
+          "t": "d",
+          "pat": "(ᕗ ಠ︵ಠ)ᕗ [TEXT] ᕦ(ò ᕦ(ò_ó ᕦ(ò_óˇ)ᕤ"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "ψ(｀∇´ψ(｀∇´)ψ [TEXT] ヽ(｀⌒´ ヽ(｀⌒´)ﾉ"
+        },
+        {
+          "t": "d",
+          "pat": "(ʘᗩʘ’) [TEXT] (*≧ω≦)"
+        },
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "(≧∇≦) [TEXT] (*≧▽≦)"
+        },
+        {
+          "t": "d",
+          "pat": "🌈 [TEXT] 🤯"
+        },
+        {
+          "t": "d",
+          "pat": "ヽ(ﾟДﾟ)ﾉ [TEXT] ヽ(ಠ‿ಠ)ﾉ"
+        },
+        {
+          "t": "d",
+          "pat": "┻━┻ ︵ヽ(`Д´┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(๑•̀ㅂ•́)و✧ [TEXT] ψ(｀∇´ ψ(｀∇´)ψ"
+        },
+        {
+          "t": "d",
+          "pat": "(ノ｀Д´(ノ｀Д´)ノ [TEXT] (ʘдʘ╬)"
+        },
+        {
+          "t": "d",
+          "pat": "🤪  [TEXT]  🤪"
+        },
+        {
+          "t": "d",
+          "pat": "( ͡°👅͡°)  [TEXT]  😝"
+        },
+        {
+          "t": "d",
+          "pat": "ヽ(°〇°)ﾉ  [TEXT]  ヽ(°〇°)ﾉ"
+        },
+        {
+          "t": "d",
+          "pat": "(⊙⁠‿◎)🔪💉  [TEXT]  💉🔪"
+        },
+        {
+          "t": "d",
+          "pat": "⊂(⭗ o ⭗)⊃  [TEXT]  ⊂(⭗ o ⭗)⊃"
+        },
+        {
+          "t": "d",
+          "pat": "⊂(©෴©)つ  [TEXT]  ⊂(©෴©)つ"
+        },
+        {
+          "t": "d",
+          "pat": "⌨ █▬▬◟(`ﮧ´ ◟ ) [TEXT] ( ◞`ﮧ´)◞▬▬█⌨"
+        },
+        {
+          "t": "d",
+          "pat": "\\(⊙ω⊙)/  [TEXT]  \\(⊙ω⊙)/"
+        },
+        {
+          "t": "d",
+          "pat": "＼＼٩(๑`^´๑)۶／／  [TEXT]  ٩(๑`^´๑)۶"
+        },
+        {
+          "t": "d",
+          "pat": "ヾ(｡ꏿ﹏ꏿ)ﾉﾞ  [TEXT]  ヾ(｡ꏿ﹏ꏿ)ﾉﾞ"
+        },
+        {
+          "t": "d",
+          "pat": "ヽ༼☉ɷ⊙༽ﾉ  [TEXT]  ヽ༼☉ɷ⊙༽ﾉ"
+        },
+        {
+          "t": "d",
+          "pat": "ᕕ( ᐛ )ᕗ  [TEXT]  ᕕ( ᐛ )ᕗ"
+        },
+        {
+          "t": "d",
+          "pat": "ヽ(。_°)ノ  [TEXT]  ヽ(。_°)ノ"
+        },
+        {
+          "t": "d",
+          "pat": "༼;´༎ຶ ۝ ༎ຶ༽  [TEXT]  ༼;´༎ຶ ۝ ༎ຶ༽"
+        },
+        {
+          "t": "d",
+          "pat": "＼(☆o◎)／  [TEXT]  ＼(☆o◎)／"
+        },
+        {
+          "t": "d",
+          "pat": "(O-o) 🤟  [TEXT]  🤟 (o-O)"
+        },
+        {
+          "t": "d",
+          "pat": "へ[ ᴼ ▃ ᴼ ]_/¯  [TEXT]  ¯\\_[ ᴼ ▃ ᴼ ]へ"
+        },
+        {
+          "t": "d",
+          "pat": "(๑>؂•̀๑)  [TEXT]  (๑>؂•̀๑)"
+        },
+        {
+          "t": "d",
+          "pat": "(⊙ _ ⊙ )  [TEXT]  (⊙ _ ⊙ )"
+        },
+        {
+          "t": "d",
+          "pat": "ヽ༼◉_◔ ༽ﾉ  [TEXT]  ヽ༼◉_◔ ༽ﾉ"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "٩( ᐛ )و [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "｡*ﾟ.*.｡(っ ᐛ )っ ⊥XƎ⊥ [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "fancy",
+      "name": "Fancy",
+      "icon": "ri-vip-diamond-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "TXƎT [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "⊥XƎ⊥ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ͲƐჯͲ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ՇєאՇ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "▶︎ •၊၊||၊|။|||||||• 0:35 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "[TEXT]▶︎ •၊၊||၊|။||||| 0:10"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "▶︎ •၊၊||၊|။|||| | [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃 𝘛𝘌𝘟𝘛 𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃 [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "icon": "ri-gamepad-line",
+      "styles": [
+        {
+          "t": "d",
+          "pat": "𓆩×͜×𓆪 𝐓є𝐗𝐓 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "❖ ᴾᴿᴼ LEGEND [TEXT]❖"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "亗 ᴹᴿ ꪜ [TEXT] ☂"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "ᵀᴴᴱ [TEXT]⚡"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "ᴸᴱᴳᴱᴺᴰ [TEXT]々"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "ᴾᴿᴼ [TEXT]꧂"
+        },
+        {
+          "t": "d",
+          "pat": "NOOB彡《 [TEXT]》"
+        },
+        {
+          "t": "d",
+          "pat": "ÃK47艾 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "乂 [TEXT]乂"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "︻デ═一 [TEXT]︻デ═一"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "◥꧁ད [TEXT] ཌ꧂◤"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "✘ [TEXT]✘"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "◥ [TEXT]◤"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "𒆜 [TEXT] 𒆜"
+        },
+        {
+          "t": "d",
+          "pat": "》 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "™. [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "╰⁕⁓ [TEXT]⁓⁕╯"
+        },
+        {
+          "t": "d",
+          "pat": "༄ •༄ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "『 ͲƐჯͲ™』 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "༄𒅒 [TEXT]𒅒༄"
+        },
+        {
+          "t": "d",
+          "pat": "么 [TEXT]么"
+        },
+        {
+          "t": "d",
+          "map": "bubble",
+          "pat": "▄︻┻═┳一 - - [TEXT] - - (X_X)"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "(　-_･) [TEXT] ︻デ═一 ▸"
+        },
+        {
+          "t": "d",
+          "pat": "꧁༒︎ 𝚃_𝙴_𝚇_𝚃༒︎꧂ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "▄︻デ [TEXT] ═━一"
+        },
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "▄︻デ [TEXT] ═━一"
+        },
+        {
+          "t": "d",
+          "map": "boxed_black",
+          "pat": "꧁༺✿ [TEXT] ✦༻꧂"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "꧁𓊈𒆜 [TEXT] 𒆜𓊉꧂"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "×͜× [TEXT] ★࿐"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "꧁•⊹ ٭ [TEXT] ٭⊹•꧂"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "꧁═━ [TEXT] ━═꧂"
+        },
+        {
+          "t": "d",
+          "pat": "༺𓆣 [TEXT] 𓆣༻"
+        },
+        {
+          "t": "d",
+          "map": "circled",
+          "pat": "꧁✬☽ [TEXT] ☾✬꧂"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "༺═━━ [TEXT] ━═༻"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "༆ [TEXT] ༆"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "⭑𓆩 [TEXT] 𓆪⭑"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "⫷𓊈𒆜 [TEXT] 𒆜𓊉⫸"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "★彡 [TEXT] 彡★"
+        },
+        {
+          "t": "d",
+          "map": "boxed_black",
+          "pat": "✵ [TEXT] ✵"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "༺⋆ [TEXT] ⋆༻"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "༺𓃠 [TEXT] 𓃠༻"
+        },
+        {
+          "t": "d",
+          "map": "boxed_black",
+          "pat": "⛧ [TEXT] ⛧"
+        },
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "༄༝ [TEXT] ༝༄"
+        },
+        {
+          "t": "d",
+          "map": "boxed_black",
+          "pat": "═━ [TEXT] ━═"
+        },
+        {
+          "t": "d",
+          "map": "boxed",
+          "pat": "☾⋆ [TEXT] ⋆☽"
+        },
+        {
+          "t": "d",
+          "map": "boxed",
+          "pat": "༆ [TEXT] ༆"
+        }
+      ]
+    },
+    {
+      "id": "boxed",
+      "name": "Boxed",
+      "icon": "ri-checkbox-blank-line",
+      "styles": [
+        {
+          "t": "d",
+          "pat": "꒰[TEXT]꒱"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "[̲̅T][̲̅E][̲̅X][̲̅T] [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "⧼Ƭ⧽⧼Σ⧽⧼X⧽⧼Ƭ⧽ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "⤷ｲ⤶⤷乇⤶⤷ﾒ⤶⤷ｲ⤶ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "⟦⋆ [TEXT]⋆⟧"
+        },
+        {
+          "t": "d",
+          "pat": "◤T◢◤E◢◤X◢◤T◢ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "【T】【E】【X】【T】 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "『T』『E』『X』『T』 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "[[TEXT]],"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "⟦[TEXT]⟧"
+        },
+        {
+          "t": "d",
+          "pat": "╟[TEXT]╢"
+        },
+        {
+          "t": "d",
+          "map": "chinese_style",
+          "pat": "⎡[TEXT]⎦"
+        },
+        {
+          "t": "d",
+          "pat": "⁅₮⁆⁅Ɇ⁆⁅Ӿ⁆⁅₮⁆ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "⫷ ⊙▂⊙ ⎡[TEXT]⎦ (┳◇┳) ⫸"
+        },
+        {
+          "t": "d",
+          "pat": "(ง ͠ ᵒ̌ Дᵒ̌ )¤=[]:::::> ⎡[TEXT]⎦"
+        },
+        {
+          "t": "d",
+          "pat": "★⌒(●ゝω・)ｂ ⧼T⧽⧼E⧽⧼X⧽⧼T⧽ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "【☆】★【☆】★【🐼🐍 Ŧ𝐸𝑋Ŧ ♟🐼】★【☆】★【☆】 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "┕━━☽【🍧🍫 ŦєҲŦ 🍬👤】☾━━┙ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "—(••÷[ [TEXT] ]÷••)—"
+        }
+      ]
+    },
+    {
+      "id": "birthday",
+      "name": "Birthday",
+      "icon": "ri-cake-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🎁 [TEXT] 🎁"
+        },
+        {
+          "t": "d",
+          "map": "circled",
+          "pat": "(ღH◕B◕Dღ) [TEXT] 🥰🌸💓🎂"
+        },
+        {
+          "t": "d",
+          "pat": "🎉✨🎂 [TEXT] 🎂✨🎉🎉"
+        },
+        {
+          "t": "d",
+          "pat": "🎁(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ᴛᴇxᴛ *:･ﾟ✧🎁🎂 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "(❀╹◡╹) [TEXT] 🎈🎂🎈"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "⋆🎂⋆ [TEXT] ⋆🎂⋆🎉"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "✧✯HBD✯✧ [TEXT] ✯🎉🎂"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ [TEXT] ✧･ﾟ:*(✿◠‿◠)🎈"
+        },
+        {
+          "t": "d",
+          "map": "japanese_style",
+          "pat": "🎂✨☁🎈 [TEXT] 🎈☁✨🎂🎉"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "✧🌟HBD🌟✧ [TEXT] 🌟🎂🎂"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "✧💫Happy Birthday💫✧ [TEXT] 🎉🎈🎉"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "✧🎉Celebration Time🎉✧ [TEXT] ✨🎁🎂"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "✧🎊Cheers to [TEXT]🎊✧ 🎂🎉🎈"
+        },
+        {
+          "t": "d",
+          "pat": "✧✨Wishing ՇєאՇ✨✧ 🎉🎂🎉 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🎈🎉🎂 ᴛᴇxᴛ 🎂🎉🎈🎂 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(✿◕‿◕✿) TXƎT 💐🎁🎉 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🎂🎈 [TEXT] 🎈🎂"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🎉🎂 [TEXT] 🎂🎉"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🎂🎁(＾▽＾) [TEXT] (＾▽＾)🎁🎂"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "🎂✨(っ˘ڡ˘ς) [TEXT] (っ˘ڡ˘ς)✨🎂"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🎉🎂٩(◕‿◕｡)۶ [TEXT] ٩(◕‿◕｡)۶🎂🎉"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🎂🎈(≧◡≦) [TEXT] (≧◡≦)🎈🎂"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🎁🎂(｡♥‿♥｡) [TEXT] (｡♥‿♥｡)🎂🎁"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🎂✨(ノ◕ヮ◕)ノ*:･ﾟ✧ [TEXT] ✧ﾟ･:*(ノ◕ヮ◕)ノ✨🎂"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "🎉🎂Ө(≧▽≦)Ө [TEXT] Ө(≧▽≦)Ө🎂🎉"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🎂🎈(ﾉ≧ڡ≦) [TEXT] (≧ڡ≦)ﾉ🎈🎂"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🎂🎉(｡•̀ᴗ-)✧ [TEXT] ✧(-ᴗ•｡)🎉🎂"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🎂🎈(づ｡◕‿‿◕｡)づ [TEXT] づ(｡◕‿‿◕｡)づ🎈🎂"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🎂🎊𝔬(〃＾▽＾〃)𝔬 [TEXT] 𝔬(〃＾▽＾〃)𝔬🎊🎂"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "🎂🎀(⁀ᗢ⁀) [TEXT] (⁀ᗢ⁀)🎀🎂"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🎁🎂(⌒ω⌒) [TEXT] (⌒ω⌒)🎂🎁"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🎂🌟(*≧ω≦) [TEXT] (*≧ω≦)🌟🎂"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "🎂✨(❁´◡`❁) [TEXT] (❁´◡`❁)✨🎂"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🎂🎈(´｡• ᵕ •｡`) [TEXT] (`｡• ᵕ •｡`)🎈🎂"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🎂🎁(≧◡≦) [TEXT] (≧◡≦)🎁🎂"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🎂🎉(´｡• ᵕ •｡`) [TEXT] (`｡• ᵕ •｡`)🎉🎂"
+        }
+      ]
+    },
+    {
+      "id": "thanks",
+      "name": "Thanks",
+      "icon": "ri-hand-heart-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "[TEXT] ✯ TEXT"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "꧁༒☬[TEXT]☬༒꧂ TEXT"
+        },
+        {
+          "t": "d",
+          "map": "small_caps",
+          "pat": "★彡[[TEXT]]彡★ TEXT"
+        },
+        {
+          "t": "d",
+          "pat": "♡༻Thank You So Much༺♡ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "૮₍ ´• ˕ •` ₎ა Thank You So Much [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "🌸 [TEXT] 🌸 TEXT"
+        },
+        {
+          "t": "d",
+          "pat": "★彡 Thank You So Much 彡★ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "♬ 𝒯𝒽𝒶𝓃𝓀 ʏ𝑜𝓊 𝓈𝑜 𝓂𝓊𝒸𝒽 ♬ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🌟(Thank You So Much)🌟 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "≧◠‿●‿◠≦ Thank You So Much [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "♡´･ᴗ･`♡ Thank You So Much [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "☾⋆⁺₊ Thank You So Much ₊⁺⋆☽ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ꜰᴏʀᴇᴠᴇʀ ɢʀᴀᴛᴇꜰᴜʟ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "♛ Forever Grateful ♛ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "✦ [TEXT] ✦ TEXT"
+        },
+        {
+          "t": "d",
+          "pat": "꧁༒☬ Much Appreciated ☬༒꧂ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "✧･ﾟ:*✧･ﾟ:* Much Appreciated *:･ﾟ✧*:･ﾟ✧ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "💫 [TEXT] 💫 TEXT"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "💖 [TEXT] 💖 TEXT"
+        },
+        {
+          "t": "d",
+          "pat": "🦋 Deeply Grateful 🦋 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "⪩ [TEXT] ⪨ TEXT"
+        },
+        {
+          "t": "d",
+          "pat": "꧁✬◦°˚°◦. Deeply Grateful .◦°˚°◦✬꧂ [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "party",
+      "name": "Party",
+      "icon": "ri-cup-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "✧🌟 ᴘᴀʀᴛʏ ᴛɪᴍᴇ🌟✧ [TEXT] 🎉🎶🎉"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "[TEXT] 🎊🎈🎊"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "✧🎉 Ⓟⓐⓡⓣⓨ🎉✧ [TEXT] 🎶🥳🎉"
+        },
+        {
+          "t": "d",
+          "map": "chinese_style",
+          "pat": "✧🎊 ɢᴏᴏᴅ ᴘᴀʀᴛʏ ᴠɪʙᴇꜱ🎊✧ [TEXT] ✨🍾🎶"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "✧✨ ᴇᴘɪᴄ ʙᴀꜱʜ ✨✧ [TEXT] 🎤🎉🎉"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "✧🎉 🆅🅸🅱🅴 & Celebrate🎉✧ [TEXT] 🎈💥🎊"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "✧🌟Let’s Get This ᴘⓐʀᴛʏ Started🌟✧ [TEXT] 🎊🎉🎉"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "✧💫 ᴘᴀʀᴛʏ ᴀʟʟ ɴɪɢʜᴛ💫✧ [TEXT] 🥳🎶🎶"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "(｡•̀ᴗ-)✧ [TEXT] 🎉✨🎊"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🎤🎊 ʟᴇᴛ'ꜱ ɢʀᴏᴠᴇ! [TEXT] 🎶💥🎉"
+        },
+        {
+          "t": "d",
+          "pat": "💫🎉 ʜʏᴘᴇ ᴍᴏᴅᴇ🎉💫 ⊥XƎ⊥ 🎈🎤🎊 [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "cute",
+      "name": "Cute",
+      "icon": "ri-bear-smile-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "❀ 𝗖𝗨𝗧𝗘 ᵇᵒʸ [TEXT]❀"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "❀ 𝗖𝗨𝗧𝗘 ᵍⁱʳˡ [TEXT]❀"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "≽^•⩊•^≼ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "[TEXT]ଘ(❁•̀ 3 •́)━☆*✲⋆"
+        },
+        {
+          "t": "d",
+          "pat": "₍ᐢ. ̫.ᐢ₎ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "[TEXT]ᓚ₍⑅^..^₎♡"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "≽^•༚• ྀིྀ≼ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "𝘛𝘌𝘟𝘛₍⑅ᐢ..ᐢ₎ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ฅ^>⩊<^ฅ ŦєҲŦ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "[TEXT]≽^ ˕ • ྀི≼"
+        },
+        {
+          "t": "d",
+          "pat": "≽^• ˕ • ྀི≼ 𝐓є𝐗𝐓 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "[TEXT]≽^•༚• ྀི≼"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "•ᴗ• [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "[TEXT](❀❛ ֊ ❛„)♡"
+        },
+        {
+          "t": "d",
+          "pat": "(づ> v <)づ♡ ՇєאՇ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "[TEXT]ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "₍ᐢ. .ᐢ₎ ₊˚⊹♡ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "[TEXT]૮꒰ ྀི >⸝⸝⸝< ྀི꒱ა"
+        },
+        {
+          "t": "d",
+          "map": "tilde_struck",
+          "pat": "(*ゝω・)ﾉ ⎡[TEXT]⎦"
+        },
+        {
+          "t": "d",
+          "pat": "( ﾟ∀ﾟ)ﾉ 【 ⁅T⁆⁅E⁆⁅X⁆⁅T⁆】 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🌸ξξ(∵❤◡❤∵)ξξ·¯·♩¸ ⧼T⧽⧼E⧽⧼X⧽⧼T⧽ ¸♩·¯·ξξ(∵❤◡❤∵)ξξ🌸 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(◍•ᴗ•◍) ミ💖 ⎡[TEXT]⎦  💖彡"
+        }
+      ]
+    },
+    {
+      "id": "serious",
+      "name": "Serious",
+      "icon": "ri-user-unfollow-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "tilde_struck",
+          "pat": "୧(•̀ᗝ•́)૭ [TEXT] ୧(⇀‸↼‶)૭"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "|!¤'*`_`*'¤!| [TEXT] |!¤'*`_`*'¤!|"
+        },
+        {
+          "t": "d",
+          "map": "cross_hatch",
+          "pat": "(-_-) ⫶ [TEXT]⫶ (-_-)"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "«-(¯`v´¯)-« [TEXT] »-(¯`v´¯)-»"
+        },
+        {
+          "t": "d",
+          "pat": "(ง ͠ ᵒ̌ Дᵒ̌ )¤=[]:::::> ̿̿ ̿̿ ̿̿ ̿'̿'̵͇̿̿з=𝐓є𝐗𝐓=ε/̵͇̿̿/'̿̿ ̿ ̿ ̿ ̿ ̿ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "[TEXT] ☜(`o´)"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "(¬_ ´¬ ) [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(｡· v ·｡) ? [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "ᕙ( •̀ ᗜ •́ )ᕗ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "•?((¯°·._.• [TEXT] •._.·°¯))؟•"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "⁽⁽(੭ꐦ •̀Д•́ )੭*⁾⁾ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "( ,,⩌'︿'⩌,,) [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "( ° ͜ʖ͡°)╭∩╮ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "( ͡º ꒳ ͡º) [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "( •̀ ᗜ •́ ৻) ŦєҲŦ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "╭∩╮( •̀ ᗜ •́ )╭∩╮ 𝐓є𝐗𝐓 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "( •̀ ᴖ •́ ) [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "[TEXT]∘ ∘ ∘ ( °ヮ° ) !"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "(˶°ㅁ°)!! [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "( •̀⤙•́ ) [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(ง'̀-'́)ง [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "( ◡̀_◡́)ᕤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "greek_style",
+          "pat": "꧁. {☆… ☆} ꧂ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "꧁෴ ਬੇ – ਓ ෴꧂ [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "joiner",
+      "name": "Joiner",
+      "icon": "ri-links-line",
+      "styles": [
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "•"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "✦"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "⊶"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "♪"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "✪"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "✬"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "✿"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "❀"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "✵"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "✰"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "⧸"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "╎"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "〜"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "⋆"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "￫"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "❘"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "-/"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "⦚"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "≋"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "::"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "⑊"
+        },
+        {
+          "t": "d",
+          "pat": "[TEXT]",
+          "join": "➤"
+        }
+      ]
+    },
+    {
+      "id": "sweet",
+      "name": "Sweet",
+      "icon": "ri-candy-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍬🍭(◕‿◕✿) [TEXT] 🍓🧁"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🎀(≧◡≦) [TEXT] 🍰🍡"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🍓🍩(❁ᴗ͈ˬᴗ͈) [TEXT] 🧁🍬"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍧🎂(｡♥‿♥｡) [TEXT] 🍭🍮"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍡🍰(ღ◡‿◡ღ) [TEXT] 🍬🎀"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🧁🍒(≖ᴗ≖✿) [TEXT] 🍓🍭"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🍭🍓(≧◡≦) [TEXT] 🍡🍰"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍬🎀(◠‿◠✿) [TEXT] 🍩🍧"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🧁🍓(✿´‿`) [TEXT] 🍭🎀"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍡🍮(≖‿≖✿) [TEXT] 🍰🍬"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍩🍧(｡•́‿•̀｡) [TEXT] 🍓🍮"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🍓🧁(ღ✪𝔳✪ღ) [TEXT] 🍬🍰"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🍬🍒(｡♥‿♥｡) [TEXT] 🍩🍰"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🍧🍩(◕‿◕✿) [TEXT] 🧁🎂"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍭🍓(≧◡≦)🌸 [TEXT] 🍡🍬"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🧁🍧(◠‿◠✿) [TEXT] 🍬🍰"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍓🍰(｡•̀ᴗ-)✧ [TEXT] 🍩🧁"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🍬🧁(＾◡＾) [TEXT] 🍭🍓"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🍧🎂(´｡• ᵕ •｡`) [TEXT] 🍩🍡"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍭🍡(つ≧▽≦)つ [TEXT] 🍬🧁"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🍓🧁(づ｡◕‿‿◕｡)づ [TEXT] 🍰🍩"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍬🍓(｡•́‿•̀｡) [TEXT] 🍧🎀"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🧁🍡(◕‿◕｡) [TEXT] 🍩🍬"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🍩🍭(⌒▽⌒) [TEXT] 🍓🍰"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍧🍬(≧◡≦✿) [TEXT] 🧁🍓"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🍓🍰(｡♥‿♥｡) [TEXT] 🍩🍧"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🍬🎂(✿´‿`) [TEXT] 🧁🍡"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🍭🍮(O´∀｀O) [TEXT] 🍧🍬"
+        },
+        {
+          "t": "d",
+          "map": "strike",
+          "pat": "🧁🍒(≖‿≖✿) [TEXT] 🍓🎂"
+        }
+      ]
+    },
+    {
+      "id": "ugly",
+      "name": "Ugly",
+      "icon": "ri-emotion-unhappy-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "boxed",
+          "pat": "🤮 [TEXT]🤢"
+        },
+        {
+          "t": "d",
+          "map": "boxed",
+          "pat": "🤡 [TEXT]🤡"
+        },
+        {
+          "t": "d",
+          "map": "boxed",
+          "pat": "(ง ͠° ͟ل͜ ͡°)ง 🦾🦾🦾 🥴 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "(⸝⸝⸝ ° _ʖ °⸝⸝⸝) 🔮 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "༼ ºل͟º ༽ 🤯 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "ヽ༼ ͠ ͡° ͜ʖ ͡° ༽ﾉ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "boxed_black",
+          "pat": "(☞ຈل͜ຈ)☞ 🔥 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "（ノ͡° ͜ʖ ͡°）ノ︵┻┻ 🦄 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "(∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ.*･｡ﾟ 🌌 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "circled_black",
+          "pat": "ʕ ͡° ʖ̯ ͡°ʔ 🦋 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "¯\\_( ͡° ͜ʖ ͡°)_/¯ [TEXT] ¯\\_( ͡° ͜ʖ ͡°)_/¯"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "¯\\_( ͡° ͜ʖ ͡°)_/¯ ☞★ [TEXT] ♟☟ ¯\\_( ͡° ͜ʖ ͡°)_/¯"
+        },
+        {
+          "t": "d",
+          "map": "circled",
+          "pat": "¯\\_( ͡° ͜ʖ ͡°)_/¯ ▀▄▀▄▀▄ [TEXT] ▄▀▄▀▄▀ ¯\\_( ͡° ͜ʖ ͡°)_/¯"
+        }
+      ]
+    },
+    {
+      "id": "weird",
+      "name": "Weird",
+      "icon": "ri-aliens-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "strikethrough",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "underline_double",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "underline",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "tilde_strikethrough",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "slash_strikethrough",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "tilde_struck",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "arrow_below",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "cross_hatch",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "(ಥ﹏ಥ)ﾉ☂ 🌧️ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "(⸝⸝⸝ ° _ʖ °⸝⸝⸝) 🔮 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "༼⁰o⁰；༽ [TEXT] ༼✪‿✪༽"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "( ͡ಥ ͜ʖ ͡ಥ) 💀 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "boxed_black",
+          "pat": "⤜(ⱺ ʖ̯ⱺ)⤏ 🦾 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(ノಠ益ಠ)ノ [TEXT] ༼ノಠ益ಠノ"
+        },
+        {
+          "t": "d",
+          "map": "fraktur_bold",
+          "pat": "(⊙_☉) [TEXT] ☉_⊙"
+        },
+        {
+          "t": "d",
+          "pat": "(ง’̀-‘́)ง [TEXT] ༼ง=ಠ益ಠ=ง༽"
+        },
+        {
+          "t": "d",
+          "map": "slash_strikethrough",
+          "pat": "(っ´ཀ`)っ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "cross_hatch",
+          "pat": "(๑>؂•̀๑) [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(｡´ᴥ｀)⊃━ 𝘛𝘌𝘟𝘛 [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "small",
+      "name": "Small",
+      "icon": "ri-font-size",
+      "styles": [
+        {
+          "t": "d",
+          "pat": "ᴛᴇxᴛ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "subscript",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "superscript",
+          "pat": "[TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "lines",
+      "name": "Lines",
+      "icon": "ri-separator",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "‿‿  [TEXT] ‿‿"
+        },
+        {
+          "t": "d",
+          "pat": "§.•´¨'°÷•..× ⧸ T⧸E⧸X⧸T⧶ ×,.•´¨'°÷•..§ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "•´¯`•. ⧸ T⧸E⧸X⧸T⧶ .•´¯`• [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "§.•´¨'°÷•..× T╎E╎X╎T ×,.•´¨'°÷•..§ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "-·=»‡«=·- [TEXT]-·=»‡«=·-"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "(ง ͠ ᵒ̌ Дᵒ̌ )¤=[]:::::> »»————-　 [TEXT]　————-««"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "(¯`·.¸¸.·´¯`·.¸¸.-> [TEXT] <-.¸¸.·´¯`·.¸¸.·´¯)"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "⫘⫘⫘ [TEXT]⫘⫘⫘"
+        },
+        {
+          "t": "d",
+          "pat": "﹌﹌﹌ 𝘛𝘌𝘟𝘛﹌﹌﹌ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ˋˏ✄┈┈┈ ŦєҲŦ┈┈┈ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "◈ ━━━━━━━ [TEXT]━━━━━━━ ◈"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "🧡 ━━━━━━━ [TEXT]━━━━━━ 🧡"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "・‥…━━━━━━━☆🍎🎀 [TEXT] 🎀🍎☆━━━━━━━…‥・"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "♡━━━━━━━ [TEXT]━━━━━━━♡"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "»»———–¤ [TEXT]¤———–««"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "✿—————— [TEXT]—————✿"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "»——————⋆◦★  [TEXT]★◦⋆——————«"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "●—————◦◉  [TEXT]◉◦—————●"
+        },
+        {
+          "t": "d",
+          "map": "circled",
+          "pat": "❁————— [TEXT]—————❁"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "●══════⋆☆  [TEXT] ✩⋆══════●"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "┈┈┈┈┈◦•✩  [TEXT] ✩•◦┈┈┈┈┈"
+        },
+        {
+          "t": "d",
+          "pat": "✧┈┈┈┈┈  𝘛𝘌𝘟𝘛 ┈┈┈┈┈✧ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "•——————•°•✿  [TEXT] ✿•°•——————•"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "❀┈┈┈┈┈ [TEXT]┈┈┈┈┈❀"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "•————— ♬  [TEXT] ♬ —————•"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "♪ ┈┈┈ [TEXT]┈┈┈ ♪"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "————— ୨ [TEXT]୧ —————"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "╔═══════ [TEXT] ═══════╗"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "╚═══════ [TEXT] ═══════╝"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "✦•·············•✦  [TEXT] ✦•·············•✦"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "•─────────°❋❀  [TEXT] ❀❋°─────────•"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "❅────────❅•°•  [TEXT] •°•❅────────❅"
+        },
+        {
+          "t": "d",
+          "pat": "•─────────✦❀  𝘛𝘌𝘟𝘛 ❀✦────────• [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "•─────────•°•  [TEXT] •°•─────────•"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "❈────────•✦•❅  [TEXT] ❅•✦•───────❈"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "═════════•°• ⚠  [TEXT] ⚠ •°•═════════"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "❈◦•≫── [TEXT]──≪•◦❈"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "╔══❖════ [TEXT]═══❖══╗"
+        },
+        {
+          "t": "d",
+          "pat": "╚══❖════ 𝘛𝘌𝘟𝘛 ═══❖══╝ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "╔═══✿════ [TEXT]════✿═══╗"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "╚═══✿════ [TEXT]════✿═══╝"
+        },
+        {
+          "t": "d",
+          "pat": "•.¸♡¸.• [TEXT] •.¸♡¸.•"
+        },
+        {
+          "t": "d",
+          "pat": ",-*' ^ '~*-.,_,.-*~ [TEXT]~*-.,_,.-*~' ^ '*-,"
+        },
+        {
+          "t": "d",
+          "pat": "◦•●◉✿ [TEXT]✿◉●•◦"
+        },
+        {
+          "t": "d",
+          "pat": "✿.｡.:* ☆:**:. [TEXT].:**:.☆*.:｡.✿"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "x____ [TEXT] ____x"
+        },
+        {
+          "t": "d",
+          "pat": "∙∙▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ [TEXT]ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫∙∙"
+        },
+        {
+          "t": "d",
+          "pat": "]|I{•------ [TEXT]------•}I|["
+        },
+        {
+          "t": "d",
+          "pat": "∘₊✧─────✧₊∘ [TEXT] ∘₊✧─────✧₊∘"
+        },
+        {
+          "t": "d",
+          "pat": "╭─━━━━━━⊱༻ [TEXT] ༺⊰━━━━━━─╮"
+        },
+        {
+          "t": "d",
+          "pat": "❖━━━─── [TEXT] ───━━━❖"
+        },
+        {
+          "t": "d",
+          "pat": "⸻⸻「 [TEXT] 」⸻⸻"
+        },
+        {
+          "t": "d",
+          "pat": "༶•┈┈୨♡୧┈┈•༶ [TEXT] ༶•┈┈୨♡୧┈┈•༶"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "┏━━━━━❂ [TEXT]❂━━━━━┓"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "┗━━━━━❂ [TEXT]❂━━━━━┛"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "┏━━━━━━  [TEXT] ━━━━━━┓"
+        },
+        {
+          "t": "d",
+          "pat": "┗━━━━━━  𝘛𝘌𝘟𝘛 ━━━━━━┛ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "╔═════ °❀•°✮ [TEXT] ✮°•❀°═════╗"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "╚═════ °❀•°✮ [TEXT] ✮°•❀°═════╝"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "╔═══════☆♡  [TEXT] ♡☆═══════╗"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "╚═══════☆♡  [TEXT] ♡☆═══════╝"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "▂▃▅▆█  [TEXT] █▆▅▃▂"
+        },
+        {
+          "t": "d",
+          "pat": "▃▅▆█ 웃  𝘛𝘌𝘟𝘛 웃 █▆▅▃ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "•• <<────≪•◦⚜ [TEXT] ⚜ ◦•≫────>> ••"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "≫───•◦❈  [TEXT] ❈◦•───≪"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "•─────────•❋  [TEXT] ❋•─────────•"
+        },
+        {
+          "t": "d",
+          "pat": "•────────❅❀  𝘛𝘌𝘟𝘛 ❀❅────────• [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "•─────────✦❀  [TEXT] ❀✦────────•"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "•─────────•✨  [TEXT] ✨•─────────•"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "•────────✦❅  [TEXT] ❅✦────────•"
+        },
+        {
+          "t": "d",
+          "pat": "╚══════✮❁•°❀  𝘛𝘌𝘟𝘛 ❀°•❁✮══════╝ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "┏━━━━━•°•°•❈  [TEXT] ❈•°•°•━━━━━┓"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "┗━━━━━•°•°•❈  [TEXT] ❈•°•°•━━━━━┛"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "▔▔▔▔▔▔▔◥ 🧡 [TEXT]🧡 ◤▔▔▔▔▔▔▔"
+        },
+        {
+          "t": "d",
+          "pat": "┴┬┴┬┴┬┴ 𝘛𝘌𝘟𝘛┴┬┴┬┴┬ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "╬╬╬╬╬—  [TEXT] —╬╬╬╬╬"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "•─────────★•♛  [TEXT] ♛•★────────•"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "╔══════✮❁•°♛  [TEXT] ♛°•❁✮ ══════╗"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "✦—————♛  [TEXT] ♛—————✦"
+        },
+        {
+          "t": "d",
+          "pat": "•─────────•♛  𝘛𝘌𝘟𝘛 ♛•─────────• [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "✧┈┈┈┈┈•♛  [TEXT] ♚•┈┈┈┈┈✧"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "»——————◦•♛  [TEXT] ♚•◦——————«"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "⋆——————✧◦♚  [TEXT] ♚◦✧——————⋆"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "༶•┈┈┈┈┈┈୨♡  [TEXT] ♡୧┈┈┈┈┈•༶"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "*୨୧ ┈┈┈┈┈┈  [TEXT] ┈┈┈┈┈┈ ୨୧*"
+        },
+        {
+          "t": "d",
+          "pat": "✼ •• ┈┈┈┈┈┈  𝘛𝘌𝘟𝘛 ┈┈┈┈┈┈ •• ✼ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "°.✩┈┈∘*┈˃̶୨  [TEXT] ୧˂̶┈*∘┈┈✩.°"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "»»——(¯´  [TEXT] ´¯)——»»"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "╰──╮  [TEXT] ╭──╯"
+        }
+      ]
+    },
+    {
+      "id": "hello",
+      "name": "Hello",
+      "icon": "ri-hand-heart-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "🤗 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "👋🏾 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "👋🏻 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "👋🏼 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "👋🏽 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🖖 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "🤝 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "🤙 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "✋ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "👐 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "👏 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "👯 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "💁 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🤷 [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "sword",
+      "name": "Sword",
+      "icon": "ri-sword-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "▬▬ι═════════════════ﺤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "cxxx{}:::::::::::::::::::::::::> 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "▬|)════ﺤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "(ง ͠ ᵒ̌ ಎᵒ̌)▬▬ι══════ﺤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "↜(╰ •ⱉ•)╯▬▬|═════ﺤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "( ͡° ͜ゝ°)⊃▭ι════════════ﺤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "<:::::[]=¤ (▀̿̿Ĺ̯̿̿▀̿ ̿) [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "▬▬[]══༼ ಥ۝ಥ ༽══ﺤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "( ͝°͜ʖ͡°)=o▬[]::::::::::::::::> [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "▬ι══════ﺤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "•—⟪=====> [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "ଘ(੭•`⍘´•)⊃▬ι══════ﺤ 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "⚡⚡▭▭ι══════ﺤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "＝lニニフ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "¤=[]::::༼ ಥ﹏لಥ ༽::::> [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "( ͝°͜ʖ͡°)=o▬[]::::::::::::::::> [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "‹═ι▬⸦( ✧ᴗ✧)⸧▬ι═ﺤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "<:::::[]=¤ [TEXT] (▀̿̿Ĺ̯̿̿▀̿ ̿)"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "¤=[]:::::> [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "( •ᴗ✧)つ▬ι═ﺤ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "-═══════ι▬▬ﺤ [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "name": "Sport",
+      "icon": "ri-basketball-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "(๑⚈ ․̫ ⚈๑) [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "(っ'｡')╮ =͟͟͞͞🔴 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "(っ\"-\")╮ =͟͟͞͞🏀 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "(っ'_')╮ =͟͟͞͞◑ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "(っ`□`)╮ =͟͟͞͞💨 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "Ϟ(๑⚈ ․̫ ⚈๑)⋆ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "૮₍´｡ᵔ 𝘛𝘌𝘟𝘛 ᵔ｡`₎ა [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🏀(ง •̀_•́)ง [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "⚽ ( •̀ ω •́ )✧ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🏈 (ง'̀-'́)ง [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "🏐(ᵔ◡◡ᵔ)ﾉ=͟͟͞͞〇 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "🏓(╯°□°）╯︵ 🏓 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "⛹️‍♂️(⌐■_■) [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "跑💨(ง •̀_•́)ง💥 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "⚾ ︻デ═一 [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "anime",
+      "name": "Anime",
+      "icon": "ri-ghost-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "ϞϞ(⍝￣⌓￣)⍝ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "⚡ 🐹 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "ϞϞ૮(๑⚈ ․̫ ⚈๑)ა [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "⚡Ϟ(๑◣ _ ◢๑)⋆ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "( ◣‗◢)ψ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "↜(͛◣෴◢)͛ψ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "⚡Ϟ(๑⚈ ․̫ ⚈๑)⋆ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "(╯°□°)╯︵◓ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "⎛⎝(⚈ ․̫⚈‴)⎠⎞ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "Ϟ(◍ㅇᆽㅇ◍)∩ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "Y● ❛ ̫.❛●)´෴ϞϞ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "ϞϞ(๑⚈ ․̫ ⚈๑)∩ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "ϞϞ(๑⚈ ․̫ ⚈๑)∩ I Am [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "Ϟ(๑⚈ ․̫ ⚈๑)∩ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "⊹⋛⋋(◐⊝◑)⋌⋚⊹ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "/ᓄ''◔'◔''\\ᓄ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "ϞϞ〈๑⚈ ․̫⚈๑〉⋔ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "(◍⚆Ⱉ⚆◍) [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "gun",
+      "name": "Gun",
+      "icon": "ri-crosshair-2-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "[TEXT] ╾━╤デ╦︻"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "[TEXT] /̵͇̿̿/'̿̿ ̿ ̿̿"
+        },
+        {
+          "t": "d",
+          "pat": "¯¯̿̿¯̿̿'̿̿̿̿̿̿̿'̿̿'̿̿̿̿̿'̿̿̿)͇̿̿)̿̿̿̿ '̿̿̿̿̿̿\\̵͇̿̿\\= 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "⌐╦╦═─ 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "︻╦̵̵͇̿̿̿̿╤── [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "⌐╦╦═─ 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "︻┳デ═— [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "̿ ̿’̿’̵͇̿̿▄︻̷̿┻̿═━一 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "█︻̷̿┻̿═━一 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "[TEXT] ╾━╤デ╦︻"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "⌐╤━╦ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "☠︻╦̵̵͇̿̿̿̿╤──☠ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "[TEXT] 🔫"
+        },
+        {
+          "t": "d",
+          "pat": "𝘛𝘌𝘟𝘛🧨🔫 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "[TEXT] 💥🔫"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "︻デ═一 [TEXT]💣"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "[TEXT] 👊🔫"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "[TEXT]💀💥🔫"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "🔫✨ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "🎯🔫 [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "key",
+      "name": "Key",
+      "icon": "ri-key-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "Ⓞ═╦╗ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "🔐 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🔑 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "🗝️ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "☞🗝☜ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "✧🔐✧ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "⫷🗝⫸ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "⟬🔑⟭ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "≡🗝≡ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "⟪🗝️⟫ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "╰⊰🔐⊱╮ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "✦⎯🔑⎯✦ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "✧⋆🗝️⋆✧ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "⋘🗝️⋙ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🗝️── 𝘛𝘌𝘟𝘛 ──🗝️ [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "gym",
+      "name": "Gym",
+      "icon": "ri-dumbbell-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "[|━|] 💪 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "monospace",
+          "pat": "❚█══█❚ 🏋 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "᱾𝗅‖⎼✊⸺✊⎼‖𝗅᱾ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "❚█═ฅ═ʕ◉ᴥ◉ʡ═ฅ═█❚ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "᱾𝗅‖⚊✊⚊‖𝗅᱾ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "▐━━━━━▌ 💪 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "❚·══·❚ 🏋️ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "full_width",
+          "pat": "(ง •̀_•́)ง [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "(ง'̀-'́)ง [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "(╯°□°）╯︵ ┻━┻ 𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "（っ＾▿＾）💪 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_sans",
+          "pat": "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ 🏋 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_serif",
+          "pat": "ʕ•́ᴥ•̀ʔっ💪 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "double_struck",
+          "pat": "🚴‍♂️🏃‍♂️🏋️‍♂️🤸‍♂️⛹️‍♂️ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "fraktur",
+          "pat": "🏋️‍♀️🤼‍♂️🤸‍♀️🏊‍♂️🏃‍♀️ [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "canadian",
+          "pat": "🔥💪 POWER MODE: [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "bold",
+      "name": "Bold",
+      "icon": "ri-bold",
+      "styles": [
+        {
+          "t": "d",
+          "map": "sans_italic_bold",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "[TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "italic",
+      "name": "Italic",
+      "icon": "ri-italic",
+      "styles": [
+        {
+          "t": "d",
+          "pat": "𝘛𝘌𝘟𝘛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "[TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "magic",
+      "name": "Magic",
+      "icon": "ri-magic-fill",
+      "styles": [
+        {
+          "t": "d",
+          "pat": "🐒♡Ŧέ𝔵ţ⛵👊 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "—(••÷[ ţ𝐄𝐱𝕋 ]÷••)— [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "♦♡𝔱єⓍт💣💛 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🎉♙𝐓€𝓍𝓉♗🐺 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "♚💥𝕋ＥЖţ♞🐳 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "♜☹𝓣𝐞𝓧Ｔ😺🐼 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "¸,ø¤º°`°º¤ø,¸ ⓣε𝓧ᵗ ¸,ø¤º°`°º¤ø,¸ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "♗🐤𝐭єxｔ💛♙ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "♨💎ţєｘŦ🐨🐚 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "💢🍫丅ᗴχ𝓽✎🍪 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🎯♖𝓣𝔢𝓍Ｔඏ💗 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "🐙★𝓉乇𝓓т♠🎉 [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "`•.,¸¸,.•´¯ 𝕋𝕖ｘ丅 ¯`•.,¸¸,.•´ [TEXT]"
+        },
+        {
+          "t": "d",
+          "pat": "♝✌𝓣ᗴ𝕩𝓉♢💎 [TEXT]"
+        }
+      ]
+    },
+    {
+      "id": "bold_italics",
+      "name": "Bold Italics",
+      "icon": "ri-italic",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "𝑻𝑬𝑿𝑻 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_italic",
+          "pat": "【[TEXT]】"
+        }
+      ]
+    },
+    {
+      "id": "script",
+      "name": "Script",
+      "icon": "ri-quill-pen-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "𝒮𝒸𝓇𝒾𝓅𝓉 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "script",
+          "pat": "⋆ [TEXT] ⋆"
+        }
+      ]
+    },
+    {
+      "id": "bold_script",
+      "name": "Bold Script",
+      "icon": "ri-edit-circle-line",
+      "styles": [
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "𝓑𝓸𝓵𝓭 [TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "bold_script",
+          "pat": "꧁ [TEXT] ꧂"
+        }
+      ]
+    },
+    {
+      "id": "double_underline",
+      "name": "Double Underline",
+      "icon": "ri-underline",
+      "styles": [
+        {
+          "t": "d",
+          "map": "underline_double",
+          "pat": "[TEXT]"
+        },
+        {
+          "t": "d",
+          "map": "underline_double",
+          "pat": "̿ [TEXT] ̿"
+        },
+        {
+          "t": "d",
+          "map": "underline_double",
+          "pat": "̳ [TEXT] ̳"
+        }
+      ]
+    }
+  ],
+  "maps": {
+    "bold_serif": {
+      "a": "𝐚",
+      "b": "𝐛",
+      "c": "𝐜",
+      "d": "𝐝",
+      "e": "𝐞",
+      "f": "𝐟",
+      "g": "𝐠",
+      "h": "𝐡",
+      "i": "𝐢",
+      "j": "𝐣",
+      "k": "𝐤",
+      "l": "𝐥",
+      "m": "𝐦",
+      "n": "𝐧",
+      "o": "𝐨",
+      "p": "𝐩",
+      "q": "𝐪",
+      "r": "𝐫",
+      "s": "𝐬",
+      "t": "𝐭",
+      "u": "𝐮",
+      "v": "𝐯",
+      "w": "𝐰",
+      "x": "𝐱",
+      "y": "𝐲",
+      "z": "𝐳",
+      "A": "𝐀",
+      "B": "𝐁",
+      "C": "𝐂",
+      "D": "𝐃",
+      "E": "𝐄",
+      "F": "𝐅",
+      "G": "𝐆",
+      "H": "𝐇",
+      "I": "𝐈",
+      "J": "𝐉",
+      "K": "𝐊",
+      "L": "𝐋",
+      "M": "𝐌",
+      "N": "𝐍",
+      "O": "𝐎",
+      "P": "𝐏",
+      "Q": "𝐐",
+      "R": "𝐑",
+      "S": "𝐒",
+      "T": "𝐓",
+      "U": "𝐔",
+      "V": "𝐕",
+      "W": "𝐖",
+      "X": "𝐗",
+      "Y": "𝐘",
+      "Z": "𝐙"
+    },
+    "bold_sans": {
+      "a": "𝗮",
+      "b": "𝗯",
+      "c": "𝗰",
+      "d": "𝗱",
+      "e": "𝗲",
+      "f": "𝗳",
+      "g": "𝗴",
+      "h": "𝗵",
+      "i": "𝗶",
+      "j": "𝗷",
+      "k": "𝗸",
+      "l": "𝗹",
+      "m": "𝗺",
+      "n": "𝗻",
+      "o": "𝗼",
+      "p": "𝗽",
+      "q": "𝗾",
+      "r": "𝗿",
+      "s": "𝘀",
+      "t": "𝘁",
+      "u": "𝘂",
+      "v": "𝘃",
+      "w": "𝘄",
+      "x": "𝘅",
+      "y": "𝘆",
+      "z": "𝘇",
+      "A": "𝗔",
+      "B": "𝗕",
+      "C": "𝗖",
+      "D": "𝗗",
+      "E": "𝗘",
+      "F": "𝗙",
+      "G": "𝗚",
+      "H": "𝗛",
+      "I": "𝗜",
+      "J": "𝗝",
+      "K": "𝗞",
+      "L": "𝗟",
+      "M": "𝗠",
+      "N": "𝗡",
+      "O": "𝗢",
+      "P": "𝗣",
+      "Q": "𝗤",
+      "R": "𝗥",
+      "S": "𝗦",
+      "T": "𝗧",
+      "U": "𝗨",
+      "V": "𝗩",
+      "W": "𝗪",
+      "X": "𝗫",
+      "Y": "𝗬",
+      "Z": "𝗭"
+    },
+    "bold_italic": {
+      "a": "𝒂",
+      "b": "𝒃",
+      "c": "𝒄",
+      "d": "𝒅",
+      "e": "𝒆",
+      "f": "𝒇",
+      "g": "𝒈",
+      "h": "𝒉",
+      "i": "𝒊",
+      "j": "𝒋",
+      "k": "𝒌",
+      "l": "𝒍",
+      "m": "𝒎",
+      "n": "𝒏",
+      "o": "𝒐",
+      "p": "𝒑",
+      "q": "𝒒",
+      "r": "𝒓",
+      "s": "𝒔",
+      "t": "𝒕",
+      "u": "𝒖",
+      "v": "𝒗",
+      "w": "𝒘",
+      "x": "𝒙",
+      "y": "𝒚",
+      "z": "𝒛",
+      "A": "𝑨",
+      "B": "𝑩",
+      "C": "𝑪",
+      "D": "𝑫",
+      "E": "𝑬",
+      "F": "𝑭",
+      "G": "𝑮",
+      "H": "𝑯",
+      "I": "𝑰",
+      "J": "𝑱",
+      "K": "𝑲",
+      "L": "𝑳",
+      "M": "𝑴",
+      "N": "𝑵",
+      "O": "𝑶",
+      "P": "𝑷",
+      "Q": "𝑸",
+      "R": "𝑹",
+      "S": "𝑺",
+      "T": "𝑻",
+      "U": "𝑼",
+      "V": "𝑽",
+      "W": "𝑾",
+      "X": "𝑿",
+      "Y": "𝒀",
+      "Z": "𝒁"
+    },
+    "sans_italic_bold": {
+      "a": "𝙖",
+      "b": "𝙗",
+      "c": "𝙘",
+      "d": "𝙙",
+      "e": "𝙚",
+      "f": "𝙛",
+      "g": "𝙜",
+      "h": "𝙝",
+      "i": "𝙞",
+      "j": "𝙟",
+      "k": "𝙠",
+      "l": "𝙡",
+      "m": "𝙢",
+      "n": "𝙣",
+      "o": "𝙤",
+      "p": "𝙥",
+      "q": "𝙦",
+      "r": "𝙧",
+      "s": "𝙨",
+      "t": "𝙩",
+      "u": "𝙪",
+      "v": "𝙫",
+      "w": "𝙬",
+      "x": "𝙭",
+      "y": "𝙮",
+      "z": "𝙯",
+      "A": "𝘼",
+      "B": "𝘽",
+      "C": "𝘾",
+      "D": "𝘿",
+      "E": "𝙀",
+      "F": "𝙁",
+      "G": "𝙂",
+      "H": "𝙃",
+      "I": "𝙄",
+      "J": "𝙅",
+      "K": "𝙆",
+      "L": "𝙇",
+      "M": "𝙈",
+      "N": "𝙉",
+      "O": "𝙊",
+      "P": "𝙋",
+      "Q": "𝙌",
+      "R": "𝙍",
+      "S": "𝙎",
+      "T": "𝙏",
+      "U": "𝙐",
+      "V": "𝙑",
+      "W": "𝙒",
+      "X": "𝙓",
+      "Y": "𝙔",
+      "Z": "𝙕"
+    },
+    "script": {
+      "a": "𝒶",
+      "b": "𝒷",
+      "c": "𝒸",
+      "d": "𝒹",
+      "e": "𝑒",
+      "f": "𝒻",
+      "g": "𝑔",
+      "h": "𝒽",
+      "i": "𝒾",
+      "j": "𝒿",
+      "k": "𝓀",
+      "l": "𝓁",
+      "m": "𝓂",
+      "n": "𝓃",
+      "o": "𝑜",
+      "p": "𝓅",
+      "q": "𝓆",
+      "r": "𝓇",
+      "s": "𝓈",
+      "t": "𝓉",
+      "u": "𝓊",
+      "v": "𝓋",
+      "w": "𝓌",
+      "x": "𝓍",
+      "y": "yfik",
+      "z": "𝓏",
+      "A": "𝒜",
+      "B": "𝐵",
+      "C": "𝒞",
+      "D": "𝒟",
+      "E": "𝐸",
+      "F": "𝐹",
+      "G": "𝒢",
+      "H": "𝐻",
+      "I": "𝐼",
+      "J": "𝒥",
+      "K": "𝒦",
+      "L": "𝐿",
+      "M": "𝑀",
+      "N": "𝒩",
+      "O": "𝒪",
+      "P": "𝒫",
+      "Q": "𝒬",
+      "R": "𝑅",
+      "S": "𝒮",
+      "T": "𝒯",
+      "U": "𝒰",
+      "V": "𝒱",
+      "W": "𝒲",
+      "X": "𝒳",
+      "Y": "𝒴",
+      "Z": "𝒵"
+    },
+    "bold_script": {
+      "a": "𝓪",
+      "b": "𝓫",
+      "c": "𝓬",
+      "d": "𝓭",
+      "e": "𝓮",
+      "f": "𝓯",
+      "g": "𝓰",
+      "h": "𝓱",
+      "i": "𝓲",
+      "j": "𝓳",
+      "k": "𝓴",
+      "l": "𝓵",
+      "m": "𝓶",
+      "n": "𝓷",
+      "o": "𝓸",
+      "p": "𝓹",
+      "q": "𝓺",
+      "r": "𝓻",
+      "s": "𝓼",
+      "t": "𝓽",
+      "u": "𝓾",
+      "v": "𝓿",
+      "w": "𝔀",
+      "x": "𝔁",
+      "y": "𝔂",
+      "z": "𝔃",
+      "A": "𝓐",
+      "B": "𝓑",
+      "C": "𝓒",
+      "D": "𝓓",
+      "E": "𝓔",
+      "F": "𝓕",
+      "G": "𝓖",
+      "H": "𝓗",
+      "I": "𝓘",
+      "J": "𝓙",
+      "K": "𝓚",
+      "L": "𝓛",
+      "M": "𝓜",
+      "N": "𝓝",
+      "O": "𝓞",
+      "P": "𝓟",
+      "Q": "𝓠",
+      "R": "𝓡",
+      "S": "𝓢",
+      "T": "𝓣",
+      "U": "𝓤",
+      "V": "𝓥",
+      "W": "𝓦",
+      "X": "𝓧",
+      "Y": "𝓨",
+      "Z": "𝓩"
+    },
+    "double_struck": {
+      "a": "𝕒",
+      "b": "𝕓",
+      "c": "𝕔",
+      "d": "𝕕",
+      "e": "𝕖",
+      "f": "𝕗",
+      "g": "𝕘",
+      "h": "𝕙",
+      "i": "𝕚",
+      "j": "𝕛",
+      "k": "𝕜",
+      "l": "𝕝",
+      "m": "𝕞",
+      "n": "𝕟",
+      "o": "𝕠",
+      "p": "𝕡",
+      "q": "𝕢",
+      "r": "𝕣",
+      "s": "𝕤",
+      "t": "𝕥",
+      "u": "𝕦",
+      "v": "𝕧",
+      "w": "𝕨",
+      "x": "𝕩",
+      "y": "𝕪",
+      "z": "𝕫",
+      "A": "𝔸",
+      "B": "𝔹",
+      "C": "ℂ",
+      "D": "𝔻",
+      "E": "𝔼",
+      "F": "𝔽",
+      "G": "𝔾",
+      "H": "ℍ",
+      "I": "𝕀",
+      "J": "𝕁",
+      "K": "𝕂",
+      "L": "𝕃",
+      "M": "𝕄",
+      "N": "ℕ",
+      "O": "𝕆",
+      "P": "ℙ",
+      "Q": "ℚ",
+      "R": "ℝ",
+      "S": "𝕊",
+      "T": "𝕋",
+      "U": "𝕌",
+      "V": "𝕍",
+      "W": "𝕎",
+      "X": "𝕏",
+      "Y": "𝕐",
+      "Z": "ℤ"
+    },
+    "small_caps": {
+      "a": "ᴀ",
+      "b": "ʙ",
+      "c": "ᴄ",
+      "d": "ᴅ",
+      "e": "ᴇ",
+      "f": "ꜰ",
+      "g": "ɢ",
+      "h": "ʜ",
+      "i": "ɪ",
+      "j": "ᴊ",
+      "k": "ᴋ",
+      "l": "ʟ",
+      "m": "ᴍ",
+      "n": "ɴ",
+      "o": "ᴏ",
+      "p": "ᴘ",
+      "q": "Q",
+      "r": "ʀ",
+      "s": "ꜱ",
+      "t": "ᴛ",
+      "u": "ᴜ",
+      "v": "ᴠ",
+      "w": "ᴡ",
+      "x": "x",
+      "y": "ʏ",
+      "z": "ᴢ"
+    },
+    "monospace": {
+      "a": "𝚊",
+      "b": "𝚋",
+      "c": "𝚌",
+      "d": "𝚍",
+      "e": "𝚎",
+      "f": "𝚏",
+      "g": "𝚐",
+      "h": "𝚑",
+      "i": "𝚒",
+      "j": "𝚓",
+      "k": "𝚔",
+      "l": "𝚕",
+      "m": "𝚖",
+      "n": "𝚗",
+      "o": "𝚘",
+      "p": "𝚙",
+      "q": "𝚚",
+      "r": "𝚛",
+      "s": "𝚜",
+      "t": "𝚝",
+      "u": "𝚞",
+      "v": "𝚟",
+      "w": "𝚠",
+      "x": "𝚡",
+      "y": "𝚢",
+      "z": "𝚣",
+      "A": "𝙰",
+      "B": "𝙱",
+      "C": "𝙲",
+      "D": "𝙳",
+      "E": "𝙴",
+      "F": "𝙵",
+      "G": "𝙶",
+      "H": "𝙷",
+      "I": "𝙸",
+      "J": "𝙹",
+      "K": "𝙺",
+      "L": "𝙻",
+      "M": "𝙼",
+      "N": "𝙽",
+      "O": "𝙾",
+      "P": "𝙿",
+      "Q": "𝚀",
+      "R": "𝚁",
+      "S": "𝚂",
+      "T": "𝚃",
+      "U": "𝚄",
+      "V": "𝚅",
+      "W": "𝚆",
+      "X": "𝚇",
+      "Y": "𝚈",
+      "Z": "𝚉"
+    },
+    "serif_normal": {
+      "a": "a",
+      "b": "b"
+    },
+    "serif_italic": {
+      "a": "𝑎",
+      "b": "𝑏",
+      "c": "𝑐",
+      "d": "𝑑",
+      "e": "𝑒",
+      "f": "𝑓",
+      "g": "𝑔",
+      "h": "ℎ",
+      "i": "𝑖",
+      "j": "𝑗",
+      "k": "𝑘",
+      "l": "𝑙",
+      "m": "𝑚",
+      "n": "𝑛",
+      "o": "𝑜",
+      "p": "𝑝",
+      "q": "𝑞",
+      "r": "𝑟",
+      "s": "𝑠",
+      "t": "𝑡",
+      "u": "𝑢",
+      "v": "𝑣",
+      "w": "𝑤",
+      "x": "𝑥",
+      "y": "𝑦",
+      "z": "𝑧"
+    },
+    "sans_normal": {
+      "a": "a",
+      "b": "b"
+    },
+    "sans_italic": {
+      "a": "𝘢",
+      "b": "𝘣",
+      "c": "𝘤",
+      "d": "𝘥",
+      "e": "𝘦",
+      "f": "𝘧",
+      "g": "𝘨",
+      "h": "𝘩",
+      "i": "𝘪",
+      "j": "𝘫",
+      "k": "𝘬",
+      "l": "𝘭",
+      "m": "𝘮",
+      "n": "𝘯",
+      "o": "𝘰",
+      "p": "𝘱",
+      "q": "𝘲",
+      "r": "𝘳",
+      "s": "𝘴",
+      "t": "𝘵",
+      "u": "𝘶",
+      "v": "𝘷",
+      "w": "𝘸",
+      "x": "𝘹",
+      "y": "𝘺",
+      "z": "𝘻"
+    },
+    "fraktur": {
+      "a": "𝔞",
+      "b": "𝔟",
+      "c": "𝔠",
+      "d": "𝔡",
+      "e": "𝔢",
+      "f": "𝔣",
+      "g": "𝔤",
+      "h": "𝔥",
+      "i": "𝔦",
+      "j": "𝔧",
+      "k": "𝔨",
+      "l": "𝔩",
+      "m": "𝔪",
+      "n": "𝔫",
+      "o": "𝔬",
+      "p": "𝔭",
+      "q": "𝔮",
+      "r": "𝔯",
+      "s": "𝔰",
+      "t": "𝔱",
+      "u": "𝔲",
+      "v": "𝔳",
+      "w": "𝔴",
+      "x": "𝔵",
+      "y": "𝔶",
+      "z": "𝔷",
+      "A": "𝔄",
+      "B": "𝔅",
+      "C": "ℭ",
+      "D": "𝔇",
+      "E": "𝔈",
+      "F": "𝔉",
+      "G": "𝔊",
+      "H": "ℌ",
+      "I": "ℑ",
+      "J": "𝔍",
+      "K": "𝔎",
+      "L": "𝔏",
+      "M": "𝔐",
+      "N": "𝔑",
+      "O": "𝔒",
+      "P": "𝔓",
+      "Q": "𝔔",
+      "R": "ℜ",
+      "S": "𝔖",
+      "T": "𝔗",
+      "U": "𝔘",
+      "V": "𝔙",
+      "W": "𝔚",
+      "X": "𝔛",
+      "Y": "𝔜",
+      "Z": "ℨ"
+    },
+    "boxed": {
+      "a": "[a]",
+      "b": "[b]",
+      "c": "[c]",
+      "d": "[d]",
+      "e": "[e]",
+      "f": "[f]",
+      "g": "[g]",
+      "h": "[h]",
+      "i": "[i]",
+      "j": "[j]",
+      "k": "[k]",
+      "l": "[l]",
+      "m": "[m]",
+      "n": "[n]",
+      "o": "[o]",
+      "p": "[p]",
+      "q": "[q]",
+      "r": "[r]",
+      "s": "[s]",
+      "t": "[t]",
+      "u": "[u]",
+      "v": "[v]",
+      "w": "[w]",
+      "x": "[x]",
+      "y": "[y]",
+      "z": "[z]",
+      "A": "[A]",
+      "B": "[B]",
+      "C": "[C]",
+      "D": "[D]",
+      "E": "[E]",
+      "F": "[F]",
+      "G": "[G]",
+      "H": "[H]",
+      "I": "[I]",
+      "J": "[J]",
+      "K": "[K]",
+      "L": "[L]",
+      "M": "[M]",
+      "N": "[N]",
+      "O": "[O]",
+      "P": "[P]",
+      "Q": "[Q]",
+      "R": "[R]",
+      "S": "[S]",
+      "T": "[T]",
+      "U": "[U]",
+      "V": "[V]",
+      "W": "[W]",
+      "X": "[X]",
+      "Y": "[Y]",
+      "Z": "[Z]"
+    },
+    "boxed_black": {
+      "a": "🅰",
+      "b": "🅱",
+      "c": "🅲",
+      "d": "🅳",
+      "e": "🅴",
+      "f": "🅵",
+      "g": "🅶",
+      "h": "🅷",
+      "i": "🅸",
+      "j": "🅹",
+      "k": "🅺",
+      "l": "🅻",
+      "m": "🅼",
+      "n": "🅽",
+      "o": "🅾",
+      "p": "🅿",
+      "q": "🆀",
+      "r": "🆁",
+      "s": "🆂",
+      "t": "🆃",
+      "u": "🆄",
+      "v": "🆅",
+      "w": "🆆",
+      "x": "🆇",
+      "y": "🆈",
+      "z": "🆉",
+      "A": "🅰",
+      "B": "🅱",
+      "C": "🅲",
+      "D": "🅳",
+      "E": "🅴",
+      "F": "🅵",
+      "G": "🅶",
+      "H": "🅷",
+      "I": "🅸",
+      "J": "🅹",
+      "K": "🅺",
+      "L": "🅻",
+      "M": "🅼",
+      "N": "🅽",
+      "O": "🅾",
+      "P": "🅿",
+      "Q": "🆀",
+      "R": "🆁",
+      "S": "🆂",
+      "T": "🆃",
+      "U": "🆄",
+      "V": "🆅",
+      "W": "🆆",
+      "X": "🆇",
+      "Y": "🆈",
+      "Z": "🆉"
+    },
+    "superscript": {
+      "a": "ᵃ",
+      "b": "ᵇ",
+      "c": "ᶜ",
+      "d": "ᵈ",
+      "e": "ᵉ",
+      "f": "ᶠ",
+      "g": "ᵍ",
+      "h": "ʰ",
+      "i": "ⁱ",
+      "j": "ʲ",
+      "k": "ᵏ",
+      "l": "ˡ",
+      "m": "ᵐ",
+      "n": "ⁿ",
+      "o": "ᵒ",
+      "p": "ᵖ",
+      "q": "q",
+      "r": "ʳ",
+      "s": "ˢ",
+      "t": "ᵗ",
+      "u": "ᵘ",
+      "v": "ᵛ",
+      "w": "ʷ",
+      "x": "ˣ",
+      "y": "ʸ",
+      "z": "ᶻ",
+      "A": "ᴬ",
+      "B": "ᴮ",
+      "C": "ᶜ",
+      "D": "ᴰ",
+      "E": "ᴱ",
+      "F": "ᶠ",
+      "G": "ᴳ",
+      "H": "ᴴ",
+      "I": "ᴵ",
+      "J": "ᴶ",
+      "K": "ᴷ",
+      "L": "ᴸ",
+      "M": "ᴹ",
+      "N": "ᴺ",
+      "O": "ᴼ",
+      "P": "ᴾ",
+      "Q": "Q",
+      "R": "ᴿ",
+      "S": "ˢ",
+      "T": "ᵀ",
+      "U": "ᵁ",
+      "V": "ⱽ",
+      "W": "ᵂ",
+      "X": "ˣ",
+      "Y": "ʸ",
+      "Z": "ᶻ"
+    },
+    "subscript": {
+      "a": "ₐ",
+      "b": "ᵦ",
+      "c": "𝒸",
+      "d": "𝒹",
+      "e": "ₑ",
+      "f": "𝒻",
+      "g": "𝓰",
+      "h": "ₕ",
+      "i": "ᵢ",
+      "j": "ⱼ",
+      "k": "ₖ",
+      "l": "ₗ",
+      "m": "ₘ",
+      "n": "ₙ",
+      "o": "ₒ",
+      "p": "ₚ",
+      "q": "q",
+      "r": "ᵣ",
+      "s": "ₛ",
+      "t": "ₜ",
+      "u": "ᵤ",
+      "v": "ᵥ",
+      "w": "𝓌",
+      "x": "ₓ",
+      "y": "ᵧ",
+      "z": "𝓏",
+      "A": "ₐ",
+      "B": "ᵦ",
+      "C": "𝒸",
+      "D": "𝒹",
+      "E": "ₑ",
+      "F": "𝒻",
+      "G": "𝓰",
+      "H": "ₕ",
+      "I": "ᵢ",
+      "J": "ⱼ",
+      "K": "ₖ",
+      "L": "ₗ",
+      "M": "ₘ",
+      "N": "ₙ",
+      "O": "ₒ",
+      "P": "ₚ",
+      "Q": "q",
+      "R": "ᵣ",
+      "S": "ₛ",
+      "T": "ₜ",
+      "U": "ᵤ",
+      "V": "ᵥ",
+      "W": "𝓌",
+      "X": "ₓ",
+      "Y": "ᵧ",
+      "Z": "𝓏"
+    },
+    "inverted": {
+      "a": "ɐ",
+      "b": "q",
+      "c": "ɔ",
+      "d": "p",
+      "e": "ǝ",
+      "f": "ɟ",
+      "g": "ƃ",
+      "h": "ɥ",
+      "i": "ᴉ",
+      "j": "ɾ",
+      "k": "ʞ",
+      "l": "l",
+      "m": "ɯ",
+      "n": "u",
+      "o": "o",
+      "p": "d",
+      "q": "b",
+      "r": "ɹ",
+      "s": "s",
+      "t": "ʇ",
+      "u": "n",
+      "v": "ʌ",
+      "w": "ʍ",
+      "x": "x",
+      "y": "ʎ",
+      "z": "z",
+      "A": "∀",
+      "B": "𐐒",
+      "C": "Ɔ",
+      "D": "◖",
+      "E": "Ǝ",
+      "F": "Ⅎ",
+      "G": "⅁",
+      "H": "H",
+      "I": "I",
+      "J": "ſ",
+      "K": "⋊",
+      "L": "⅂",
+      "M": "W",
+      "N": "N",
+      "O": "O",
+      "P": "Ԁ",
+      "Q": "Ό",
+      "R": "ᴚ",
+      "S": "S",
+      "T": "⊥",
+      "U": "∩",
+      "V": "Λ",
+      "W": "M",
+      "X": "X",
+      "Y": "⅄",
+      "Z": "Z"
+    }
+  }
+}

@@ -1,0 +1,173 @@
+const fs = require("fs");
+const path = require("path");
+
+const fontPath = path.join(__dirname, "fonts", "emojis_symbols_fonts.json");
+const customJsPath = "d:/Kaustav/Projects/stylish-fonts/js/custom.js";
+
+const fonts = JSON.parse(fs.readFileSync(fontPath, "utf8"));
+
+// Common mapping logic - expand as needed
+const textVariations = {
+  "𝑻𝑬𝑿𝑻": "bold_italic",
+  TEXT: null,
+  ᴛᴇxᴛ: "small_caps",
+  TᴇXT: null,
+  "T𝔢XT": null,
+  ＴＥXＴ: "full_width",
+  "ｔ𝖊Xｔ": null,
+  丅ΞX丅: null,
+  TｅXT: null,
+  "ⓉΣXⓉ": null,
+  "T𝐞XT": "bold_serif",
+  TєXT: null,
+  "𝔗𝔈𝔛𝔗": "fraktur",
+  "ⓉⒺⓍⓉ": "circled",
+  "🆃🅴🆇🆃": "boxed_black",
+  "TE᙭T": "canadian",
+  "𝚃𝙴𝚇𝚃": "monospace",
+  "𝓣𝓔𝓧𝓣": "bold_script",
+  ＴＥＸＴ: "full_width",
+  "🅃🄴🅇🅃": "boxed",
+  "𝑻𝑬𝑿𝑻": "bold_italic",
+  "𝕋𝔼𝕏𝕋": "double_struck",
+  "ᖶᘿ᙭ᖶ": "canadian",
+  "𝕿𝕰𝖃𝕿": "fraktur_bold",
+  "𝙏𝙀𝙓𝙏": "sans_italic_bold",
+  "₮ɆӾ₮": "strike",
+  "𝒯𝐸𝒳𝒯": "script",
+  тєχт: null,
+  "𝗧𝗘𝗫𝗧": "bold_sans",
+  ｲ乇ﾒｲ: "japanese_style",
+  ƬΣXƬ: "greek_style",
+  "𝕁𝕠𝕪𝕗𝕦𝕝": "double_struck",
+  "𝐓𝐄𝐗𝐓": "bold_serif",
+  "🅣🅔🅧🅣": "circled_black", // add more if found
+};
+
+function esc(s) {
+  return s.replace(/\\/g, "\\\\").replace(/"/g, '\\"').replace(/\n/g, "\\n");
+}
+
+function analyzeStyle(styleStr) {
+  // 1. Check for known map keys in the string
+  for (const [key, map] of Object.entries(textVariations)) {
+    if (key && styleStr.includes(key)) {
+      return { pat: styleStr.replace(key, "[TEXT]"), map: map };
+    }
+  }
+
+  // Fallback: regular TEXT
+  if (styleStr.includes("TEXT"))
+    return { pat: styleStr.replace("TEXT", "[TEXT]"), map: null };
+
+  return { pat: styleStr + " [TEXT]", map: null };
+}
+
+function processFonts(fontList) {
+  return fontList.map((s) => {
+    const { pat, map } = analyzeStyle(s);
+    return { t: "d", pat: pat, map: map };
+  });
+}
+
+const emojiStyles = processFonts(fonts.emojis);
+const symbolStyles = processFonts(fonts.symbols);
+
+// Read custom.js
+const content = fs.readFileSync(customJsPath, "utf8");
+
+// Parse categoryData
+const lines = content.split(/\r?\n/);
+let catStart = -1,
+  catEnd = -1;
+let bracket = 0;
+let inside = false;
+
+for (let i = 0; i < lines.length; i++) {
+  const line = lines[i];
+  if (line.includes("const categoryData = [")) {
+    catStart = i;
+    inside = true;
+  }
+  if (inside) {
+    for (const c of line) {
+      if (c === "[") bracket++;
+      if (c === "]") bracket--;
+    }
+    if (bracket === 0 && line.includes("];")) {
+      catEnd = i;
+      break;
+    }
+  }
+}
+
+if (catStart === -1 || catEnd === -1) {
+  console.error("Block not found");
+  process.exit(1);
+}
+
+const block = lines.slice(catStart, catEnd + 1).join("\n");
+const jsonStr = block.substring(
+  block.indexOf("["),
+  block.lastIndexOf("];") + 1,
+);
+
+let categoryData;
+try {
+  categoryData = eval(jsonStr);
+} catch (e) {
+  console.error("Eval error", e);
+  process.exit(1);
+}
+
+function updateOrAddCategory(id, name, icon, newStyles, positionIndex) {
+  const idx = categoryData.findIndex((c) => c.id === id);
+  const newCat = {
+    id: id,
+    name: name,
+    icon: icon,
+    styles: newStyles,
+  };
+
+  if (idx !== -1) {
+    categoryData[idx] = newCat;
+  } else {
+    if (positionIndex !== undefined && positionIndex < categoryData.length) {
+      categoryData.splice(positionIndex, 0, newCat);
+    } else {
+      categoryData.push(newCat);
+    }
+  }
+}
+
+// Order: Popular(0), Love(1), Free Fire(2), Stylish(3), Sad(4), Stars(5), Happy(6), Emoji(7), Symbol(8)
+updateOrAddCategory("emoji", "Emojis", "ri-emotion-line", emojiStyles, 7);
+updateOrAddCategory("symbol", "Symbols", "ri-symbol-line", symbolStyles, 8);
+
+// Generate Output
+let out = "const categoryData = [\n";
+categoryData.forEach((cat) => {
+  out += `    {\n`;
+  out += `      id: "${cat.id}",\n`;
+  out += `      name: "${cat.name}",\n`;
+  out += `      icon: "${cat.icon}",\n`;
+  out += `      styles: [\n`;
+  cat.styles.forEach((s) => {
+    let parts = [`t: "${s.t}"`];
+    if (s.map) parts.push(`map: "${s.map}"`);
+    if (s.pat) parts.push(`pat: "${esc(s.pat)}"`);
+    out += `        { ${parts.join(", ")} },\n`;
+  });
+  out += `      ],\n`;
+  out += `    },\n`;
+});
+out += "  ];";
+
+const result =
+  lines.slice(0, catStart).join("\n") +
+  "\n" +
+  out +
+  "\n" +
+  lines.slice(catEnd + 1).join("\n");
+fs.writeFileSync(customJsPath, result, "utf8");
+console.log("Success");

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Central Figure -->
+  <circle cx="24" cy="15" r="6" fill="#2563EB"/>
+  <path d="M14 36 C14 29 18 26 24 26 C30 26 34 29 34 36" fill="#2563EB"/>
+  <!-- Left Figure -->
+  <circle cx="12" cy="18" r="4.5" fill="#3B82F6"/>
+  <path d="M4 35 C4 30 7 28 12 28 C14 28 15.5 28.5 17 29.5" fill="none" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+  <!-- Right Figure -->
+  <circle cx="36" cy="18" r="4.5" fill="#3B82F6"/>
+  <path d="M31 29.5 C32.5 28.5 34 28 36 28 C41 28 44 30 44 35" fill="none" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+</svg>

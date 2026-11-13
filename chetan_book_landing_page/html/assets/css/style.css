@@ -1,0 +1,472 @@
+@font-face {
+  font-family: "Breathing Personal Use";
+  src: url("../fonts/Breathing Personal Use.eot");
+  src: url("../fonts/Breathing Personal Use.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Breathing Personal Use.woff2") format("woff2"),
+    url("../fonts/Breathing Personal Use.woff") format("woff"),
+    url("../fonts/Breathing Personal Use.svg#Breathing Personal Use")
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header_section {
+  background-color: #952225;
+  padding: 20px 0;
+}
+
+.header_section h3 {
+  margin-bottom: 0;
+  font-size: 40px;
+  font-family: "Breathing Personal Use";
+  color: #fff;
+}
+
+.hero_section {
+  padding: 80px 0 0;
+  background: linear-gradient(
+    90deg,
+    rgba(224, 85, 52, 1) 0%,
+    rgba(244, 199, 133, 1) 52%,
+    rgba(234, 111, 48, 1) 100%
+  );
+  height: 750px;
+  overflow: hidden;
+}
+
+.hero_section h1,
+.hero_section h3 {
+  color: #fff;
+}
+
+.hero_section h1 {
+  font-size: 70px;
+}
+
+.cust_color {
+  color: #952225;
+}
+
+.cust_color2 {
+  color: #f4c785;
+}
+
+.hero_left {
+  padding-top: 100px;
+}
+
+.hero_left .arrow_img {
+  max-width: 16%;
+  margin-top: 25px;
+}
+
+.about_book {
+  padding: 50px 0;
+  background-color: #952225;
+}
+
+.book_content {
+  color: #ffff;
+}
+
+.book_img {
+  margin-top: -55%;
+  position: relative;
+}
+
+.price_title {
+  padding: 12px 40px;
+  background-color: #fff;
+  color: #952225;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 21px;
+  margin-left: 24px;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+}
+
+.price_title:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -24px;
+  width: 47px;
+  height: 47px;
+  transform: scale(0.707) rotate(45deg);
+  z-index: 1;
+  background: #fff;
+  border-radius: 0 5px 0 50px;
+}
+
+.price_title:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -24px;
+  width: 47px;
+  height: 47px;
+  transform: scale(0.707) rotate(-135deg);
+  z-index: 1;
+  background: #fff;
+  border-radius: 0 5px 0 50px;
+}
+
+.book_content h2 {
+  font-size: 37px;
+  margin-bottom: 25px;
+}
+
+.book_content h4 {
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.book_content h5 {
+  margin-bottom: 15px;
+}
+
+.book_content ul li {
+  padding-bottom: 12px;
+}
+
+.book_content ul li .icon,
+.footer .icon
+{
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+
+.book_content ul li .icon i,
+.footer .icon i
+{
+  color: #952225;
+}
+
+.book_btn_block {
+  display: flex;
+  align-items: center;
+}
+
+.book_btn_block span {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.book_btn {
+  padding: 12px 40px;
+  background-color: #fff;
+  color: #952225;
+  font-size: 21px;
+  font-weight: 700;
+  border-radius: 100px;
+  margin-right: 12px;
+}
+
+.about_section {
+  padding: 60px 0;
+  background: #57191b;
+}
+
+.about_section p {
+  font-size: 20px;
+}
+
+.owner_img {
+  max-width: 400px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.owner_img img {
+  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+
+.owner_img::before {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  border-radius: 20% 80% 50% 50% / 20% 50% 50% 80%;
+  border: 2px solid #fff;
+}
+
+.owner_img::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+  content: "";
+  position: absolute;
+  border-radius: 65% 35% 70% 30% / 64% 31% 69% 36%;
+  background-color: #ffac00;
+}
+
+.about_section {
+  color: #fff;
+}
+
+.about_section h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.about_section .cust_color {
+  color: #ea6f30;
+}
+
+.wavy_curve {
+  background-color: #fff;
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='square' stroke-miterlimit='10'%3E%3Cpath d='M0,6c6,0,0.9,11.1,6.9,11.1S18,6,24,6'/%3E%3C/svg%3E");
+  mask-repeat: repeat-x;
+  mask-size: 15px;
+  min-height: 15px;
+  width: 100px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+#bookvisitModal .modal-content {
+  background-color: #952225;
+  border: 3px solid #f4c785;
+}
+
+#bookvisitModal .modal-content label,
+#bookvisitModal .modal-content h5 {
+  color: #fff;
+}
+
+#bookvisitModal .modal-content .form-control {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  padding: 8px 0;
+}
+
+#bookvisitModal button.deafult-btn1.btn-primary {
+  padding: 7px 30px !important;
+  border: 0;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 0;
+  background-color: #fff;
+  color: #952225;
+  border-radius: 100px;
+}
+
+#bookvisitModal .modal-content .form-control:focus {
+  box-shadow: none;
+}
+
+#bookvisitModal .modal-content .form-control::placeholder {
+  color: #fff;
+}
+
+#bookvisitModal .modal-footer {
+  border-top: 0;
+  justify-content: start;
+  padding-top: 0;
+}
+
+#bookvisitModal .modal-header .btn-close {
+  color: #fff;
+  opacity: 1;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(5%) saturate(7442%)
+    hue-rotate(177deg) brightness(108%) contrast(93%);
+}
+
+#bookvisitModal .modal-footer {
+  padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+#bookvisitModal .modal-footer p{
+  color: #fff;
+  font-size: 21px;
+}
+
+#bookvisitModal .modal-footer p span {
+    display: block;
+    font-size: 14px;
+}
+
+.cta_section {
+  padding: 50px 0;
+  background: linear-gradient(
+    90deg,
+    rgba(224, 85, 52, 1) 20%,
+    rgba(244, 199, 133, 1) 100%,
+    rgba(234, 111, 48, 1) 100%
+  );
+}
+
+#bookvisitModal button.deafult-btn1.btn-primary{
+  margin-top: 12px;
+}
+
+.cta_section {
+  color: #fff;
+}
+
+.cta_section h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 12px;
+}
+
+.cta_section p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.cta_btn {
+  padding: 20px 32px;
+  background-color: #fff;
+  color: #57191b;
+  font-size: 23px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 100px;
+}
+
+.footer{
+  padding: 15px 0;
+  color: #fff;
+  background-color: #952225;
+}
+
+.footer p{
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .header_section h3{
+    font-size: 32px;
+  }
+  .hero_section {
+    padding: 40px 0 0;
+  }
+  .hero_left {
+    padding-top: 20px;
+  }
+  .hero_section h1 {
+    font-size: 52px;
+  }
+  .hero_section .col-md-6:first-child {
+    order: 2;
+  }
+  .hero_section .col-md-6:last-child {
+    order: 1;
+  }
+  .hero_left .arrow_img {
+    margin-top: 10px;
+  }
+  .hero_right img:first-child {
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .hero_right .arrow_img {
+    max-width: 25%;
+  }
+  .book_img {
+    margin-top: -30%;
+  }
+  .book_img img {
+    max-height: 490px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 25px;
+  }
+  .book_content h2 {
+    font-size: 30px;
+  }
+  .book_content h4 {
+    font-size: 22px;
+  }
+  .book_content ul li {
+    display: flex;
+  }
+  .book_content ul li .icon {
+    min-width: 24px;
+    margin-top: 3px;
+  }
+  .book_btn {
+    padding: 8px 22px 10px;
+    font-size: 18px;
+  }
+  .book_btn_block span {
+    font-size: 20px;
+  }
+  .price_title {
+    padding: 9px 30px;
+    font-size: 21px;
+    height: 43px;
+  }
+  .price_title:before,
+  .price_title:after {
+    height: 43px;
+  }
+  .cta_section{
+    text-align: center;
+  }
+  .cta_section p {
+    margin-bottom: 20px;
+  }
+  .cta_section h2 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .about_section {
+    padding: 50px 0 30px;
+}
+  .about_section p {
+    font-size: 18px;
+}
+}

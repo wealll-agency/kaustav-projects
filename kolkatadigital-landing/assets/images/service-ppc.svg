@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Bullseye / Ad Targeting Rings -->
+  <circle cx="21" cy="21" r="16" fill="none" stroke="#2563EB" stroke-width="3.5"/>
+  <circle cx="21" cy="21" r="9" fill="none" stroke="#3B82F6" stroke-width="3"/>
+  <circle cx="21" cy="21" r="3.5" fill="#1D4ED8"/>
+  <!-- Target Reticle Marks -->
+  <line x1="21" y1="2" x2="21" y2="7" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  <line x1="2" y1="21" x2="7" y2="21" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  <!-- Click / Cursor Arrow for PPC (Pay-Per-Click) -->
+  <path d="M26 24 L42 29 L35 34 L41 42 L37 45 L31 37 L26 42 Z" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Owl Carousel Css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Start Navbar Area -->
+    <div class="navbar-area">
+        <div class="main-navbar">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo.png" alt="image">
+                    </a>
+
+                    <!-- TOGGLER BUTTON (Hamburger) -->
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent">
+                        <!-- Hamburger → X icon -->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link active">
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">
+                                    About Us
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="products.html" class="nav-link">
+                                    Collections
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">
+                                    Contact Us
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar Area -->
+
+    <!-- Contact Us Page Area -->
+    <section class="contact-page-area">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                </ol>
+            </nav>
+
+            <!-- Main Title & Description -->
+            <div class="contact-intro text-center">
+                <h2>Contact Us</h2>
+                <p>Get in touch and let us know how we can help. Have a question but aren’t sure who to contact? Get in
+                    touch and a member of our team will reach out to you.</p>
+            </div>
+
+            <div class="row">
+                <!-- Contact Form Area -->
+                <div class="col-lg-8">
+                    <div class="contact-form-area">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" id="name" class="form-control" required
+                                            data-error="Please enter your name" placeholder="Name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="email" class="form-control" required
+                                            data-error="Please enter your email" placeholder="Email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="phone_number" id="phone_number" required
+                                            data-error="Please enter your number" class="form-control"
+                                            placeholder="Phone Number">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="msg_subject" id="msg_subject" class="form-control"
+                                            required data-error="Please enter your subject" placeholder="Subject">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="6"
+                                            required data-error="Write your message" placeholder="Message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-12">
+                                    <button type="submit" class="default-btn">
+                                        Send Message
+                                    </button>
+                                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Info Area -->
+                <div class="col-lg-4">
+                    <div class="contact-info-area">
+                        <div class="contact-info-block">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="content">
+                                <h3>ADDRESS:</h3>
+                                <p>Kolkata, West Bengal</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-block">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div class="content">
+                                <h3>PHONE:</h3>
+                                <p><a href="tel:+06295714700">+06295 714 700</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-block">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="content">
+                                <h3>EMAIL:</h3>
+                                <p><a href="mailto:titli7487@gmail.com">titli7487@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-block">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div class="content">
+                                <h3>OPENING HOURS:</h3>
+                                <p>Monday - Sunday : 10:00AM - 9:00PM</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-block social-block">
+                            <h3>STAY CONNECTED</h3>
+                            <ul class="social-links">
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="map-section">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117925.21689694463!2d88.26495094364426!3d22.53556493652874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1709461158652!5m2!1sen!2sin"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- End Contact Us Page Area -->
+
+    <!-- Footer Section -->
+
+    <footer class="footer_section">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer_block">
+                            <div class="footer_logo">
+                                <img src="assets/images/logo.png" alt="">
+                            </div>
+                            <p>At Siya Fragrance , we bring you a vibrant collection of fragrances Where every scent
+                                enchant your senses! From perfumes to attars, room & wardrobe fresheners... experience
+                                freshness that lasts & make moments magical!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer_block">
+                            <h5>OUR COMPANY</h5>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Our Collections</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer_block">
+                            <h5>Contact Info</h5>
+                            <p class="mb-0"> Phone: <a href="tel:+06295 714 700">+06295 714 700</a></p>
+                            <p>Email: <a href="mailto:titli7487@gmail.com">titli7487@gmail.com</a> </p>
+                            <h5 class="mb-3">Follow Us</h5>
+                            <ul class="footer_social">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <div class="container">
+                <p>© <span id="copyright-year">2025</span> Siya Fragrance . All Rights Reserved.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- End Footer Section -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Owl Js -->
+    <script src="assets/js/owl.carousel.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+
+
+
+    <!-- Main JS -->
+    <script src="assets/js/custom.js"></script>
+
+
+</body>
+
+</html>

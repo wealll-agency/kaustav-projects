@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18469532982"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-18469532982');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You! | Kolkata Digital</title>
+    <meta name="description"
+        content="Thank you for reaching out to Kolkata Digital. Our growth strategist will get in touch with you shortly.">
+
+    <!-- Google Fonts: Poppins & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --color-yellow: #ffc400;
+            --color-yellow-hover: #e6b000;
+            --color-dark: #09111e;
+            --color-dark-card: #0c1424;
+            --color-text-light: #94a3b8;
+            --font-heading: 'Poppins', sans-serif;
+            --font-body: 'Inter', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px 16px;
+            color: #0f172a;
+        }
+
+        /* Top Small Brand Logo */
+        .brand-header {
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .brand-header img {
+            height: 38px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        /* Center Thank You Card matching reference mockup */
+        .thank-you-card {
+            background-color: var(--color-dark);
+            border-radius: 24px;
+            padding: 52px 40px 48px;
+            max-width: 540px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 25px 60px -15px rgba(9, 17, 30, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.08);
+            position: relative;
+            overflow: hidden;
+            animation: cardAppear 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        /* Subtle ambient glow inside card */
+        .thank-you-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 260px;
+            height: 120px;
+            background: radial-gradient(ellipse at top, rgba(255, 196, 0, 0.12), transparent 70%);
+            pointer-events: none;
+        }
+
+        @keyframes cardAppear {
+            0% {
+                opacity: 0;
+                transform: translateY(24px) scale(0.96);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        /* Circular Green Glowing Success Badge */
+        .success-icon-badge {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            background-color: var(--color-yellow);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            color: #ffffff;
+            font-size: 32px;
+            box-shadow: 0 0 30px rgba(37, 211, 102, 0.45);
+            animation: badgePulse 2s infinite alternate ease-in-out;
+        }
+
+        @keyframes badgePulse {
+            0% {
+                box-shadow: 0 0 20px rgba(37, 211, 102, 0.35);
+                transform: scale(1);
+            }
+
+            100% {
+                box-shadow: 0 0 35px rgba(37, 211, 102, 0.6);
+                transform: scale(1.04);
+            }
+        }
+
+        /* Thank You Title */
+        .thank-you-title {
+            font-family: var(--font-heading);
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--color-yellow);
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        /* Success Message Text */
+        .thank-you-message {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #e2e8f0;
+            max-width: 440px;
+            margin: 0 auto 32px;
+        }
+
+        .thank-you-submessage {
+            display: block;
+            margin-top: 6px;
+            color: var(--color-text-light);
+            font-size: 14px;
+        }
+
+        /* Back to Home CTA Button */
+        .btn-back-home {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: var(--color-yellow);
+            color: #000;
+            font-family: var(--font-heading);
+            font-size: 15px;
+            font-weight: 700;
+            padding: 14px 38px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+            transition: all 0.25s ease;
+            border: none;
+        }
+
+        .btn-back-home:hover {
+            background-color: var(--color-yellow);
+            color: #000;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 28px rgba(37, 211, 102, 0.45);
+        }
+
+        .btn-back-home:active {
+            transform: translateY(0);
+        }
+
+        /* Responsive styling */
+        @media (max-width: 576px) {
+            .thank-you-card {
+                padding: 40px 24px 36px;
+                border-radius: 20px;
+            }
+
+            .success-icon-badge {
+                width: 64px;
+                height: 64px;
+                font-size: 28px;
+                margin-bottom: 20px;
+            }
+
+            .thank-you-title {
+                font-size: 28px;
+            }
+
+            .thank-you-message {
+                font-size: 14px;
+                margin-bottom: 26px;
+            }
+
+            .btn-back-home {
+                width: 100%;
+                padding: 13px 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Small Kolkata Digital Logo -->
+
+
+    <!-- Centered Modal-Style Card matching User's 2nd Image Mockup -->
+    <main class="thank-you-card" role="main">
+        <!-- Glowing Green Checkmark Icon -->
+        <div class="success-icon-badge" aria-hidden="true">
+            <i class="fa-solid fa-check"></i>
+        </div>
+
+        <!-- Heading -->
+        <h1 class="thank-you-title">Thank You!</h1>
+
+        <!-- Content Message from SweetAlert / Mockup -->
+        <p class="thank-you-message">
+            Your consultation request has been submitted successfully.
+            <span class="thank-you-submessage">Our growth strategist will connect with you within 2 business
+                hours.</span>
+        </p>
+
+        <!-- Back to Home Action Button -->
+        <a href="https://kolkatadigital.in/" class="btn-back-home">
+            <span>Back to Home</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </main>
+
+</body>
+
+</html>
