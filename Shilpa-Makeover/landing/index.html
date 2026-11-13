@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridal Booking - Shilpa Makeover</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts (from reference) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Tiro+Bangla&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="page">
+        <!-- FIRST SECTION (Hero with Video & Form) -->
+        <section class="section-card">
+            <div class="container py-4 py-lg-5">
+                <div class="row align-items-center">
+                    <!-- Left Column: Video -->
+                    <div class="col-lg-6 mb-5 mb-lg-0 text-center">
+                        <div class="single-media-visual mx-auto" data-aspect-ratio="9/16"
+                            style="max-width: 350px; aspect-ratio: 9/16;">
+                            <iframe class="js-landing-video lp-exclusive-video rounded-4 w-100 h-100 shadow-lg"
+                                src="https://www.youtube.com/embed/ms81RrvBrN0?si=ABW9Ldi9_iVeq4_d"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen style="border: 2px solid rgba(255,255,255,0.1);"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Form -->
+                    <div class="col-lg-6">
+                        <div class="booking-form-card shadow-lg bg-white rounded-4 p-4 p-lg-5 mx-auto position-relative"
+                            style="max-width: 450px; z-index: 10;">
+                            <div class="text-center mb-4">
+                                <h3 class="fw-bold"
+                                    style="color: #ff005c; font-family: 'Plus Jakarta Sans', sans-serif;">Book Your
+                                    Dream Bridal Makeup</h3>
+                                <p class="text-muted small mb-0">Fill in your details below to find the perfect
+                                    packagefor your special day.</p>
+                            </div>
+
+                            <div class="border rounded-3 p-3 mb-4 d-flex justify-content-between align-items-center"
+                                style="background: #fff5f8; border-color: #ffb3cc !important;">
+                                <span class="fw-bold small text-dark">Package Starting from <span class="fw-bold"
+                                        style="color: #ff005c;">₹10,000 </span> only</span>
+                            </div>
+
+                            <form id="bridalBookingForm">
+                                <div class="mb-3 text-start">
+                                    <label class="form-label small fw-bold" style="color: #ff005c;">Full Name *</label>
+                                    <input type="text" class="form-control form-control-lg" name="Name"
+                                        placeholder="Full Name" required style="border-radius: 8px;">
+                                </div>
+
+                                <div class="mb-3 text-start">
+                                    <label class="form-label small fw-bold" style="color: #ff005c;">Mobile No. *</label>
+                                    <input type="tel" class="form-control form-control-lg" name="Mobile"
+                                        placeholder="Mobile No." required style="border-radius: 8px;">
+                                </div>
+
+                                <div class="mb-3 text-start">
+                                    <label class="form-label small fw-bold" style="color: #ff005c;">Service Name
+                                        *</label>
+                                    <select class="form-select form-select-lg" name="Service" required
+                                        style="border-radius: 8px;">
+                                        <option value="" selected disabled>Select Service</option>
+                                        <option value="Bridal">Bridal </option>
+                                        <option value="Reception">Reception</option>
+                                        <option value="Engagement">Engagement</option>
+                                        <option value="Rice Ceremony">Rice Ceremony</option>
+                                        <option value="Party Makeup">Party Makeup</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-4 text-start">
+                                    <label class="form-label small fw-bold" style="color: #ff005c;">Location *</label>
+                                    <input type="text" class="form-control form-control-lg" name="Location"
+                                        placeholder="Enter Location" required style="border-radius: 8px;">
+                                </div>
+
+                                <button type="submit" id="submitBtn"
+                                    class="btn w-100 text-white fw-bold py-3 shadow-sm border-0"
+                                    style="border-radius: 12px; background: #ff005c; font-size: 16px;">
+                                    <span id="btnText">Request a call back</span> 🔒
+                                    <span class="spinner-border spinner-border-sm d-none" id="btnSpinner" role="status"
+                                        aria-hidden="true"></span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Second Section: Single Media Clean -->
+        <div class="section-anchor" id="a-single-moment-that-explains-the-offer-4" aria-hidden="true"></div>
+        <div class="single-media-clean">
+            <div class="single-media-clean-frame">
+                <img src="images/d77f9d5a672898506e20a744.png" alt="এটাও কি সম্ভব?" loading="lazy">
+                <span class="single-media-shine" aria-hidden="true"></span>
+            </div>
+        </div>
+
+        <!-- Third Section: Reels -->
+        <div class="section-anchor" id="watch-reels" aria-hidden="true"></div>
+        <section class="section-card reel-block-section">
+            <div class="reel-showcase-glow" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div class="reel-showcase-head">
+                <div class="reel-showcase-heading">
+                    <span class="reel-showcase-badge" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor">
+                            <path
+                                d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                        </svg>
+                    </span>
+                    <h2 class="reel-showcase-title">Our real brides </h2>
+                    <span class="reel-swipe-hint" aria-hidden="true">
+                        Swipe
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor"
+                            stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline class="reel-swipe-chev c1" points="5 6 11 12 5 18" />
+                            <polyline class="reel-swipe-chev c2" points="12 6 18 12 12 18" />
+                        </svg>
+                    </span>
+                </div>
+                <p class="reel-showcase-sub">Explore our stunning bridal transformations and find your favourite.z</p>
+            </div>
+            <div class="reel-strip-shell at-start">
+                <button type="button" class="reel-strip-nav reel-strip-nav-prev" aria-label="Scroll reels backward">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6" />
+                    </svg>
+                </button>
+                <button type="button" class="reel-strip-nav reel-strip-nav-next" aria-label="Scroll reels forward">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 6 15 12 9 18" />
+                    </svg>
+                </button>
+                <div class="reel-strip-preview">
+                    <a href="/reels.php?start=52" class="reel-strip-card-link"
+                        aria-label="Open খুবই সহজে এড চালান reel">
+                        <article class="reel-strip-card">
+                            <div class="reel-strip-thumb">
+                                <video class="reel-strip-thumb-video" preload="metadata" playsinline loop muted
+                                    src="https://5gmarketing.in/upload/tenants/tenant_1/reelfeed/86d312670795f261800eff33.mp4"
+                                    data-reel-primary-thumb="1"></video>
+                                <span class="reel-strip-scrim" aria-hidden="true"></span>
+                                <span class="reel-strip-badge" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                    Reel
+                                </span>
+                                <span class="reel-strip-play" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="reel-strip-meta">
+                                <strong>খুবই সহজে এড চালান</strong>
+                                <span>একবার সেটআপ করলেই কাজ শেষ! নিজের হাতে নিজের এড কারোর উপর ভরসা করে মাসে মাসে টাকা
+                                    খরচ করতে হবেনা!</span>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="/reels.php?start=48" class="reel-strip-card-link"
+                        aria-label="Open কম খরচে Marketing, Website, Software reel">
+                        <article class="reel-strip-card">
+                            <div class="reel-strip-thumb">
+                                <video class="reel-strip-thumb-video" preload="metadata" playsinline loop muted
+                                    src="https://5gmarketing.in/upload/tenants/tenant_1/reelfeed/272dc18e161dc192b11f3717.mp4"></video>
+                                <span class="reel-strip-scrim" aria-hidden="true"></span>
+                                <span class="reel-strip-badge" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                    Reel
+                                </span>
+                                <span class="reel-strip-play" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="reel-strip-meta">
+                                <strong>কম খরচে Marketing, Website, Software</strong>
+                                <span>5G Markting আপনার ব্যবসার জন্য মার্কেটিং ছাড়া ওয়েবসাইট এবং সফটওয়্যারও প্রদান
+                                    করে!</span>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="/reels.php?start=20" class="reel-strip-card-link"
+                        aria-label="Open ১ দিনেই চমৎকার রেসাল্ট reel">
+                        <article class="reel-strip-card">
+                            <div class="reel-strip-thumb">
+                                <video class="reel-strip-thumb-video" preload="metadata" playsinline loop muted
+                                    src="https://5gmarketing.in/upload/tenants/tenant_1/reelfeed/a378e0797eb37f47d1eef8c6.mp4"></video>
+                                <span class="reel-strip-scrim" aria-hidden="true"></span>
+                                <span class="reel-strip-badge" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                    Reel
+                                </span>
+                                <span class="reel-strip-play" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="reel-strip-meta">
+                                <strong>১ দিনেই চমৎকার রেসাল্ট</strong>
+                                <span>সঠিক ভাবে মার্কেটিং করে অল্প খরচে প্রচুর লিড এবং গুরান্টি সহ সেলস এর দায়িত্ব
+                                    আমাদের দিন!</span>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="/reels.php?start=49" class="reel-strip-card-link"
+                        aria-label="Open সেলস Gurantee পাবেন! reel">
+                        <article class="reel-strip-card">
+                            <div class="reel-strip-thumb">
+                                <video class="reel-strip-thumb-video" preload="metadata" playsinline loop muted
+                                    src="https://5gmarketing.in/upload/tenants/tenant_1/reelfeed/0ff9f5c5527848ee5662c277.mp4"></video>
+                                <span class="reel-strip-scrim" aria-hidden="true"></span>
+                                <span class="reel-strip-badge" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                    Reel
+                                </span>
+                                <span class="reel-strip-play" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="reel-strip-meta">
+                                <strong>সেলস Gurantee পাবেন!</strong>
+                                <span>শুধু Marketing নয় আপনার ব্যাবসার Sales এর দায়িত্ব আমাদের!</span>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="/reels.php?start=50" class="reel-strip-card-link"
+                        aria-label="Open 100% Safe and Truested reel">
+                        <article class="reel-strip-card">
+                            <div class="reel-strip-thumb">
+                                <video class="reel-strip-thumb-video" preload="metadata" playsinline loop muted
+                                    src="https://5gmarketing.in/upload/tenants/tenant_1/reelfeed/18aaff27b13ada8c0fab0b3b.mp4"></video>
+                                <span class="reel-strip-scrim" aria-hidden="true"></span>
+                                <span class="reel-strip-badge" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                    Reel
+                                </span>
+                                <span class="reel-strip-play" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="reel-strip-meta">
+                                <strong>100% Safe and Truested</strong>
+                                <span>আপনাদের বিশ্বাস আর ভবিষৎ এর পরিকল্পনায় আমরা কোনো সমস্যা জনিত কারণে Refund করি যা
+                                    অন্য কোনো কোম্পানি করবেন!</span>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="/reels.php?start=51" class="reel-strip-card-link"
+                        aria-label="Open আমাদের Ad সাকসেস হবেই! reel">
+                        <article class="reel-strip-card">
+                            <div class="reel-strip-thumb">
+                                <video class="reel-strip-thumb-video" preload="metadata" playsinline loop muted
+                                    src="https://5gmarketing.in/upload/tenants/tenant_1/reelfeed/a5a9a1e58290a2a4a207694d.mp4"></video>
+                                <span class="reel-strip-scrim" aria-hidden="true"></span>
+                                <span class="reel-strip-badge" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                    Reel
+                                </span>
+                                <span class="reel-strip-play" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                                        <path
+                                            d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86A1 1 0 0 0 8 5.14z" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="reel-strip-meta">
+                                <strong>আমাদের Ad সাকসেস হবেই!</strong>
+                                <span>ট্রাভেল এজেন্সী, Real Estate, একাডেমী হোক বা যে কোনো কোম্পানি আমাদের Ad আপনার
+                                    ব্যবসায় সেলস/Booking এনে দেবেই!</span>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fourth Section: Pricing -->
+        <div class="section-anchor" id="premium-plan" aria-hidden="true"></div>
+        <section class="pricing-section">
+            <div class="pricing-single has-media">
+                <div class="pricing-single-glow" aria-hidden="true"></div>
+                <div class="pricing-single-left">
+                    <!-- <div class="pricing-badge"><span class="pricing-badge-bolt" aria-hidden="true"><svg
+                                viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                                <path d="M13 2 4.5 13.5H11l-1 8.5L19.5 10H13l1-8z"></path>
+                            </svg></span><span>MOST POPULAR</span></div> -->
+                    <h2 class="pricing-name">About me<span class="pricing-name-underline" aria-hidden="true"></span>
+                    </h2>
+                    <p class="pricing-sub">Hi, I’m a professional makeup artist and I love being a part of a bride’s
+                        special journey. For me, makeup is about feeling confident and truly yourself. Every bride has a
+                        unique style and vision and I love bringing that vision to life.
+                    </p>
+                    <p class="pricing-sub">Whether you prefer a soft, natural look or a glamorous bridal transformation,
+                        I focus on creating a look that suits your personality. I use quality makeup products and pay
+                        attention to every little detail to achieve a flawless finish.
+
+                    </p>
+                    <p class="pricing-sub">My goal is to make you feel your best on your big day, so you can enjoy every
+                        moment and create memories that last a lifetime.
+                    </p>
+
+                    <!-- <ul class="pricing-features">
+                        <li class="pricing-feature">
+                            <span class="pricing-feature-ic" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span class="pricing-feature-text">সম্পূর্ণ সেটআপ আপনার নিজের হাতে থাকবে</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <span class="pricing-feature-ic" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span class="pricing-feature-text">Page ব্র্যান্ডিং এবং প্রফেশনাল সেটআপ</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <span class="pricing-feature-ic" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span class="pricing-feature-text">Instagram বিসনেস সেটআপ</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <span class="pricing-feature-ic" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span class="pricing-feature-text">বিসনেস এড একাউন্ট (Boost করার পার্সোনাল Ad একাউন্ট
+                                নয়)</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <span class="pricing-feature-ic" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span class="pricing-feature-text">Business Portfolio Setup</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <span class="pricing-feature-ic" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span class="pricing-feature-text">Ad Graphic Design</span>
+                        </li>
+                        <li class="pricing-feature">
+                            <span class="pricing-feature-ic" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </span>
+                            <span class="pricing-feature-text">Logo, Thumbnail, Cover Photo Design</span>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="pricing-single-right">
+                    <div class="pricing-media">
+                        <div class="pricing-media-frame">
+                            <div class="pricing-media-inner">
+                                <img src="images/f491d47b5684a1cea0e63285.png" alt="Onetime Marketing Setup"
+                                    loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-anchor" id="choose-the-plan-that-fits-you" aria-hidden="true"></div>
+        <section class="pricing-section pricing-multi-section">
+            <div class="pricing-multi-head">
+                <h2 class="pricing-multi-title">Choose Your Package according to preferences</h2>
+                <p class="pricing-multi-sub">Simple, transparent pricing. Upgrade or cancel anytime.</p>
+            </div>
+            <div class="pricing-multi-grid" data-count="3">
+                <div class="pricing-card">
+                    <div class="pricing-card-glow" aria-hidden="true"></div>
+                    <h3 class="pricing-name">HD Bridal Makeup with Forever 52<span class="pricing-name-underline"
+                            aria-hidden="true"></span>
+                    </h3>
+                    <div class="pricing-price">
+                        <span class="pricing-new">Rs. 10,000</span>
+                    </div>
+
+                    <div class="pricing-actions">
+                        <a class="pricing-wa-btn" href="https://wa.me/918617391109?text=Hello%2C%20I%20would%20like%20to%20book%20this%20package%3A%0APackage%3A%20HD%20Bridal%20Makeup%20with%20Forever%2052%0APrice%3A%20Rs.%2010%2C000" target="_blank" rel="noopener">
+                            <svg class="pricing-wa-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                aria-hidden="true">
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 1.8c2.17 0 4.21.85 5.75 2.38a8.08 8.08 0 0 1 2.38 5.74c0 4.48-3.65 8.12-8.12 8.12-1.52 0-3.01-.41-4.3-1.19l-.31-.18-3.12.82.83-3.04-.2-.32a8.05 8.05 0 0 1-1.24-4.31c0-4.48 3.64-8.12 8.13-8.12Zm4.69 10.2c-.26-.13-1.51-.74-1.74-.83-.23-.08-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.29.19-.55.06-.26-.13-1.08-.4-2.06-1.27-.76-.68-1.27-1.52-1.42-1.78-.15-.26-.02-.4.11-.53.12-.12.26-.31.39-.46.13-.15.17-.26.26-.44.09-.17.04-.33-.02-.46-.06-.13-.57-1.38-.78-1.89-.21-.5-.42-.43-.57-.44l-.49-.01c-.17 0-.44.06-.67.33-.23.26-.88.86-.88 2.1 0 1.24.9 2.43 1.03 2.6.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.6.19 1.16.16 1.59.1.49-.07 1.51-.62 1.72-1.21.21-.6.21-1.1.15-1.21-.06-.11-.23-.17-.49-.3Z">
+                                </path>
+                            </svg>
+                            <span class="pricing-btn-label">Book On WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-glow" aria-hidden="true"></div>
+                    <h3 class="pricing-name">Full HD Bridal Makeup with MAC<span class="pricing-name-underline"
+                            aria-hidden="true"></span>
+                    </h3>
+                    <div class="pricing-price">
+                        <span class="pricing-new">Rs. 12,000</span>
+                    </div>
+                    <div class="pricing-actions">
+                        <a class="pricing-wa-btn" href="https://wa.me/918617391109?text=Hello%2C%20I%20would%20like%20to%20book%20this%20package%3A%0APackage%3A%20Full%20HD%20Bridal%20Makeup%20with%20MAC%0APrice%3A%20Rs.%2012%2C000" target="_blank" rel="noopener">
+                            <svg class="pricing-wa-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                aria-hidden="true">
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 1.8c2.17 0 4.21.85 5.75 2.38a8.08 8.08 0 0 1 2.38 5.74c0 4.48-3.65 8.12-8.12 8.12-1.52 0-3.01-.41-4.3-1.19l-.31-.18-3.12.82.83-3.04-.2-.32a8.05 8.05 0 0 1-1.24-4.31c0-4.48 3.64-8.12 8.13-8.12Zm4.69 10.2c-.26-.13-1.51-.74-1.74-.83-.23-.08-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.29.19-.55.06-.26-.13-1.08-.4-2.06-1.27-.76-.68-1.27-1.52-1.42-1.78-.15-.26-.02-.4.11-.53.12-.12.26-.31.39-.46.13-.15.17-.26.26-.44.09-.17.04-.33-.02-.46-.06-.13-.57-1.38-.78-1.89-.21-.5-.42-.43-.57-.44l-.49-.01c-.17 0-.44.06-.67.33-.23.26-.88.86-.88 2.1 0 1.24.9 2.43 1.03 2.6.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.6.19 1.16.16 1.59.1.49-.07 1.51-.62 1.72-1.21.21-.6.21-1.1.15-1.21-.06-.11-.23-.17-.49-.3Z">
+                                </path>
+                            </svg>
+                            <span class="pricing-btn-label">Book On WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-glow" aria-hidden="true"></div>
+
+                    <h3 class="pricing-name">Full HD Bridal Makeup with Shopparel / Makeup Studio<span
+                            class="pricing-name-underline" aria-hidden="true"></span></h3>
+                    <div class="pricing-price">
+                        <span class="pricing-new">Rs. 14,000</span>
+                    </div>
+
+                    <div class="pricing-actions">
+                        <a class="pricing-wa-btn" href="https://wa.me/918617391109?text=Hello%2C%20I%20would%20like%20to%20book%20this%20package%3A%0APackage%3A%20Full%20HD%20Bridal%20Makeup%20with%20Shopparel%20%2F%20Makeup%20Studio%0APrice%3A%20Rs.%2014%2C000" target="_blank" rel="noopener">
+                            <svg class="pricing-wa-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                aria-hidden="true">
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 1.8c2.17 0 4.21.85 5.75 2.38a8.08 8.08 0 0 1 2.38 5.74c0 4.48-3.65 8.12-8.12 8.12-1.52 0-3.01-.41-4.3-1.19l-.31-.18-3.12.82.83-3.04-.2-.32a8.05 8.05 0 0 1-1.24-4.31c0-4.48 3.64-8.12 8.13-8.12Zm4.69 10.2c-.26-.13-1.51-.74-1.74-.83-.23-.08-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.29.19-.55.06-.26-.13-1.08-.4-2.06-1.27-.76-.68-1.27-1.52-1.42-1.78-.15-.26-.02-.4.11-.53.12-.12.26-.31.39-.46.13-.15.17-.26.26-.44.09-.17.04-.33-.02-.46-.06-.13-.57-1.38-.78-1.89-.21-.5-.42-.43-.57-.44l-.49-.01c-.17 0-.44.06-.67.33-.23.26-.88.86-.88 2.1 0 1.24.9 2.43 1.03 2.6.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.6.19 1.16.16 1.59.1.49-.07 1.51-.62 1.72-1.21.21-.6.21-1.1.15-1.21-.06-.11-.23-.17-.49-.3Z">
+                                </path>
+                            </svg>
+                            <span class="pricing-btn-label">Book On WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-card-glow" aria-hidden="true"></div>
+                    <h3 class="pricing-name">Ultra HD Bridal Makeup with Huda Beauty<span class="pricing-name-underline"
+                            aria-hidden="true"></span>
+                    </h3>
+                    <div class="pricing-price">
+                        <span class="pricing-new">Rs. 16,000</span>
+                    </div>
+
+                    <div class="pricing-actions">
+                        <a class="pricing-wa-btn" href="https://wa.me/918617391109?text=Hello%2C%20I%20would%20like%20to%20book%20this%20package%3A%0APackage%3A%20Ultra%20HD%20Bridal%20Makeup%20with%20Huda%20Beauty%0APrice%3A%20Rs.%2016%2C000" target="_blank" rel="noopener">
+                            <svg class="pricing-wa-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                aria-hidden="true">
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 1.8c2.17 0 4.21.85 5.75 2.38a8.08 8.08 0 0 1 2.38 5.74c0 4.48-3.65 8.12-8.12 8.12-1.52 0-3.01-.41-4.3-1.19l-.31-.18-3.12.82.83-3.04-.2-.32a8.05 8.05 0 0 1-1.24-4.31c0-4.48 3.64-8.12 8.13-8.12Zm4.69 10.2c-.26-.13-1.51-.74-1.74-.83-.23-.08-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.29.19-.55.06-.26-.13-1.08-.4-2.06-1.27-.76-.68-1.27-1.52-1.42-1.78-.15-.26-.02-.4.11-.53.12-.12.26-.31.39-.46.13-.15.17-.26.26-.44.09-.17.04-.33-.02-.46-.06-.13-.57-1.38-.78-1.89-.21-.5-.42-.43-.57-.44l-.49-.01c-.17 0-.44.06-.67.33-.23.26-.88.86-.88 2.1 0 1.24.9 2.43 1.03 2.6.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.6.19 1.16.16 1.59.1.49-.07 1.51-.62 1.72-1.21.21-.6.21-1.1.15-1.21-.06-.11-.23-.17-.49-.3Z">
+                                </path>
+                            </svg>
+                            <span class="pricing-btn-label">Book On WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-glow" aria-hidden="true"></div>
+                    <h3 class="pricing-name">Ultra HD Bridal Makeup with Nars<span class="pricing-name-underline"
+                            aria-hidden="true"></span>
+                    </h3>
+                    <div class="pricing-price">
+                        <span class="pricing-new">Rs. 18,000</span>
+                    </div>
+                    <div class="pricing-actions">
+                        <a class="pricing-wa-btn" href="https://wa.me/918617391109?text=Hello%2C%20I%20would%20like%20to%20book%20this%20package%3A%0APackage%3A%20Ultra%20HD%20Bridal%20Makeup%20with%20Nars%0APrice%3A%20Rs.%2018%2C000" target="_blank" rel="noopener">
+                            <svg class="pricing-wa-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                aria-hidden="true">
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 1.8c2.17 0 4.21.85 5.75 2.38a8.08 8.08 0 0 1 2.38 5.74c0 4.48-3.65 8.12-8.12 8.12-1.52 0-3.01-.41-4.3-1.19l-.31-.18-3.12.82.83-3.04-.2-.32a8.05 8.05 0 0 1-1.24-4.31c0-4.48 3.64-8.12 8.13-8.12Zm4.69 10.2c-.26-.13-1.51-.74-1.74-.83-.23-.08-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.29.19-.55.06-.26-.13-1.08-.4-2.06-1.27-.76-.68-1.27-1.52-1.42-1.78-.15-.26-.02-.4.11-.53.12-.12.26-.31.39-.46.13-.15.17-.26.26-.44.09-.17.04-.33-.02-.46-.06-.13-.57-1.38-.78-1.89-.21-.5-.42-.43-.57-.44l-.49-.01c-.17 0-.44.06-.67.33-.23.26-.88.86-.88 2.1 0 1.24.9 2.43 1.03 2.6.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.6.19 1.16.16 1.59.1.49-.07 1.51-.62 1.72-1.21.21-.6.21-1.1.15-1.21-.06-.11-.23-.17-.49-.3Z">
+                                </path>
+                            </svg>
+                            <span class="pricing-btn-label">Book On WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-glow" aria-hidden="true"></div>
+
+                    <h3 class="pricing-name">Airbrush Bridal Makeup<span class="pricing-name-underline"
+                            aria-hidden="true"></span></h3>
+                    <div class="pricing-price">
+                        <span class="pricing-new">Rs. 20,000</span>
+                    </div>
+
+                    <div class="pricing-actions">
+                        <a class="pricing-wa-btn" href="https://wa.me/918617391109?text=Hello%2C%20I%20would%20like%20to%20book%20this%20package%3A%0APackage%3A%20Airbrush%20Bridal%20Makeup%0APrice%3A%20Rs.%2020%2C000" target="_blank" rel="noopener">
+                            <svg class="pricing-wa-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                aria-hidden="true">
+                                <path
+                                    d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 1.8c2.17 0 4.21.85 5.75 2.38a8.08 8.08 0 0 1 2.38 5.74c0 4.48-3.65 8.12-8.12 8.12-1.52 0-3.01-.41-4.3-1.19l-.31-.18-3.12.82.83-3.04-.2-.32a8.05 8.05 0 0 1-1.24-4.31c0-4.48 3.64-8.12 8.13-8.12Zm4.69 10.2c-.26-.13-1.51-.74-1.74-.83-.23-.08-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.29.19-.55.06-.26-.13-1.08-.4-2.06-1.27-.76-.68-1.27-1.52-1.42-1.78-.15-.26-.02-.4.11-.53.12-.12.26-.31.39-.46.13-.15.17-.26.26-.44.09-.17.04-.33-.02-.46-.06-.13-.57-1.38-.78-1.89-.21-.5-.42-.43-.57-.44l-.49-.01c-.17 0-.44.06-.67.33-.23.26-.88.86-.88 2.1 0 1.24.9 2.43 1.03 2.6.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.6.19 1.16.16 1.59.1.49-.07 1.51-.62 1.72-1.21.21-.6.21-1.1.15-1.21-.06-.11-.23-.17-.49-.3Z">
+                                </path>
+                            </svg>
+                            <span class="pricing-btn-label">Book On WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="terms-and-conditions">
+            <div>
+                <h2 class="pricing-multi-title">Terms & Conditions</h2>
+            </div>
+            <ul class="pricing-features">
+                <li class="pricing-feature"><span class="pricing-feature-ic" aria-hidden="true"><svg viewBox="0 0 24 24"
+                            width="13" height="13" fill="none" stroke="currentColor" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg></span><span class="pricing-feature-text">Your booking will be confirmed once the
+                        advance payment is received.
+                    </span></li>
+
+                <li class="pricing-feature"><span class="pricing-feature-ic" aria-hidden="true"><svg viewBox="0 0 24 24"
+                            width="13" height="13" fill="none" stroke="currentColor" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg></span><span class="pricing-feature-text">Advance payments are non-refundable in case of
+                        cancellation.
+                    </span></li>
+
+                <li class="pricing-feature"><span class="pricing-feature-ic" aria-hidden="true"><svg viewBox="0 0 24 24"
+                            width="13" height="13" fill="none" stroke="currentColor" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg></span><span class="pricing-feature-text">Travel is not included in the listed package
+                        prices. Travel charges may vary depending on the location.
+
+                    </span></li>
+
+                <li class="pricing-feature"><span class="pricing-feature-ic" aria-hidden="true"><svg viewBox="0 0 24 24"
+                            width="13" height="13" fill="none" stroke="currentColor" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg></span><span class="pricing-feature-text"> Please select your preferred makeup package at
+                        the time of booking. Any changes may incur additional charges.
+
+                    </span></li>
+
+                <li class="pricing-feature"><span class="pricing-feature-ic" aria-hidden="true"><svg viewBox="0 0 24 24"
+                            width="13" height="13" fill="none" stroke="currentColor" stroke-width="3"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg></span><span class="pricing-feature-text"> Please share your wedding date, venue and
+                        makeup schedule in advance to ensure a smooth experience.
+                    </span></li>
+            </ul>
+        </section>
+
+        <!-- Fifth Section: Sample Ad Graphic Poster -->
+        <div class="section-anchor" id="featured-images" aria-hidden="true"></div>
+        <section class="section-card image-slide-section" data-image-slide-root>
+            <h2 class="section-title">Explore some of our work</h2>
+            <div class="image-slide-track" style="--isl-ratio:1 / 1;--isl-fit:cover;" data-image-slide-autoplay>
+                <article class="image-slide-card">
+                    <button type="button" class="image-slide-zoom-hit" data-slide-index="0" aria-label="Open slide 1">
+                        <img src="images/d1d91c27f0d21bec8dddd074.webp" alt="Slide" loading="lazy">
+                    </button>
+                </article>
+                <article class="image-slide-card">
+                    <button type="button" class="image-slide-zoom-hit" data-slide-index="1" aria-label="Open slide 2">
+                        <img src="images/3669fd6cf47f4fc7ca64fa2b.webp" alt="Slide" loading="lazy">
+                    </button>
+                </article>
+                <article class="image-slide-card">
+                    <button type="button" class="image-slide-zoom-hit" data-slide-index="2" aria-label="Open slide 3">
+                        <img src="images/8b6924361618f4e7488307fd.webp" alt="Slide" loading="lazy">
+                    </button>
+                </article>
+                <article class="image-slide-card">
+                    <button type="button" class="image-slide-zoom-hit" data-slide-index="3" aria-label="Open slide 4">
+                        <img src="images/6d2506cb27c41e6b89b6ec26.webp" alt="Slide" loading="lazy">
+                    </button>
+                </article>
+                <article class="image-slide-card">
+                    <button type="button" class="image-slide-zoom-hit" data-slide-index="4" aria-label="Open slide 5">
+                        <img src="images/81dc358cd2fe0f8aaa451f09.webp" alt="Slide" loading="lazy">
+                    </button>
+                </article>
+                <article class="image-slide-card">
+                    <button type="button" class="image-slide-zoom-hit" data-slide-index="5" aria-label="Open slide 6">
+                        <img src="images/27b3a0f21cd33f02a2b6c58b.webp" alt="Slide" loading="lazy">
+                    </button>
+                </article>
+            </div>
+
+            <div class="image-slide-lightbox" data-image-slide-lightbox data-image-slide-slug="onetime-ad-setup"
+                aria-hidden="true">
+                <div class="image-slide-lightbox-backdrop" data-image-slide-lightbox-dismiss tabindex="-1"></div>
+                <img class="image-slide-lightbox-ambient" alt="" aria-hidden="true" decoding="async">
+                <div class="image-slide-lightbox-shell" role="dialog" aria-modal="true" aria-label="Gallery">
+                    <header class="image-slide-lightbox-toolbar">
+                        <span class="image-slide-lightbox-counter" aria-live="polite" hidden></span>
+                        <button type="button" class="image-slide-lightbox-close" data-image-slide-lightbox-dismiss
+                            aria-label="Close gallery">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                aria-hidden="true">
+                                <path d="M18 6L6 18M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </header>
+                    <div class="image-slide-lightbox-stage">
+                        <button type="button" class="image-slide-lightbox-nav image-slide-lightbox-prev"
+                            aria-label="Previous image">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                        </button>
+                        <div class="image-slide-lightbox-stage-main">
+                            <img src="" alt="" class="image-slide-lightbox-img" decoding="async">
+                            <figcaption class="image-slide-lightbox-caption"></figcaption>
+                            <button type="button" class="image-slide-like" aria-pressed="false"
+                                aria-label="Like this image">
+                                <svg class="isl-heart" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                                    <path
+                                        d="M12 21s-7.5-4.6-10-9.2C.5 8.9 2 5.5 5.2 5.5c1.9 0 3.2 1.1 3.8 2.1.6-1 1.9-2.1 3.8-2.1 3.2 0 4.7 3.4 3.2 6.3C19.5 16.4 12 21 12 21z" />
+                                </svg>
+                                <span class="image-slide-like-count">0</span>
+                            </button>
+                        </div>
+                        <button type="button" class="image-slide-lightbox-nav image-slide-lightbox-next"
+                            aria-label="Next image">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="image-slide-lightbox-grid" role="list" aria-label="All images"></div>
+                </div>
+            </div>
+            <script type="application/json"
+                data-image-slide-items>[{"src":"images/d1d91c27f0d21bec8dddd074.webp","title":"","caption":"","index":0,"likes":1,"liked":false},{"src":"images/3669fd6cf47f4fc7ca64fa2b.webp","title":"","caption":"","index":1,"likes":1,"liked":false},{"src":"images/8b6924361618f4e7488307fd.webp","title":"","caption":"","index":2,"likes":1,"liked":false},{"src":"images/6d2506cb27c41e6b89b6ec26.webp","title":"","caption":"","index":3,"likes":1,"liked":false},{"src":"images/81dc358cd2fe0f8aaa451f09.webp","title":"","caption":"","index":4,"likes":1,"liked":false},{"src":"images/27b3a0f21cd33f02a2b6c58b.webp","title":"","caption":"","index":5,"likes":2,"liked":false}]</script>
+        </section>
+
+        <!-- Sixth Section: Featured Videos -->
+        <div class="section-anchor" id="a-single-moment-that-explains-the-offer-2" aria-hidden="true"></div>
+        <section class="section-card single-media-section">
+            <div class="single-media-wrap">
+                <div class="single-media-copy">
+                    <span class="single-media-eyebrow">Featured</span>
+                    <h2>Hear from our brides</h2>
+                </div>
+                <div class="single-media-visual mx-auto" data-aspect-ratio="9/16"
+                    style="max-width: 350px; aspect-ratio: 9/16;">
+                    <iframe class="js-landing-video lp-exclusive-video rounded-4 w-100 h-100 shadow-lg"
+                        src="https://www.youtube.com/embed/hk8Ks4wyyiQ" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen style="border: 2px solid rgba(255,255,255,0.1);"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-anchor" id="a-single-moment-that-explains-the-offer-3" aria-hidden="true"></div>
+        <section class="section-card single-media-section">
+            <div class="single-media-wrap">
+                <div class="single-media-copy">
+                    <span class="single-media-eyebrow">Featured</span>
+                    <h2>Behind the scenes</h2>
+                </div>
+                <div class="single-media-visual" data-aspect-ratio="16/9">
+                    <video class="js-landing-video lp-exclusive-video"
+                        src="https://5gmarketing.in/upload/tenants/tenant_1/landing/cb62defef2e4128fcfea65c6.mp4"
+                        controls playsinline preload="metadata"></video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seventh Section: Contact Details -->
+        <div class="section-anchor" id="talk-to-our-team" aria-hidden="true"></div>
+        <section class="section-card contact-block-section">
+            <div class="contact-block-header">
+                <span class="contact-block-eyebrow">Get in touch</span>
+                <h2 class="contact-block-title">Let's plan your dream look</h2>
+                <p class="contact-block-intro">Pick the channel that suits you — we usually reply within minutes during
+                    business hours.</p>
+            </div>
+            <div class="contact-block-grid">
+                <div class="contact-block-left">
+                    <div class="contact-block-list-header">Direct lines</div>
+                    <div class="contact-block-list">
+                        <a class="contact-block-row kind-call" href="tel:08617391109">
+                            <span class="contact-block-row-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                    <path
+                                        d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.11.37 2.3.56 3.52.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.22.19 2.41.56 3.52a1 1 0 0 1-.25 1.01l-2.19 2.26Z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="contact-block-row-body">
+                                <span class="contact-block-row-label">Booking / Inquiry Call</span>
+                                <span class="contact-block-row-number">086173 91109</span>
+                            </span>
+                            <span class="contact-block-row-arrow" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </span>
+                        </a>
+                        <a class="contact-block-row kind-whatsapp" href="https://wa.me/918617391109" target="_blank"
+                            rel="noopener">
+                            <span class="contact-block-row-icon" aria-hidden="true">
+                                <svg viewBox="0 0 32 32" width="18" height="18" fill="currentColor">
+                                    <path
+                                        d="M19.11 17.27c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.85 1.09-.16.19-.31.21-.59.07-.28-.14-1.18-.43-2.24-1.38-.83-.74-1.38-1.64-1.54-1.92-.16-.28-.02-.43.12-.57.13-.12.28-.31.42-.47.14-.16.19-.28.28-.47.09-.19.05-.35-.02-.5-.07-.14-.61-1.47-.84-2.02-.22-.53-.44-.46-.61-.47h-.52c-.19 0-.5.07-.76.35-.26.28-1 1-1 2.43 0 1.43 1.02 2.81 1.16 3 .14.19 2.01 3.08 4.88 4.31.68.29 1.21.46 1.63.59.68.21 1.29.18 1.77.11.54-.08 1.64-.67 1.87-1.31.23-.64.23-1.19.16-1.31-.06-.12-.24-.19-.52-.33Z">
+                                    </path>
+                                    <path
+                                        d="M27.29 4.69A15.88 15.88 0 0 0 16.01 0C7.2 0 .03 7.16.03 15.97c0 2.81.73 5.55 2.12 7.96L0 32l8.29-2.13a15.9 15.9 0 0 0 7.72 1.98h.01c8.81 0 15.97-7.16 15.97-15.97 0-4.27-1.66-8.28-4.7-11.19Z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="contact-block-row-body">
+                                <span class="contact-block-row-label">Booking WhatsApp</span>
+                                <span class="contact-block-row-number">086173 91109</span>
+                            </span>
+                            <span class="contact-block-row-arrow" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <aside class="contact-block-signature">
+                    <div class="contact-block-signature-badge" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s-7-7.58-7-12a7 7 0 1 1 14 0c0 4.42-7 12-7 12z"></path>
+                            <circle cx="12" cy="10" r="2.5"></circle>
+                        </svg>
+                    </div>
+                    <div class="contact-block-office-name">Shilpa Makeover</div>
+                    <div class="contact-block-office-address">ICHAPUR N.C.HIGH SCHOOL MORE, Durgapur, India, West Bengal
+                    </div>
+                    <div class="contact-block-office-meta">
+                        <div class="contact-block-office-meta-row"><svg
+                                style="display:inline-block; vertical-align:middle;" viewBox="0 0 24 24" width="16"
+                                height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg><span style="margin-left: 8px;">Mon – Sat · 10:00 AM – 7:00 PM</span></div>
+                        <a class="contact-block-office-meta-row contact-block-office-email"
+                            href="mailto:shilpachakraborty384@gmail.com"><svg
+                                style="display:inline-block; vertical-align:middle;" viewBox="0 0 24 24" width="16"
+                                height="16" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg><span style="margin-left: 8px;">shilpachakraborty384@gmail.com</span></a>
+                    </div>
+                    <a class="contact-block-directions"
+                        href="https://maps.google.com/?q=ICHAPUR+N.C.HIGH+SCHOOL+MORE,+Durgapur,+India,+West+Bengal"
+                        target="_blank" rel="noopener">
+                        <span class="contact-block-directions-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                                stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                            </svg>
+                        </span>
+                        <span>Get directions</span>
+                        <span class="contact-block-directions-arrow" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </span>
+                    </a>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Eighth Section: Social Media -->
+        <div class="section-anchor" id="follow-our-journey" aria-hidden="true"></div>
+        <section class="section-card social-media-section">
+            <div class="social-media-header">
+                <span class="social-media-eyebrow">Stay connected</span>
+                <h2 class="social-media-title">Check Our Facebook Page</h2>
+                <p class="social-media-intro">Tap an icon — say hi on whichever platform you use most.</p>
+            </div>
+            <div class="social-media-grid">
+                <a class="social-media-button" href="https://www.facebook.com/PujaShilpaVamika" target="_blank"
+                    rel="noopener" style="--brand-grad: linear-gradient(135deg, #1877f2 0%, #0e5fd0 100%);"
+                    data-kind="facebook" data-emojis="👍|❤️|😍|🎉|🤩" aria-label="Facebook">
+                    <span class="social-media-button-icon" aria-hidden="true"><svg viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+                        </svg></span>
+                    <span class="social-media-button-label">Facebook</span>
+                    <span class="social-media-button-glow" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Video Showcase -->
+        <div class="section-anchor" id="featured-videos" aria-hidden="true"></div>
+        <section class="section-card video-showcase-section" data-video-showcase>
+            <h2 class="section-title">Sample Ad Video</h2>
+            <p class="section-copy">Tap a thumbnail to play.</p>
+            <div class="video-showcase-player-stack">
+                <div class="video-showcase-player-wrap" data-video-showcase-main></div>
+                <p class="video-showcase-now-playing" data-video-showcase-clip-title aria-live="polite">Bridal Makeup
+                    Sample</p>
+            </div>
+            <div class="video-showcase-thumbs" role="tablist" aria-label="Video thumbnails">
+                <div class="video-showcase-thumb-cell">
+                    <button type="button" class="is-active" data-video-showcase-thumb="0"
+                        aria-label="Play · Bridal Makeup Sample">
+                        <img class="video-showcase-thumb-video" style="object-fit: cover; width: 100%; height: 100%;"
+                            src="https://i.ytimg.com/vi/FXHJ8xcRLlM/hqdefault.jpg" alt="Thumb">
+                    </button>
+                    <span class="video-showcase-thumb-caption">Bridal Makeup Sample</span>
+                </div>
+            </div>
+            <script type="application/json"
+                data-video-showcase-payload>[{"embed":"<iframe src='https://www.youtube.com/embed/FXHJ8xcRLlM?si=eDsD4l0JirBZq7Sv' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>","direct":false,"src":"","thumb":"","clip_title":"Bridal Makeup Sample"}]</script>
+        </section>
+
+        <!-- Floating Support Buttons -->
+        <div class="section-anchor" id="floating-support-buttons" aria-hidden="true"></div>
+        <a class="floating-buttons-anchor call left" href="tel:08617391109" aria-label="Call">
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                <path
+                    d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.11.37 2.3.56 3.52.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.3 21 3 13.7 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.22.19 2.41.56 3.52a1 1 0 0 1-.25 1.01l-2.19 2.26Z">
+                </path>
+            </svg>
+        </a>
+        <a class="floating-buttons-anchor whatsapp right" href="https://wa.me/918617391109" target="_blank"
+            rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 32 32" width="24" height="24" aria-hidden="true">
+                <path
+                    d="M19.11 17.27c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.85 1.09-.16.19-.31.21-.59.07-.28-.14-1.18-.43-2.24-1.38-.83-.74-1.38-1.64-1.54-1.92-.16-.28-.02-.43.12-.57.13-.12.28-.31.42-.47.14-.16.19-.28.28-.47.09-.19.05-.35-.02-.5-.07-.14-.61-1.47-.84-2.02-.22-.53-.44-.46-.61-.47h-.52c-.19 0-.5.07-.76.35-.26.28-1 1-1 2.43 0 1.43 1.02 2.81 1.16 3 .14.19 2.01 3.08 4.88 4.31.68.29 1.21.46 1.63.59.68.21 1.29.18 1.77.11.54-.08 1.64-.67 1.87-1.31.23-.64.23-1.19.16-1.31-.06-.12-.24-.19-.52-.33Z">
+                </path>
+                <path
+                    d="M27.29 4.69A15.88 15.88 0 0 0 16.01 0C7.2 0 .03 7.16.03 15.97c0 2.81.73 5.55 2.12 7.96L0 32l8.29-2.13a15.9 15.9 0 0 0 7.72 1.98h.01c8.81 0 15.97-7.16 15.97-15.97 0-4.27-1.66-8.28-4.7-11.19Zm-11.28 24.46h-.01a13.2 13.2 0 0 1-6.72-1.84l-.48-.28-4.92 1.27 1.31-4.8-.31-.49a13.18 13.18 0 0 1-2.03-7.04C2.85 8.68 8.72 2.8 16.01 2.8c3.53 0 6.84 1.37 9.33 3.86a13.1 13.1 0 0 1 3.86 9.32c0 7.29-5.88 13.17-13.18 13.17Z">
+                </path>
+            </svg>
+        </a>
+
+    </main>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

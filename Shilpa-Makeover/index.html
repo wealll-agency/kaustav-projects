@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/plugins.css">
+
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+
+    <!--glightbox css -->
+
+    <link rel="stylesheet" href="assets/css/glightbox.min.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body>
+
+    <!-- Header Start -->
+
+    <header id="header" class="header home-header">
+        <div class="branding main-nav d-flex align-items-center">
+            <div class="container position-relative d-flex align-items-center justify-content-between">
+                <a href="index.html" class="logo d-flex align-items-center me-auto">
+                    <img src="assets/images/White-logo.png" alt="" />
+                </a>
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="academy.html">Academy</a></li>
+                    </ul>
+
+                    <i class="mobile-nav-toggle d-lg-none fa-solid fa-bars"></i>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Start Main Banner Area -->
+
+    <div class="main-banner slider-fade">
+        <div class="owl-carousel owl-theme">
+            <div class="item bg-img" data-overlay-dark="1" data-background="assets/images/banner_image1.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-12 text-center">
+                                <h1>Wedding Look</h1>
+                                <a href="#" class="default-btn">Book Now <i class="fa-solid fa-angles-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item bg-img" data-overlay-dark="3" data-background="assets/images/banner_image4.png">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-12 text-center">
+                                <h1>Engagement Look</h1>
+                                <a href="#" class="default-btn">Book Now <i class="fa-solid fa-angles-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item bg-img" data-overlay-dark="3" data-background="assets/images/banner_image2.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-12 text-center">
+                                <h1>Pre-Wedding Look</h1>
+                                <a href="#" class="default-btn">Book Now <i class="fa-solid fa-angles-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item bg-img" data-overlay-dark="3" data-background="assets/images/banner_image3.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-12 text-center">
+                                <h1>Haldi Look</h1>
+                                <a href="#" class="default-btn">Book Now <i class="fa-solid fa-angles-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Main Banner End -->
+
+    <section class="about common_padding">
+        <div class="container">
+            <div class="top_info text-center">
+                <h2 class="common_title">Shilpa chakraborty Best Makeup Artist In Durgapur</h2>
+                <span class="divider divider-arrow"></span>
+                <p>At Bridal Makeover by Shilpa' &amp; Makeover and Beauty Academy, we are dedicated to enhancing
+                    natural beauty through
+                    professional artistry, innovative techniques, and personalised services. We aim to inspire
+                    confidence in our clients while
+                    training the next generation of brmakeup professionals with world-class standards.</p>
+
+                <div class="row about_img_row">
+                    <div class="col-md-4">
+                        <div class="img_box">
+                            <img src="assets/images/about_img_new1.jpg" alt="">
+                            <div class="couple-frame"></div>
+                            <div class="icon-border"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img_box">
+                            <img src="assets/images/about_img2.jpg" alt="">
+                            <div class="couple-frame"></div>
+                            <div class="icon-border"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img_box">
+                            <img src="assets/images/about_img_new3.jpg" alt="">
+                            <div class="couple-frame"></div>
+                            <div class="icon-border"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about_makeover common_padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="content">
+                        <div class="section-title">
+                            <h2 class="common_title">Shilpa Makeover</h2>
+                            <h4>Year Established: 2022</h4>
+                            <h3 class="common_title">What Makes Us Unique:</h3>
+                        </div>
+
+                        <p>Shilpa Makeover combines artistry with professionalism, providing a luxurious makeup
+                            experience that is both personalised and trend-driven. As both a studio and an academy, we
+                            deliver unmatched
+                            quality in bridal and party makeovers while equipping aspiring makeup artists with
+                            industry-ready
+                            skills.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="dz-media">
+                        <img src="assets/images/video_overlay.jpg" alt="">
+                        <div class="video-btn">
+                            <a href="https://youtu.be/VCOI8Owz_DE?si=m5VQYHOSIBfCc17t"
+                                class="popup-youtube glightbox play-btn6"><i class="fa fa-play"></i></a>
+                            <p>Watch Video</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="what_we_offer common_padding">
+        <div class="container">
+            <h2 class="text-center common_title">What Shilpa Offers to you</h2>
+            <span class="divider divider-arrow"></span>
+            <div class="row service_row">
+                <div class="services-block col-lg-4 col-md-6">
+                    <div class="inner-box">
+                        <div class="frame"></div>
+                        <span class="icon-cell">
+                            <img src="assets/images/bridal-makeup2.webp" alt="">
+                        </span>
+                        <h4 class="dz-title">Bridal Makeup</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores
+                            quisquam.</p>
+                    </div>
+                </div>
+                <div class="services-block col-lg-4 col-md-6">
+                    <div class="inner-box">
+                        <div class="frame"></div>
+                        <span class="icon-cell">
+                            <img src="assets/images/fashio-makeup.webp" alt="">
+                        </span>
+                        <h4 class="dz-title">Fashion Makeup</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores
+                            quisquam.</p>
+                    </div>
+                </div>
+                <div class="services-block col-lg-4 col-md-6">
+                    <div class="inner-box">
+                        <div class="frame"></div>
+                        <span class="icon-cell">
+                            <img src="assets/images/party-makeup.webp" alt="">
+                        </span>
+                        <h4 class="dz-title">Party Makeup</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores
+                            quisquam.</p>
+                    </div>
+                </div>
+                <div class="services-block col-lg-4 col-md-6">
+                    <div class="inner-box">
+                        <div class="frame"></div>
+                        <span class="icon-cell">
+                            <img src="assets/images/airbrush-makeup.webp" alt="">
+                        </span>
+                        <h4 class="dz-title">Airbrush Makeup</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores
+                            quisquam.</p>
+                    </div>
+                </div>
+                <div class="services-block col-lg-4 col-md-6">
+                    <div class="inner-box">
+                        <div class="frame"></div>
+                        <span class="icon-cell">
+                            <img src="assets/images/bridal-makeup2.webp" alt="">
+                        </span>
+                        <h4 class="dz-title">HD Makeup</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores
+                            quisquam.</p>
+                    </div>
+                </div>
+                <div class="services-block col-lg-4 col-md-6">
+                    <div class="inner-box">
+                        <div class="frame"></div>
+                        <span class="icon-cell">
+                            <img src="assets/images/hairstyle.webp" alt="">
+                        </span>
+                        <h4 class="dz-title">Hair Styling</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores
+                            quisquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="core_values common_padding">
+        <div class="container">
+            <h2 class="text-center common_title">Core Values</h2>
+            <span class="divider divider-arrow"></span>
+            <div class="row core_value_row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-features-box">
+                        <div class="icon">
+                            <img src="assets/images/core_value_icon1.webp" alt="">
+                        </div>
+                        <h3>Excellence</h3>
+                        <p>Delivering top-quality makeup artistry and training every time.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-features-box">
+                        <div class="icon">
+                            <img src="assets/images/Professionalism.webp" alt="">
+                        </div>
+                        <h3>Professionalism</h3>
+                        <p>Following hygiene standards and keeping tools sanitized.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-features-box">
+                        <div class="icon">
+                            <img src="assets/images/core_value_icon2.webp" alt="">
+                        </div>
+                        <h3>Creativity</h3>
+                        <p>Infusing originality into every look we create.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-features-box">
+                        <div class="icon">
+                            <img src="assets/images/core_value_icon3.webp" alt="">
+                        </div>
+                        <h3>Integrity</h3>
+                        <p>Building trust with clients and students through honesty and transparency.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-features-box">
+                        <div class="icon">
+                            <img src="assets/images/core_value_icon4.webp" alt="">
+                        </div>
+                        <h3>Empowerment</h3>
+                        <p>Inspiring confidence in clients and fostering growth in students.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-features-box">
+                        <div class="icon">
+                            <img src="assets/images/core_value_icon5.webp" alt="">
+                        </div>
+                        <h3>Continuous Learning</h3>
+                        <p>Staying updated with global trends and techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fun-facts common_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="fun-facts-card fun-facts-card-2">
+                        <div class="icon_img">
+                            <img src="assets/images/experience.png" alt="">
+                        </div>
+                        <div class="counter-desc">
+                            <span class="count-number" data-count="15">15</span>
+                            <span>+</span>
+                        </div>
+                        <p>Years of Experience</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="fun-facts-card fun-facts-card-2">
+                        <div class="icon_img">
+                            <img src="assets/images/students.png" alt="">
+                        </div>
+                        <div class="counter-desc">
+                            <span class="count-number" data-count="250">250</span>
+                            <span>+</span>
+                        </div>
+                        <p>Number of Students</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="fun-facts-card fun-facts-card-2">
+                        <div class="icon_img">
+                            <img src="assets/images/Clients.png" alt="">
+                        </div>
+                        <div class="counter-desc">
+                            <span class="count-number" data-count="500">500</span>
+                            <span>+</span>
+                        </div>
+                        <p>Satisfied Clients</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="fun-facts-card fun-facts-card-2">
+                        <div class="icon_img">
+                            <img src="assets/images/trophy.png" alt="">
+                        </div>
+                        <div class="counter-desc">
+                            <span class="count-number" data-count="34">34</span>
+                            <span>+</span>
+                        </div>
+                        <p>Award Winnings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our_experience common_padding">
+        <div class="container">
+            <h2 class="common_title text-center">5+ Years Of Experience in Makeup Industry</h2>
+            <span class="divider divider-arrow"></span>
+            <div class="row experience_row">
+                <div class="col-md-6">
+                    <div class="choose-content">
+                        <div class="icon">
+                            <img src="assets/images/key.webp" alt="">
+                        </div>
+                        <h3>Key Collaborations / Events</h3>
+                        <p>Worked in bridal shows, fashion events, and professional seminars.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <!-- <div class="inner-card">
+                        <img src="assets/images/agreement.webp" alt="">
+                        <h3>Previous Associations</h3>
+                        <p>Independent freelance makeup artist before founding Sabana Makeover.</p>
+                    </div> -->
+
+                    <div class="choose-content">
+                        <div class="icon">
+                            <img src="assets/images/agreement.webp" alt="">
+                        </div>
+                        <h3>Previous Associations</h3>
+                        <p>Independent freelance makeup artist before founding Sabana Makeover.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="text-center pt-4">
+                <a href="" target="_blank" class="default-btn" data-bs-toggle="modal"
+                    data-bs-target="#enrollModal">Enroll Now <i class="fa-solid fa-angles-right"></i></a>
+            </div>
+
+
+            <!-- Enroll Enquiry Modal -->
+
+            <div class="modal fade" id="enrollModal" tabindex="-1" aria-labelledby="enrollModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="franchiseModalLabel">Enter Your Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <!-- Modal Body -->
+                        <div class="modal-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label for="name" class="form-label"> Name</label>
+                                            <input type="text" class="form-control" id="name"
+                                                placeholder="Enter your full name" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="mobile" class="form-label">Mobile Number</label>
+                                            <input type="number" class="form-control" id="mobile"
+                                                placeholder="Enter your Mobile number" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="whatsapp" class="form-label">Whatsapp Number</label>
+                                            <input type="number" class="form-control" id="whatsapp"
+                                                placeholder="Enter your Whatsapp no" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label for="Course" class="form-label">Preferred
+                                                Course</label>
+                                            <div class="custom-select">
+                                                <select class="form-select" id="selectFormControl">
+                                                    <option selected="">Bridal Makeup</option>
+                                                    <option value="1">Party Makeup</option>
+                                                    <option value="2">Editorial / Fashion Makeup</option>
+                                                    <option value="3">Airbrush Makeup</option>
+                                                    <option value="4">HD Makeup</option>
+                                                </select>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="message" class="form-label">Address</label>
+                                    <textarea class="form-control" id="address" rows="3"
+                                        placeholder="Any additional information?" required=""></textarea>
+
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <!-- Modal Footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="default-btn">Submit</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="testimonial common_padding">
+        <div class="container">
+            <h4 class="text-center">Testimonials</h4>
+            <h2 class="text-center common_title">What our clients say</h2>
+            <div class="feedback-slider owl-theme owl-carousel">
+
+                <div class="feedback-item">
+                    <img src="assets/images/quotation.png" class="quote_icon" alt="">
+                    <p>She is the best in town. She is a gorgeous lady and so humble. So, finally, after
+                        spending so many days Ihave decided on Kanika makeup. And she worth every single
+                        amount of money you spend on your big day as she works like magic. I booked her
+                        for my two functions and she did a phenomenal job. I love her work.</p>
+
+                    <div class="feedback-title">
+                        <img src="assets/images/img-4.webp" alt="Image">
+                        <h3>Manisha SIngha</h3>
+                    </div>
+                </div>
+
+                <div class="feedback-item">
+                    <img src="assets/images/quotation.png" class="quote_icon" alt="">
+                    <p>She is the best in town. She is a gorgeous lady and so humble. So, finally, after
+                        spending so many days Ihave decided on Kanika makeup. And she worth every single
+                        amount of money you spend on your big day as she works like magic. I booked her
+                        for my two functions and she did a phenomenal job. I love her work.</p>
+
+                    <div class="feedback-title">
+                        <img src="assets/images/img-2.webp" alt="Image">
+                        <h3>Jessica Molony</h3>
+                    </div>
+                </div>
+
+                <div class="feedback-item">
+                    <img src="assets/images/quotation.png" class="quote_icon" alt="">
+                    <p>She is the best in town. She is a gorgeous lady and so humble. So, finally, after
+                        spending so many days Ihave decided on Kanika makeup. And she worth every single
+                        amount of money you spend on your big day as she works like magic. I booked her
+                        for my two functions and she did a phenomenal job. I love her work.</p>
+
+                    <div class="feedback-title">
+                        <img src="assets/images/img-3.webp" alt="Image">
+                        <h3>Jessica Molony</h3>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <div class="image_gallery common_padding">
+        <div class="container">
+            <h2 class="text-center common_title">Shilpa Makeover Makeup Stories</h2>
+            <span class="divider divider-arrow"></span>
+
+            <div class="image_gallery_outer">
+                <div class="image_gallery_grid pt-30">
+                    <div class="grid1">
+                        <img alt="" src="assets/images/about_img1.jpg" class="image_1">
+                        <img alt="" src="assets/images/about_img2.jpg" class="image_2">
+                        <img alt="" src="assets/images/about_img3.jpg" class="image_3">
+                    </div>
+                    <div class="grid2">
+                        <img alt="" src="assets/images/about_img_4.jpg" class="image_1">
+                        <img alt="" src="assets/images/about_img_new_5.jpg" class="image_2">
+                        <img alt="" src="assets/images/about_img6.jpg" class="image_3">
+                    </div>
+                    <div class="grid3">
+                        <img alt="" src="assets/images/about_img_new7.png" class="image_1">
+                        <img alt="" src="assets/images/about_img_new4.png" class="image_2">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer class="footer-area">
+        <div class="divider"></div>
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <img src="assets/images/White-logo.png" alt="" class="footer_logo">
+                        <p>A story of a girl from a Fashion designer, a Classical dance lover to a renowned professional
+                            Make-up Artist in Kolkata. Her Make-up game is strong due to her Fine Art background.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer_block">
+                            <h5>Useful Links</h5>
+                            <ul>
+                                <li><a href="service.html">Services</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms &amp; Condition</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer_block">
+                            <h5>Get in Touch</h5>
+                            <div class="contact_details">
+                                <p class="d-flex"><i class="fa-solid fa-location-dot me-3"></i>
+                                    ICHAPUR N.C.HIGH SCHOOL MORE , Durgapur, India, West Bengal
+                                </p>
+                                <p class="d-flex"><i class="fa-brands fa-whatsapp me-3"></i>
+                                    <a href="tel:8617391109"><strong>086173 91109</strong></a>
+                                </p>
+                                <p class="d-flex"><i class="fa-solid fa-envelope me-3"></i><a href="mailto:shilpachakraborty384@gmail.com">shilpachakraborty384@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer_block">
+                            <h5>Follow us On</h5>
+                            <div class="d-flex">
+                                <a class="btn btn-social" href="https://www.facebook.com/PujaShilpaVamika"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-social" href=""><i class="fa-brands fa-youtube"></i></a>
+                                <a class="btn btn-social" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fshilpa_172922%2Fprofilecard%2F%3Figsh%3DbGNlOWJ3dHc4Zzg2%26fbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExSk9HRFd3M0J4dnJCaHYxNQEe7jAg0qzhP9vcyeKR6huow2isMjBTEdY-uNVMQkNfEBW-jntLbNQgz_xbK5E_aem_wRjWF0lO1Ssbuq4jnMhGLQ&h=AT3AfIjd2lsWmmo5VPrcDEJA45HEkJ7Zmd_1BrWMeeCA0XfzpuzBbQyPvRFQWOYgPks4TkFJSzCl9TS0ZTT3A88NmRnwkNRvJDwFXgG5mxG4fc2-7bb6DxBc0Li76RcVtv-wxdoZaj3W2SaRAOAJVA"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <div class="container">
+                <p class="text-center">Shilpa Makeover © All Rights Reserved <img src="assets/images/heart.webp" alt="">
+                    <span id="credit"> and
+                        developed by <a id="wealll-link" href="https://wealll.com/"><img
+                                src="assets/images/Wealll_new.webp" alt="" class="company_logo"></a> </span> - 2025</p>
+            </div>
+        </div>
+
+    </footer>
+
+     <div class="whatsapp-chatbox" aria-hidden="false">
+      <a id="whatsapp-btn" class="whatsapp-btn" href="#" target="_blank" rel="noopener noreferrer">
+        <!-- WhatsApp SVG icon -->
+        <svg width="32" height="32" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path fill="white" d="M20.52 3.48A11.86 11.86 0 0 0 12 .5C6.21.5 1.5 5.2 1.5 11c0 2.02.53 3.92 1.54 5.62L.5 23.5l6.98-2.03A11.45 11.45 0 0 0 12 22.5c5.79 0 10.5-4.7 10.5-10.5 0-2.82-1.1-5.46-3.98-8.52zM12 20.3c-1.18 0-2.34-.3-3.35-.86l-.24-.13-4.16 1.21 1.17-3.86-.16-.25A8.45 8.45 0 0 1 3.5 11c0-4.14 3.36-7.5 7.5-7.5S18.5 6.86 18.5 11 15.14 20.3 12 20.3z"/>
+          <path fill="white" d="M17.1 14.02c-.25-.12-1.48-.73-1.71-.81-.23-.09-.4-.13-.57.13-.18.26-.68.81-.84.98-.16.18-.33.2-.61.07-.28-.13-1.18-.43-2.25-1.39-.83-.71-1.39-1.6-1.55-1.88-.17-.28-.02-.43.12-.57.12-.12.28-.32.44-.48.15-.15.19-.26.28-.43.09-.18.05-.33-.02-.45-.07-.12-.57-1.37-.78-1.86-.2-.48-.41-.41-.57-.42l-.48-.01c-.16 0-.42.06-.64.31-.22.25-.86.84-.86 2.06s.88 2.39 1 2.56c.12.17 1.72 2.72 4.17 3.84 2.45 1.12 2.45.75 2.89.7.44-.05 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.23-.16-.48-.28z"/>
+        </svg>
+    
+      </a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- JQUERY.MIN JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/appear.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- glightbox JS -->
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

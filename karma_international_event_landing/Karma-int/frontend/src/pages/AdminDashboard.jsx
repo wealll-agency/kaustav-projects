@@ -1,0 +1,292 @@
+import { useState, useEffect } from 'react';
+import * as adminApi from '../api/adminApi';
+import { Container, Row, Col, Card, Button, Badge, Table, Spinner } from 'react-bootstrap';
+import {
+    FaWallet, FaUsers, FaTicketAlt, FaShieldAlt, FaEye, FaCheck, FaTimes,
+    FaCalendarCheck, FaShoppingBag, FaBolt, FaChevronRight, FaChartLine,
+    FaEllipsisV, FaCheckCircle
+} from 'react-icons/fa';
+import StatsCard from '../components/analytics/StatsCard';
+import DashboardSkeleton from '../components/analytics/DashboardSkeleton';
+import { RevenueChart, CategoryPerformanceChart } from '../components/analytics/DashboardCharts';
+import { Link } from 'react-router-dom';
+import * as analyticsApi from '../api/analyticsApi';
+import * as expenseApi from '../api/expenseApi';
+import toast from 'react-hot-toast';
+import { FaTrash, FaPlus, FaMoneyBillWave, FaChartPie } from 'react-icons/fa';
+import '../css/dashboard.css';
+import '../css/global.css';
+import { formatCurrency } from '../utils/formatUtils';
+
+
+
+const AdminDashboard = () => {
+    const [stats, setStats] = useState(null);
+    const [liveStats, setLiveStats] = useState({
+        revenue: 0,
+        profit: 0,
+        netProfit: 0,
+        totalOrganizers: 0,
+        totalStaff: 0,
+        totalEvents: 0,
+        ticketsSold: 0,
+        expenses: 0,
+        activities: []
+    });
+    const [profitSummary, setProfitSummary] = useState({ totalRevenue: 0, totalExpenses: 0, netProfit: 0, margin: 0 });
+    const [expenses, setExpenses] = useState([]);
+    const [actionLoading, setActionLoading] = useState({});
+    const [expenseLoading, setExpenseLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
+
+    // New Expense Form State
+    const [newExpense, setNewExpense] = useState({ title: '', amount: '', category: 'Other' });
+
+
+    const fetchDashboardData = async () => {
+        try {
+            // Fetch core intelligence data consolidated
+            const [adminStatsRes, orgRequestsRes, summaryRes, expensesRes] = await Promise.all([
+                adminApi.getAdminStats(),
+                expenseApi.getProfitSummary().catch(() => ({ data: { data: {} } })),
+                expenseApi.getExpenses().catch(() => ({ data: { data: [] } }))
+            ]);
+
+            const adminData = adminStatsRes.data.data;
+            const summary = summaryRes.data.data;
+
+            setLiveStats({
+                revenue: adminData.totalRevenue || 0,
+                totalOrganizers: adminData.totalOrganizers || 0,
+                totalStaff: adminData.totalStaff || 0,
+                totalEvents: adminData.totalEvents || 0,
+                ticketsSold: adminData.totalTicketsSold || 0,
+                profit: adminData.totalProfit || 0,
+                totalEnquiries: adminData.totalEnquiries || 0,
+                expenses: summary.totalExpenses || 0,
+                activities: adminData.activities || []
+            });
+            setProfitSummary(summary);
+            setExpenses(expensesRes.data.data);
+
+        } catch (err) {
+            console.error('Critical Console Sync Failure:', err);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    useEffect(() => {
+        fetchDashboardData();
+    }, []);
+
+    const handleAddExpense = async (e) => {
+        e.preventDefault();
+        setExpenseLoading(true);
+        try {
+            await expenseApi.addExpense(newExpense);
+            toast.success('Fiscal record added to ledger');
+            setNewExpense({ title: '', amount: '', category: 'Other' });
+            fetchDashboardData();
+        } catch (err) {
+            toast.error('Financial indexing failure');
+        } finally {
+            setExpenseLoading(false);
+        }
+    };
+
+    const handleDeleteExpense = async (id) => {
+        if (!window.confirm('Authorize deletion of this fiscal record?')) return;
+        try {
+            await expenseApi.deleteExpense(id);
+            toast.success('Record purged');
+            fetchDashboardData();
+        } catch (err) {
+            toast.error('Deletion error');
+        }
+    };
+
+
+
+
+    if (loading) {
+        return <DashboardSkeleton />;
+    }
+
+    const currentRevenue = Number(liveStats.revenue) || 0;
+
+    return (
+        <div className="dashboard-page p-0">
+            <Container fluid className="px-md-5 pt-0 pb-3">
+                {/* ─── Header ─── */}
+                <div className="dashboard-header overview-section mb-3">
+                    <h2 className="dashboard-title-main mb-1 d-flex align-items-center gap-3">
+                        <FaChartLine className="text-pink d-none d-lg-inline-flex" /> Overview
+                    </h2>
+                    <p className="dashboard-subtext m-0">Analytics, finances and platform management portal.</p>
+                </div>
+
+                {/* ─── Stats Grid ─── */}
+                <div className="stats-grid-saas mt-2">
+                    <div className="dashboard-card">
+                        <span className="card-title-sm">Organizers</span>
+                        <h3 className="card-value-lg">{liveStats.totalOrganizers}</h3>
+                        <div className="mt-2 text-success small fw-bold">Active Hosts</div>
+                    </div>
+                    <div className="dashboard-card">
+                        <span className="card-title-sm">Staff units</span>
+                        <h3 className="card-value-lg">{liveStats.totalStaff}</h3>
+                        <div className="mt-2 text-slate small fw-bold">Master Nodes</div>
+                    </div>
+                    <div className="dashboard-card">
+                        <span className="card-title-sm">Live Events</span>
+                        <h3 className="card-value-lg">{liveStats.totalEvents}</h3>
+                        <div className="mt-2 text-slate small fw-bold">Global Catalog</div>
+                    </div>
+                    <div className="dashboard-card">
+                        <span className="card-title-sm">Tickets</span>
+                        <h3 className="card-value-lg">{liveStats.ticketsSold.toLocaleString()}</h3>
+                        <div className="mt-2 text-slate small fw-bold">Total Sales</div>
+                    </div>
+                    <Link to="/admin/enquiries" className="text-decoration-none text-dark">
+                        <div className="dashboard-card hover-lift transition-all">
+                            <span className="card-title-sm d-flex justify-content-between align-items-center">
+                                Enquiries
+                                {liveStats.totalEnquiries > 0 && (
+                                    <Badge pill bg="pink" className="bg-pink text-white rounded-pill px-2 py-1 small">
+                                        {liveStats.totalEnquiries}
+                                    </Badge>
+                                )}
+                            </span>
+                            <h3 className="card-value-lg">{liveStats.totalEnquiries || 0}</h3>
+                            <div className="mt-2 text-pink small fw-bold d-flex align-items-center gap-1">
+                                View Inbox <FaChevronRight size={10} />
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+
+                {/* ─── Primary Intelligence ─── */}
+                <Row className="g-4 mb-4">
+                    <Col lg={4}>
+                        <div className="dashboard-card highlight-card d-flex flex-column justify-content-between">
+                            <div>
+                                <span className="card-title-sm opacity-75">Net Profit</span>
+                                <h2 className="card-value-lg my-2">
+                                    {formatCurrency(liveStats?.profit || liveStats?.netProfit)}
+                                </h2>
+                                <p className="small opacity-75 m-0 mb-4">Master Calculation</p>
+                            </div>
+                            <div className="pt-4 border-top border-white/20">
+                                <div className="d-flex justify-content-between mb-2">
+                                    <span className="small opacity-80">Gross Volume:</span>
+                                    <span className="fw-bold">{formatCurrency(liveStats?.revenue)}</span>
+                                </div>
+                                <div className="d-flex justify-content-between">
+                                    <span className="small opacity-80">Operational Leak:</span>
+                                    <span className="fw-bold">-{formatCurrency(liveStats?.expenses)}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col lg={8}>
+                        <div className="dashboard-card">
+                            <div className="d-flex justify-content-between align-items-center mb-4">
+                                <h5 className="dashboard-title-main" style={{ fontSize: '1.25rem' }}>Add Expenses</h5>
+                                <span className="status-badge">{expenses.length} Entries</span>
+                            </div>
+
+                            <div className="data-list audit-feed-scroll overflow-auto mb-4" style={{ maxHeight: '280px', paddingRight: '5px' }}>
+                                {expenses.length === 0 ? (
+                                    <div className="text-center py-5 text-slate opacity-50 small">No transactions recorded.</div>
+                                ) : (
+                                    expenses.map(exp => (
+                                        <div key={exp._id} className="data-item">
+                                            <div className="data-left">
+                                                <h6>{exp.title}</h6>
+                                                <p>{exp.category || 'General'}</p>
+                                            </div>
+                                            <div className="d-flex align-items-center gap-4">
+                                                <span className="fw-bold text-danger">{formatCurrency(exp.amount)}</span>
+                                                <button onClick={() => handleDeleteExpense(exp._id)} className="btn btn-link p-0 text-slate hover-text-danger transition-all">
+                                                    <FaTrash size={14} />
+                                                </button>
+                                            </div>
+                                        </div>
+                                    ))
+                                )}
+                            </div>
+
+                            <form onSubmit={handleAddExpense} className="row g-2 pt-3 border-top">
+                                <div className="col-md-5">
+                                    <input type="text" className="form-control rounded-8 border-slate-200" placeholder="Description" required value={newExpense.title} onChange={e => setNewExpense({ ...newExpense, title: e.target.value })} />
+                                </div>
+                                <div className="col-md-2">
+                                    <input type="number" className="form-control rounded-8 border-slate-200" placeholder="Amount" required value={newExpense.amount} onChange={e => setNewExpense({ ...newExpense, amount: e.target.value })} />
+                                </div>
+                                <div className="col-md-3">
+                                    <select className="form-select rounded-8 border-slate-200" value={newExpense.category} onChange={e => setNewExpense({ ...newExpense, category: e.target.value })}>
+                                        <option value="Server">Server</option>
+                                        <option value="Marketing">Marketing</option>
+                                        <option value="Staff">Staff</option>
+                                        <option value="Infrastructure">Infrastructure</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div className="col-md-2">
+                                    <button type="submit" className="btn btn-pink w-100 fw-bold py-2" disabled={expenseLoading}>
+                                        {expenseLoading ? <Spinner size="sm" /> : 'Add'}
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </Col>
+                </Row>
+
+                <Row className="g-4 mb-4">
+                    <Col lg={12}>
+                        <div className="dashboard-card">
+                            <div className="d-flex justify-content-between align-items-center mb-4">
+                                <h5 className="dashboard-title-main" style={{ fontSize: '1.25rem' }}>Revenue Intelligence</h5>
+                                <span className="status-badge badge-pink">Real-time</span>
+                            </div>
+                            <div style={{ height: '340px' }}>
+                                <RevenueChart data={[
+                                    { name: 'Jan', revenue: 45000 },
+                                    { name: 'Feb', revenue: 52000 },
+                                    { name: 'Mar', revenue: 48000 },
+                                    { name: 'Apr', revenue: currentRevenue },
+                                ]} />
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+
+                {/* ─── Audit Feed ─── */}
+                <div className="dashboard-card mb-4">
+                    <h5 className="dashboard-title-main" style={{ fontSize: '1.25rem', marginBottom: '25px' }}>Security & Audit Feed</h5>
+                    <div className="data-list">
+                        {(liveStats?.activities || []).length > 0 ? (
+                            (liveStats?.activities || []).slice(0, 10).map((log, i) => (
+                                <div key={i} className="data-item p-3 border-0 bg-transparent border-bottom rounded-0">
+                                    <div className="data-left">
+                                        <h6 style={{ fontSize: '0.875rem' }}>{log.message}</h6>
+                                        <p style={{ fontSize: '0.75rem' }}>{new Date(log.time).toLocaleString()}</p>
+                                    </div>
+                                    <div className="text-slate uppercase small fw-bold tracking-wider audit-feed-type" style={{ opacity: 0.6 }}>
+                                        {log.type}
+                                    </div>
+                                </div>
+                            ))
+                        ) : (
+                            <div className="text-center py-5 text-slate opacity-40 small">Zero active logs.</div>
+                        )}
+                    </div>
+                </div>
+            </Container>
+        </div>
+    );
+};
+
+export default AdminDashboard;

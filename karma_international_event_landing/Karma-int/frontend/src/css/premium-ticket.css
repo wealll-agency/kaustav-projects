@@ -1,0 +1,319 @@
+/* â•â•â•â•â•â•â•â•â•â•â• PREMIUM EVENT PASS DESIGN (STRIPE/APPLE LEVEL) â•â•â•â•â•â•â•â•â•â•â• */
+
+/* Ticket Container */
+.premium-ticket-container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  padding: 40px 20px !important;
+  background: var(--bg-main) !important; 
+  min-height: 100vh !important;
+}
+
+.ticket-pass-card {
+  position: relative !important;
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100% !important;
+  max-width: 800px !important;
+  min-height: 320px !important;
+  border-radius: 24px !important;
+  overflow: hidden !important;
+  
+  /* PREMIUM ADAPTIVE GRADIENT */
+  background: linear-gradient(135deg, 
+    var(--bg-card) 0%, 
+    var(--bg-surface) 100%
+  ) !important;
+  
+  color: var(--text-primary) !important;
+  box-shadow: var(--premium-shadow) !important;
+  transition: var(--transition-premium) !important;
+  border: 1px solid var(--border) !important;
+}
+
+
+
+.ticket-pass-card:hover {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 30px 60px rgba(173, 20, 87, 0.15) !important;
+  border-color: rgba(212, 175, 55, 0.4) !important;
+}
+
+/* Left Section: Event Details */
+.ticket-pass-left {
+  flex: 1 !important;
+  padding: 40px !important;
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+/* Right Section: QR & Price */
+.ticket-pass-right {
+  width: 250px !important;
+  padding: 40px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: rgba(212, 175, 55, 0.05) !important; 
+  border-left: 1px solid var(--border) !important;
+  position: relative !important;
+}
+
+/* Perforation Divider */
+.ticket-pass-divider {
+  position: absolute !important;
+  left: -1px !important;
+  top: 40px !important;
+  bottom: 40px !important;
+  width: 2px !important;
+  border-left: 2px dashed rgba(0, 0, 0, 0.1) !important;
+  z-index: 10 !important;
+}
+
+/* Perforation Cutouts */
+.ticket-pass-card::before,
+.ticket-pass-card::after {
+  content: "" !important;
+  position: absolute !important;
+  width: 36px !important;
+  height: 36px !important;
+  background: var(--bg-main) !important; /* Matches cutouts */
+  border-radius: 50% !important;
+  left: calc(100% - 250px - 18px) !important; 
+  z-index: 20 !important;
+}
+
+.ticket-pass-card::before {
+  top: -18px !important;
+  box-shadow: inset 0 -4px 6px rgba(0,0,0,0.05) !important;
+}
+
+.ticket-pass-card::after {
+  bottom: -18px !important;
+  box-shadow: inset 0 4px 6px rgba(0,0,0,0.05) !important;
+}
+
+/* Typography */
+.pass-category {
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.2em !important;
+  color: #ec407a !important; /* Premium Pink */
+  margin-bottom: 12px !important;
+}
+
+.pass-title {
+  font-size: 2.2rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 24px !important;
+  line-height: 1 !important;
+  letter-spacing: -0.04em !important;
+  color: #1a1a1a !important;
+}
+
+.pass-info-row {
+  display: flex !important;
+  gap: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+.pass-info-item {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.pass-info-label {
+  font-size: 0.65rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  color: rgba(0, 0, 0, 0.4) !important;
+  letter-spacing: 0.1em !important;
+  margin-bottom: 4px !important;
+}
+
+.pass-info-value {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  color: var(--text-primary) !important;
+}
+
+/* QR Code Section */
+.pass-qr-wrapper {
+  background: white !important; /* QR always needs white background for scanning */
+  padding: 12px !important;
+  border-radius: 16px !important;
+  margin-bottom: 20px !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.pass-qr-image {
+  width: 140px !important;
+  height: 140px !important;
+  display: block !important;
+}
+
+.pass-badge {
+  background: linear-gradient(135deg, #ec407a, #d81b60) !important;
+  color: white !important;
+  padding: 8px 20px !important;
+  border-radius: 99px !important;
+  font-size: 0.7rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.12em !important;
+  box-shadow: 0 4px 15px rgba(236, 64, 122, 0.3) !important;
+}
+
+/* Logo placement (Gold Accent) */
+.pass-logo {
+  position: absolute !important;
+  top: 40px !important;
+  right: 40px !important;
+  opacity: 0.08 !important;
+  font-size: 5rem !important;
+  pointer-events: none !important;
+  color: #D4AF37 !important; /* Gold */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .ticket-pass-card {
+    flex-direction: column !important;
+    max-width: 100% !important;
+    min-height: auto !important;
+    border-radius: 30px !important;
+  }
+  
+  .ticket-pass-left {
+    padding: 30px 20px !important;
+  }
+
+  .pass-title {
+    font-size: 1.75rem !important;
+    margin-bottom: 20px !important;
+  }
+
+  .ticket-pass-right {
+    width: 100% !important;
+    border-left: none !important;
+    border-top: 2px dashed var(--border) !important;
+    padding: 30px 20px !important;
+    background: rgba(212, 175, 55, 0.03) !important;
+  }
+  
+  .ticket-pass-divider {
+    display: none !important;
+  }
+  
+  .ticket-pass-card::before,
+  .ticket-pass-card::after {
+    display: none !important; /* Hide circles on mobile for cleaner look */
+  }
+
+  .pass-qr-image {
+    width: 160px !important;
+    height: 160px !important;
+  }
+}
+
+@media (max-width: 576px) {
+    .success-glass-card {
+        padding: 40px 20px !important;
+        border-radius: 30px !important;
+    }
+    .success-icon-wrapper {
+        width: 80px !important;
+        height: 80px !important;
+        margin-bottom: 20px !important;
+    }
+    .success-title {
+        font-size: 1.75rem !important;
+    }
+    .success-desc {
+        font-size: 0.95rem !important;
+        margin-bottom: 30px !important;
+    }
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â• SUCCESS OVERLAY â•â•â•â•â•â•â•â•â•â•â• */
+.success-celebration-overlay {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(255, 245, 248, 0.9) !important;
+    backdrop-filter: blur(20px) !important;
+    z-index: 9999 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: hidden !important;
+}
+
+.success-glass-card {
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(25px) !important;
+    border: 1px solid rgba(236, 64, 122, 0.2) !important;
+    border-radius: 40px !important;
+    padding: 60px !important;
+    text-align: center !important;
+    max-width: 650px !important;
+    width: 90% !important;
+    box-shadow: 0 40px 100px rgba(173, 20, 87, 0.15) !important;
+    position: relative !important;
+}
+
+.success-icon-wrapper {
+    width: 120px !important;
+    height: 120px !important;
+    background: linear-gradient(135deg, #ec407a, #d81b60) !important;
+    border-radius: 50% !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 30px !important;
+    box-shadow: 0 20px 40px rgba(236, 64, 122, 0.4) !important;
+    color: white !important;
+}
+
+.success-title {
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    color: var(--text-primary) !important;
+    margin-bottom: 20px !important;
+    letter-spacing: -0.02em !important;
+}
+
+.success-desc {
+    font-size: 1.1rem !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+    line-height: 1.6 !important;
+    margin-bottom: 40px !important;
+}
+
+.success-lighting {
+    position: absolute !important;
+    top: -50% !important;
+    left: -50% !important;
+    width: 200% !important;
+    height: 200% !important;
+    background: radial-gradient(circle at center, rgba(236, 64, 122, 0.1) 0%, transparent 70%) !important;
+    pointer-events: none !important;
+    z-index: -1 !important;
+}
+
+.celebration-glow {
+    position: absolute !important;
+    width: 300px !important;
+    height: 300px !important;
+    background: radial-gradient(circle, rgba(236, 64, 122, 0.2) 0%, transparent 70%) !important;
+    filter: blur(60px) !important;
+    pointer-events: none !important;
+}
