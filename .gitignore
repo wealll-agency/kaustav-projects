@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build caches & outputs
+.cache/
+**/.cache/
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+
+# Large backup archives exceeding GitHub's 100MB limit
+karma_international_event_landing/Karma-int.zip
+Shilpa-Makeover/Client_Images/Image.zip
+
+# Large raw media files exceeding GitHub's 100MB limit
+Shilpa-Makeover/Client_Images/*.MP4
+Shilpa-Makeover/Client_Images/Image/Image/*.MP4
+wealll_company_website/WeAlll_React/**/WE_ALLL_Video_New.mp4
+
+# OS generated files
+.DS_Store
+Thumbs.db
