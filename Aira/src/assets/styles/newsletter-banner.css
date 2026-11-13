@@ -1,0 +1,183 @@
+/* Newsletter Banner Section */
+
+.beautifo-newsletter-section {
+  padding: 30px 0 60px;
+  background-color: #ffffff;
+}
+
+/* Card Container with Background and Rounded Corners */
+.beautifo-newsletter-card {
+  position: relative;
+  background-image: url("/images/banners/newsletter-banner-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 65px 40px 75px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.03);
+}
+
+/* Constrained Center Box (Exact Elementor max-width 650px) */
+.beautifo-newsletter-content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Heading */
+.beautifo-newsletter-title {
+  font-family: var(
+    --aira-font,
+    "Jost",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif
+  );
+  font-size: 36px;
+  font-weight: 700;
+  color: #111111;
+  letter-spacing: -0.5px;
+  margin: 0 0 16px 0;
+  line-height: 1.25;
+}
+
+/* Subtitle */
+.beautifo-newsletter-desc {
+  font-family: var(
+    --aira-font,
+    "Jost",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif
+  );
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+  margin: 0 auto 35px;
+  line-height: 1.6;
+  max-width: 540px;
+}
+
+/* Form Container */
+.beautifo-newsletter-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* Email Input */
+.beautifo-newsletter-input {
+  height: 52px;
+  border-radius: 50px !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  background-color: #ffffff !important;
+  padding: 0 24px !important;
+  font-family: var(--aira-font, "Jost", sans-serif) !important;
+  font-size: 14.5px !important;
+  color: #222222 !important;
+  flex: 1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.25s ease;
+}
+
+.beautifo-newsletter-input:focus {
+  border-color: var(--aira-primary, #fa9090) !important;
+  box-shadow: 0 0 0 3px rgba(250, 144, 144, 0.2) !important;
+  outline: none;
+}
+
+/* Submit Button */
+.beautifo-newsletter-btn {
+  height: 52px;
+  border-radius: 50px !important;
+  background-color: #111111 !important;
+  border: none !important;
+  color: #ffffff !important;
+  padding: 0 32px !important;
+  font-family: var(--aira-font, "Jost", sans-serif) !important;
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.beautifo-newsletter-btn:hover {
+  background-color: var(--aira-primary, #fa9090) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(250, 144, 144, 0.35);
+}
+
+/* Success Message Alert */
+.beautifo-newsletter-success {
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(250, 144, 144, 0.3);
+  color: #111111;
+  border-radius: 50px;
+  padding: 12px 28px;
+  display: inline-block;
+  font-size: 14.5px;
+  font-weight: 500;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.beautifo-newsletter-success strong {
+  color: var(--aira-primary, #fa9090);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 991px) {
+  .beautifo-newsletter-card {
+    padding: 50px 30px 60px;
+  }
+
+  .beautifo-newsletter-title {
+    font-size: 30px;
+  }
+
+  .beautifo-newsletter-desc {
+    font-size: 15px;
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .beautifo-newsletter-section {
+    padding: 20px 0 40px;
+  }
+
+  .beautifo-newsletter-card {
+    padding: 40px 18px 45px;
+    border-radius: 16px;
+  }
+
+  .beautifo-newsletter-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .beautifo-newsletter-desc {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  .beautifo-newsletter-form {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .beautifo-newsletter-input,
+  .beautifo-newsletter-btn {
+    width: 100% !important;
+    height: 48px;
+  }
+}

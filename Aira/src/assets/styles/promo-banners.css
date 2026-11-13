@@ -1,0 +1,221 @@
+/* Promotional Banners Section - 100% Exact Match to Beautifo Reference */
+
+.beautifo-promos-section {
+  padding: 20px 0 50px;
+  background-color: #ffffff;
+}
+
+.beautifo-promos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* Base Promo Card */
+.beautifo-promo-card {
+  border-radius: 20px;
+  min-height: 290px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 48px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.beautifo-promo-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.06);
+}
+
+/* Card 1: Mint Theme */
+.beautifo-promo-card-mint {
+  background: #dbeef0;
+  background: linear-gradient(135deg, #e3f5f3 0%, #d4ede8 100%);
+}
+
+/* Card 2: Grey Theme */
+.beautifo-promo-card-grey {
+  background: #f4f4f6;
+  background: linear-gradient(135deg, #f7f6f5 0%, #ecebea 100%);
+}
+
+/* Text Content Column */
+.beautifo-promo-content {
+  flex: 0 0 54%;
+  max-width: 54%;
+  position: relative;
+  z-index: 3;
+}
+
+.beautifo-promo-badge {
+  font-family: var(--aira-font);
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--aira-primary, #fa9090);
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.beautifo-promo-subtitle {
+  font-family: var(--aira-font);
+  font-size: 18px;
+  font-weight: 300;
+  color: #222222;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.beautifo-promo-title {
+  font-family: var(--aira-font);
+  font-size: 32px;
+  font-weight: 700;
+  color: #111111;
+  line-height: 1.18;
+  margin-bottom: 18px;
+  letter-spacing: -0.3px;
+}
+
+.beautifo-promo-tag {
+  font-family: var(--aira-font);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--aira-primary, #fa9090);
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* Underline Link Button matching Beautifo */
+.beautifo-promo-link {
+  font-family: var(--aira-font);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #111111;
+  text-decoration: none;
+  border-bottom: 2px solid #111111;
+  padding-bottom: 3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  max-width: fit-content;
+  align-self: flex-start;
+  transition: all 0.25s ease;
+}
+
+.beautifo-promo-arrow {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  transition: transform 0.25s ease;
+}
+
+.beautifo-promo-card:hover .beautifo-promo-link {
+  color: var(--aira-primary, #fa9090);
+  border-color: var(--aira-primary, #fa9090);
+}
+
+.beautifo-promo-card:hover .beautifo-promo-arrow {
+  transform: translateX(4px);
+}
+
+/* Visual Column */
+.beautifo-promo-visual {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.beautifo-promo-img {
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.beautifo-promo-card:hover .beautifo-promo-img {
+  transform: scale(1.04);
+}
+
+/* Responsive Media Queries */
+@media (max-width: 991px) {
+  .beautifo-promos-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .beautifo-promo-card {
+    min-height: 250px;
+    padding: 34px 36px;
+  }
+
+  .beautifo-promo-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  .beautifo-promos-section {
+    padding: 15px 0 35px;
+  }
+
+  .beautifo-promo-card {
+    min-height: 210px;
+    padding: 20px 16px;
+    align-items: center;
+  }
+
+  .beautifo-promo-content {
+    flex: 0 0 58%;
+    max-width: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .beautifo-promo-visual {
+    width: 44%;
+  }
+
+  .beautifo-promo-title {
+    font-size: 19px;
+    line-height: 1.18;
+    margin-bottom: 12px;
+  }
+
+  .beautifo-promo-subtitle {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .beautifo-promo-badge,
+  .beautifo-promo-tag {
+    font-size: 9.5px;
+    letter-spacing: 0.8px;
+    margin-bottom: 5px;
+  }
+
+  .beautifo-promo-link {
+    font-size: 10.5px;
+    width: fit-content;
+    max-width: fit-content;
+    align-self: flex-start;
+  }
+}

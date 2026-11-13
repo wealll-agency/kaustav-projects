@@ -1,0 +1,367 @@
+/* Beautifo Header & TopBar Exact Replica Styles */
+
+/* TopBar */
+.beautifo-topbar {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.beautifo-topbar-text {
+  font-family: var(--aira-font);
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  color: #555555;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* Main Header */
+.beautifo-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #f5f5f5;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  transition: all 0.3s ease;
+}
+
+.beautifo-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  position: relative;
+}
+
+/* 1. Left: Navigation Menu */
+.beautifo-nav-col {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.beautifo-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.beautifo-nav-item {
+  position: relative;
+  list-style: none;
+}
+
+.beautifo-nav-link {
+  font-family: var(--aira-font);
+  font-size: 13.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #111111;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+
+.beautifo-nav-link.active,
+.beautifo-nav-link:hover {
+  color: var(--aira-primary); /* #fa9090 */
+}
+
+.beautifo-nav-arrow {
+  font-size: 10px;
+  transition: transform 0.2s ease;
+}
+
+.beautifo-nav-item:hover .beautifo-nav-arrow {
+  transform: rotate(180deg);
+}
+
+/* Dropdown Menus */
+.beautifo-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  min-width: 220px;
+  padding: 14px 0;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.25s ease;
+  z-index: 1050;
+}
+
+.beautifo-nav-item:hover .beautifo-dropdown,
+.beautifo-dropdown.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.beautifo-dropdown-item {
+  display: block;
+  padding: 8px 22px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #555555;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  transition: all 0.2s ease;
+}
+
+.beautifo-dropdown-item:hover {
+  color: var(--aira-primary);
+  background-color: #fbfbfb;
+  padding-left: 26px;
+}
+
+/* MegaMenu for Pages/Brands */
+.beautifo-megamenu {
+  width: 760px;
+  padding: 24px 28px;
+  left: -50px;
+}
+
+.beautifo-megamenu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.beautifo-megamenu-heading {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #111111;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--aira-primary);
+}
+
+/* 2. Center: Logo - Exact 50% Dead Center */
+.beautifo-logo-col {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.beautifo-logo-link {
+  display: inline-block;
+}
+
+.beautifo-logo-img {
+  height: 42px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* 3. Right: Action Icons */
+.beautifo-actions-col {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22px;
+}
+
+.beautifo-action-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #111111;
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.beautifo-action-btn:hover {
+  color: var(--aira-primary);
+}
+
+.beautifo-badge {
+  position: absolute;
+  top: -4px;
+  right: -9px;
+  background-color: var(--aira-primary);
+  color: #ffffff;
+  font-size: 9.5px;
+  font-weight: 600;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+/* Mobile Toggle */
+.beautifo-mobile-toggle {
+  display: none;
+  font-size: 20px;
+  color: #111111;
+  background: transparent;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+  line-height: 1;
+  border-radius: 4px;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.beautifo-mobile-toggle:hover {
+  color: var(--aira-primary);
+}
+
+.beautifo-mobile-toggle:active {
+  transform: scale(0.95);
+}
+
+.beautifo-nav-item span {
+  line-height: 100%;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1080px) {
+  .beautifo-nav-list {
+    gap: 18px;
+  }
+  .beautifo-nav-link {
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 991px) {
+  .beautifo-nav-col {
+    display: none;
+  }
+
+  .beautifo-header-container {
+    height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+  }
+
+  .beautifo-mobile-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    z-index: 20;
+    flex-shrink: 0;
+  }
+
+  .beautifo-logo-col {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .beautifo-logo-img {
+    height: 30px;
+    max-width: 105px;
+    width: auto;
+  }
+
+  .beautifo-actions-col {
+    flex: initial;
+    margin-left: auto;
+    gap: 14px;
+    z-index: 20;
+  }
+
+  .beautifo-account-btn,
+  .beautifo-search-btn {
+    display: none !important;
+  }
+
+  .beautifo-action-btn {
+    font-size: 16px;
+    padding: 4px;
+  }
+
+  .beautifo-action-btn svg {
+    width: 19px;
+    height: 19px;
+  }
+
+  .beautifo-badge {
+    width: 15px;
+    height: 15px;
+    font-size: 9px;
+    top: -3px;
+    right: -7px;
+  }
+}
+
+@media (max-width: 576px) {
+  .beautifo-topbar {
+    padding: 6px 12px;
+  }
+
+  .beautifo-topbar-text {
+    font-size: 10.5px;
+    letter-spacing: 0.8px;
+  }
+
+  .beautifo-header-container {
+    height: 52px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .beautifo-mobile-toggle {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+  .beautifo-logo-img {
+    height: 46px;
+    max-width: 110px;
+    margin-top: -5px;
+  }
+
+  .beautifo-actions-col {
+    gap: 10px;
+  }
+
+  .beautifo-action-btn svg {
+    width: 18px;
+    height: 18px;
+  }
+}

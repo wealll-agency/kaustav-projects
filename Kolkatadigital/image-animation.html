@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Festival Graphic</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            overflow: hidden;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .wrapper {
+            position: relative;
+            width: 420px;
+            height: 420px;
+        }
+
+        /* Outer rotating dotted border with yellow glow */
+        .circle-border {
+            position: absolute;
+            inset: 0;
+            /* border: 3px dotted #f7b500; */
+            background: radial-gradient(circle, #ffec3d 40%, #ffcc00 100%);
+            border-radius: 50%;
+            box-shadow: 0 0 30px 5px rgba(255, 215, 0, 0.4);
+            /* animation: rotate 15s linear infinite; */
+                overflow: hidden;
+        }
+
+        .circle-border:before {
+            content: '';
+            background-image: url(https://kolkatadigital.in/b/img.png);
+            width: 110%;
+            height: 110%;
+            position: absolute;
+            bottom: -22px;
+            left: -25px;
+            z-index: 99;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .circle-border2 {
+            position: absolute;
+            width: 110%;
+            height: 110%;
+            border: 3px dotted #fff;
+            border-radius: 50%;
+            animation: rotate 15s linear infinite;
+            left: -25px;
+            top: -25px;
+        }
+
+        .circle-border3 {
+            position: absolute;
+            width: 125%;
+            height: 125%;
+            border: 3px dotted #fff;
+            border-radius: 50%;
+            animation: rotate2 15s linear infinite;
+            left: -55px;
+            top: -55px;
+        }
+
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes rotate2 {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(-180deg);
+            }
+        }
+
+
+        /* Inner image container */
+        .main-img {
+            position: absolute;
+            inset: 40px;
+            border-radius: 50%;
+            /* background: radial-gradient(circle, #ffec3d 40%, #ffcc00 100%); */
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(255, 223, 0, 0.6);
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        .main-img img {
+            width: 108%;
+            height: auto;
+            animation: pop 1.2s ease-out;
+            position: absolute;
+            bottom: -3px;
+            z-index: 0;
+            overflow: visible;
+            object-fit: cover;
+        }
+
+        /* Floating badges */
+        .badge {
+            position: absolute;
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 5px 14px rgba(0, 0, 0, 0.15);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: 500;
+            animation: float 4s ease-in-out infinite;
+            border: 1px solid #eee;
+        }
+
+        .badge img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .badge.top-right {
+            top: 35px;
+            right: -80px;
+            animation-delay: 0s;
+            background: #fff8e1;
+            border: 1px solid #ffd54f;
+            box-shadow: 0 0 10px rgba(255, 221, 0, 0.4);
+            padding: 15px;
+        }
+
+        .badge.bottom-left {
+            bottom: 40px;
+            left: -80px;
+            animation-delay: 2s;
+            background: #f9f9ff;
+            border: 1px solid #bcbcff;
+            box-shadow: 0 0 10px rgba(80, 80, 255, 0.3);
+            padding: 15px;
+        }
+
+        .badge span {
+            font-weight: 600;
+        }
+
+        /* Text styling inside badges */
+        .badge span strong {
+            color: #000;
+            font-size: 26px;
+            display: block;
+        }
+
+        /* Keyframes */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes pop {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Outer glowing dotted circle -->
+        <div class="circle-border"></div>
+        <div class="circle-border2"></div>
+        <div class="circle-border3"></div>
+
+        <!-- Inner main image -->
+        <div class="main-img">
+            <!-- <img src="https://kolkatadigital.in/b/img.png" alt="Festival Woman"> -->
+        </div>
+
+        <!-- Top-right badge -->
+        <div class="badge top-right">
+            <img src="https://cdn-icons-png.flaticon.com/512/473/473161.png" alt="Rocket Icon">
+            <span><strong>90%</strong> Boost Rankings</span>
+        </div>
+
+        <!-- Bottom-left badge -->
+        <div class="badge bottom-left">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png" alt="Growth Icon">
+            <span><strong>75%</strong> Sales Growth</span>
+        </div>
+    </div>
+
+</body>
+
+</html>

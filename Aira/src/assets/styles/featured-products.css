@@ -1,0 +1,439 @@
+/* Featured Products Section */
+
+.beautifo-products-section {
+  padding: 40px 0 70px;
+  background-color: #ffffff;
+}
+
+/* Section Header & Title */
+.beautifo-section-header {
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.beautifo-section-title {
+  font-family: var(--aira-font);
+  font-size: 34px;
+  font-weight: 700;
+  color: #111111;
+  letter-spacing: -0.5px;
+  margin-bottom: 22px;
+}
+
+/* Category Filter Tabs - Untouched */
+.beautifo-product-tabs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.beautifo-tab-btn {
+  font-family: var(--aira-font);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #555555;
+  background: transparent;
+  border: none;
+  padding: 7px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  line-height: 1.4;
+}
+
+.beautifo-tab-btn:hover {
+  color: var(--aira-primary, #fa9090);
+}
+
+.beautifo-tab-btn.active {
+  background-color: var(--aira-primary, #fa9090);
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 4px 14px rgba(250, 144, 144, 0.32);
+}
+
+/* ==========================================================================
+   5-Column Product Grid (Belletny Reference Layout)
+   ========================================================================== */
+.beautifo-products-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 22px;
+  row-gap: 36px;
+}
+
+/* Product Card */
+.beautifo-product-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* Thumbnail Box (Belletny Bordered Box) */
+.beautifo-product-thumb {
+  background-color: #ffffff;
+  border: 3px solid #f0f0f0;
+  border-radius: 0px;
+  aspect-ratio: 1 / 1.18;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 16px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.beautifo-product-card:hover .beautifo-product-thumb {
+  border-color: #e4e4e4;
+}
+
+/* Top-Left Discount Badge */
+.beautifo-badge-discount {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  background-color: var(--aira-primary, #fa9090);
+  color: #ffffff;
+  font-family: var(--aira-font);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 8px;
+  line-height: 24px;
+  height: 24px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  z-index: 5;
+  border-radius: 0;
+  pointer-events: none;
+}
+
+/* Product Image & Link (Belletny Dual-Image Hover Swap) */
+.beautifo-product-img-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-decoration: none;
+}
+
+.beautifo-product-img {
+  max-height: 86%;
+  max-width: 86%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition:
+    opacity 0.5s ease-in-out,
+    transform 0.5s ease-in-out;
+}
+
+.beautifo-product-img.reg-image {
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.beautifo-product-img.hover-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Card Hover: Crossfade from reg-image to hover-image */
+.beautifo-product-card:hover .beautifo-product-img.reg-image {
+  opacity: 0;
+  transform: scale(1.03);
+}
+
+.beautifo-product-card:hover .beautifo-product-img.hover-image {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+/* Top-Right Sliding Action Buttons (Belletny Exact Hover Effect) */
+.beautifo-product-actions {
+  position: absolute;
+  right: 10px;
+  top: -130px;
+  opacity: 0;
+  z-index: 8;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  transition:
+    top 0.4s cubic-bezier(0.2, 0.8, 0.2, 1),
+    opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.beautifo-product-card:hover .beautifo-product-actions {
+  top: 10px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.beautifo-prod-action-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13.5px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.25s ease;
+}
+
+.beautifo-prod-action-btn:hover {
+  background-color: var(--aira-primary, #fa9090);
+  border-color: var(--aira-primary, #fa9090);
+  color: #ffffff;
+  transform: scale(1.08);
+}
+
+/* Product Details / Caption Below Thumbnail */
+.beautifo-product-info {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Star Ratings (Belletny Gold Stars) */
+.beautifo-product-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.beautifo-product-rating .star-filled {
+  color: #fec42d;
+}
+
+.beautifo-product-rating .star-empty {
+  color: #e2e2e2;
+}
+
+/* Product Name (Belletny Playfair Display Serif) */
+.beautifo-product-name {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin: 0 0 9px 0;
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.beautifo-product-name a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.beautifo-product-card:hover .beautifo-product-name a {
+  color: var(--aira-primary, #fa9090);
+}
+
+/* Price & Hover "+ Add to Cart" Interchange Area */
+.beautifo-price-cart-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Normal Price Display */
+.beautifo-product-price-wrap {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 7px;
+  opacity: 1;
+  transition: opacity 0.25s ease;
+  width: 100%;
+}
+
+.beautifo-product-card:hover .beautifo-product-price-wrap {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.beautifo-product-price {
+  font-family: var(--aira-font);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--aira-primary, #fa9090);
+  letter-spacing: 0.3px;
+}
+
+.beautifo-product-old-price {
+  font-family: var(--aira-font);
+  font-size: 13.5px;
+  font-weight: 400;
+  color: #777777;
+  text-decoration: line-through;
+}
+
+/* Hover "+ Add to Cart" Button (Belletny Interchange Effect) */
+.beautifo-add-to-cart-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 2;
+}
+
+.beautifo-product-card:hover .beautifo-add-to-cart-wrap {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.beautifo-hover-addtocart {
+  background: transparent;
+  border: none;
+  color: var(--aira-primary, #fa9090);
+  font-family: var(--aira-font);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  transition: color 0.25s ease;
+}
+
+.beautifo-hover-addtocart:hover {
+  color: #111111;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+   Responsive Media Queries
+   ========================================================================== */
+@media (max-width: 1200px) {
+  .beautifo-products-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    row-gap: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .beautifo-products-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    row-gap: 26px;
+  }
+
+  .beautifo-section-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 640px) {
+  .beautifo-products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    row-gap: 22px;
+  }
+
+  .beautifo-section-title {
+    font-size: 25px;
+  }
+
+  .beautifo-tab-btn {
+    font-size: 12.5px;
+    padding: 6px 14px;
+  }
+
+  .beautifo-product-thumb {
+    padding: 14px 10px;
+    border-width: 2px;
+  }
+
+  .beautifo-badge-discount {
+    font-size: 10.5px;
+    padding: 0 6px;
+    line-height: 20px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+  }
+
+  .beautifo-product-name {
+    font-size: 13.5px;
+    line-height: 18px;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+  }
+
+  .beautifo-product-price {
+    font-size: 14px;
+  }
+
+  .beautifo-product-old-price {
+    font-size: 12.5px;
+  }
+
+  /* On mobile touch devices, keep action buttons accessible */
+  .beautifo-product-actions {
+    top: 6px;
+    opacity: 0.9;
+    pointer-events: auto;
+  }
+
+  .beautifo-prod-action-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 11px;
+  }
+  .beautifo-product-name a {
+    overflow: visible;
+  }
+}

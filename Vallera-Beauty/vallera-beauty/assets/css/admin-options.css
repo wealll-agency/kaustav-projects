@@ -1,0 +1,239 @@
+/* ==========================================================================
+   VALLERA BEAUTY — ADMIN HOME PAGE EDITOR STYLESHEET
+   ========================================================================== */
+
+.vh-admin-wrap {
+  max-width: 1240px;
+  margin-top: 20px;
+}
+
+.vh-admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: #110d06;
+  border: 1px solid #d6a848;
+  border-radius: 12px;
+  padding: 22px 28px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.vh-admin-title {
+  color: #ebb844;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  padding: 0;
+}
+
+.vh-admin-subtitle {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  margin: 0;
+}
+
+.vh-view-site-btn.button {
+  background: #ebb844;
+  border-color: #ebb844;
+  color: #110d06;
+  font-weight: 700;
+  padding: 6px 16px;
+  height: auto;
+}
+
+.vh-view-site-btn.button:hover {
+  background: #f5ca63;
+  border-color: #f5ca63;
+  color: #110d06;
+}
+
+.vh-tabs-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.vh-tabs-nav {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  background: #ffffff;
+  border: 1px solid #dcdcde;
+  border-radius: 10px;
+  position: sticky;
+  top: 46px;
+}
+
+.vh-tabs-nav li {
+  margin: 0 0 4px;
+}
+
+.vh-tabs-nav li:last-child {
+  margin-bottom: 0;
+}
+
+.vh-tab-btn {
+  width: 100%;
+  text-align: left;
+  padding: 11px 14px;
+  border: none;
+  border-radius: 7px;
+  background: transparent;
+  color: #1d2327;
+  font-size: 13.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.vh-tab-btn:hover {
+  background: #f6f7f7;
+}
+
+.vh-tab-btn.is-active {
+  background: #110d06;
+  color: #ebb844;
+}
+
+.vh-tabs-content {
+  background: #ffffff;
+  border: 1px solid #dcdcde;
+  border-radius: 10px;
+  padding: 28px 32px;
+}
+
+.vh-tab-panel {
+  display: none;
+}
+
+.vh-tab-panel.is-active {
+  display: block;
+}
+
+.vh-panel-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1d2327;
+  margin: 0 0 8px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f0f0f1;
+}
+
+.vh-mt-32 {
+  margin-top: 32px;
+}
+
+.vh-panel-desc {
+  color: #50575e;
+  font-size: 13.5px;
+  margin: 0 0 20px;
+}
+
+.vh-sub-heading {
+  font-size: 15px;
+  font-weight: 700;
+  color: #110d06;
+  background: #fbf8f1;
+  border-left: 4px solid #d6a848;
+  padding: 9px 14px;
+  margin: 24px 0 14px;
+  border-radius: 0 6px 6px 0;
+}
+
+.vh-field-row {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 16px;
+  align-items: start;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f1;
+}
+
+.vh-label {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #1d2327;
+  padding-top: 6px;
+}
+
+.vh-text-input,
+.vh-textarea-input {
+  width: 100%;
+  max-width: 620px;
+  padding: 7px 11px;
+  border: 1px solid #8c8f94;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.vh-media-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 620px;
+}
+
+.vh-media-url {
+  flex: 1;
+}
+
+.vh-image-preview-box {
+  margin-top: 8px;
+}
+
+.vh-preview-img {
+  max-height: 68px;
+  max-width: 180px;
+  object-fit: contain;
+  background: #14110b;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #d6a848;
+  display: block;
+}
+
+.vh-help {
+  margin: 5px 0 0;
+  font-size: 12.5px;
+  color: #646970;
+}
+
+.vh-save-footer {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 2px solid #f0f0f1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.vh-save-btn.button.button-primary {
+  background: #110d06;
+  border-color: #d6a848;
+  color: #ebb844;
+  font-weight: 700;
+  padding: 4px 28px;
+}
+
+.vh-save-btn.button.button-primary:hover {
+  background: #221a0c;
+  color: #f8d26a;
+}
+
+@media (max-width: 960px) {
+  .vh-tabs-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .vh-tabs-nav {
+    position: static;
+  }
+
+  .vh-field-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}
+

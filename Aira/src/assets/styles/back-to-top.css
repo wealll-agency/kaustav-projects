@@ -1,0 +1,61 @@
+/* Back To Top Floating Button */
+
+.beautifo-back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 44px;
+  height: 48px;
+  background-color: var(--aira-primary, #fa9090);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  box-shadow: 0 4px 15px rgba(250, 144, 144, 0.4);
+  cursor: pointer;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  padding: 0;
+}
+
+.beautifo-back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.beautifo-back-to-top:hover {
+  background-color: #f75e5e;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(250, 144, 144, 0.5);
+}
+
+.beautifo-top-arrow {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.beautifo-top-text {
+  font-family: var(--aira-font, sans-serif);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .beautifo-back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 44px;
+  }
+}

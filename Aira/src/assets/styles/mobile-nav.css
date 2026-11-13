@@ -1,0 +1,213 @@
+/* Mobile Navigation Drawer Styles */
+.aira-mobile-drawer {
+  width: 320px !important;
+  max-width: 85vw !important;
+}
+
+.aira-mobile-drawer .offcanvas-header {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aira-mobile-drawer .offcanvas-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aira-mobile-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
+.aira-mobile-drawer .btn-close {
+  font-size: 12px;
+  padding: 8px;
+  opacity: 0.65;
+  transition: opacity 0.2s ease;
+}
+
+.aira-mobile-drawer .btn-close:hover {
+  opacity: 1;
+}
+
+/* Mobile Search Box */
+.aira-mobile-search {
+  margin-bottom: 22px;
+}
+
+.aira-search-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background-color: #f7f7f7;
+  border: 1px solid #e6e6e6;
+  border-radius: 50px;
+  padding: 3px 6px 3px 16px;
+  transition: all 0.25s ease;
+}
+
+.aira-search-box:focus-within {
+  background-color: #ffffff;
+  border-color: var(--aira-primary, #fa9090);
+  box-shadow: 0 0 0 3px rgba(250, 144, 144, 0.16);
+}
+
+.aira-search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-family: var(--aira-font, sans-serif);
+  font-size: 13.5px;
+  color: #111111;
+  padding: 8px 0;
+  width: 100%;
+}
+
+.aira-search-input::placeholder {
+  color: #8c8c8c;
+  font-size: 13px;
+}
+
+.aira-search-btn {
+  background-color: transparent;
+  border: none;
+  color: #666666;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  flex-shrink: 0;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.aira-search-btn:hover {
+  color: var(--aira-primary, #fa9090);
+  background-color: rgba(250, 144, 144, 0.12);
+}
+
+/* Mobile Menu Links */
+.aira-mobile-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 24px;
+}
+
+.aira-mobile-menu-link {
+  font-family: var(--aira-font, sans-serif);
+  font-size: 15px;
+  font-weight: 500;
+  color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 4px;
+  border-bottom: 1px solid #f2f2f2;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.aira-mobile-menu-link:hover {
+  color: var(--aira-primary, #fa9090);
+  padding-left: 6px;
+}
+
+.aira-mobile-menu-link svg {
+  color: #b0b0b0;
+  font-size: 11px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.aira-mobile-menu-link:hover svg {
+  color: var(--aira-primary, #fa9090);
+  transform: translateX(3px);
+}
+
+/* Popular Brands */
+.aira-mobile-brands {
+  margin-bottom: 24px;
+}
+
+.aira-mobile-brands-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888888;
+  margin-bottom: 12px;
+}
+
+.aira-mobile-brands-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.aira-mobile-brand-pill {
+  font-size: 12px;
+  color: #555555;
+  background-color: #f7f7f7;
+  border: 1px solid #eeeeee;
+  padding: 5px 12px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.aira-mobile-brand-pill:hover {
+  background-color: var(--aira-primary, #fa9090);
+  color: #ffffff;
+  border-color: var(--aira-primary, #fa9090);
+}
+
+/* Footer Quick Actions */
+.aira-mobile-footer-actions {
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.aira-mobile-footer-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #444444;
+  text-decoration: none;
+  padding: 8px 4px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.aira-mobile-footer-link svg {
+  color: #888888;
+  font-size: 14px;
+  width: 16px;
+  transition: color 0.2s ease;
+}
+
+.aira-mobile-footer-link:hover {
+  color: var(--aira-primary, #fa9090);
+  background-color: #fcfcfc;
+}
+
+.aira-mobile-footer-link:hover svg {
+  color: var(--aira-primary, #fa9090);
+}
+

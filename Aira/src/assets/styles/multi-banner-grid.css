@@ -1,0 +1,412 @@
+/* Beautifo Multi-Banner Showcase Grid - 100% Exact Reference Replica */
+
+.beautifo-showcase-section {
+  padding: 10px 0 80px;
+  background-color: #ffffff;
+}
+
+/* Header Teaser Link */
+.beautifo-showcase-teaser {
+  text-align: center;
+  margin-bottom: 38px;
+  font-family: var(--aira-font, 'Outfit', sans-serif);
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.beautifo-showcase-teaser .teaser-text {
+  color: #707070;
+  font-weight: 400;
+}
+
+.beautifo-showcase-teaser .teaser-link {
+  color: #f76b6a;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.25s ease;
+}
+
+.beautifo-showcase-teaser .teaser-link:hover {
+  color: #d84847;
+  text-decoration: underline;
+}
+
+.beautifo-showcase-teaser .teaser-link .arrow {
+  display: inline-block;
+  font-size: 16px;
+  transition: transform 0.25s ease;
+}
+
+.beautifo-showcase-teaser .teaser-link:hover .arrow {
+  transform: translateX(3px);
+}
+
+/* Main Showcase Grid (2 columns: Left Tall ~37%, Right Column ~63%) */
+.beautifo-showcase-grid {
+  display: grid;
+  grid-template-columns: 37% calc(63% - 24px);
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* Right Column (2 Rows: Top 2-cards, Bottom 1-wide card) */
+.showcase-right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+}
+
+.showcase-row-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  flex: 1;
+}
+
+/* Generic Card Styling */
+.showcase-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  transition: box-shadow 0.35s ease;
+}
+
+.showcase-card:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Background Image Layer with Zoom Effect */
+.showcase-card-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  z-index: 1;
+}
+
+.showcase-card:hover .showcase-card-bg {
+  transform: scale(1.05);
+}
+
+/* Full Card Clickable Overlay Link */
+.showcase-card-link-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  text-indent: -9999px;
+}
+
+/* Content Container */
+.showcase-card-content {
+  position: relative;
+  z-index: 2;
+  pointer-events: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* Specific Card Configurations */
+
+/* 1. Super Natural Beauty (Tall Left Card) */
+.showcase-card--tall {
+  min-height: 590px;
+  height: 100%;
+  background-color: #f1e9e3;
+}
+
+.showcase-card--tall .showcase-card-bg {
+  background-position: center bottom;
+}
+
+.showcase-card--tall .showcase-card-content {
+  padding: 50px 42px;
+}
+
+/* 2. Body Butter (Top Left Card) */
+.showcase-card--butter {
+  min-height: 283px;
+  background-color: #f6d1ce;
+}
+
+.showcase-card--butter .showcase-card-bg {
+  background-position: right center;
+}
+
+.showcase-card--butter .showcase-card-content {
+  padding: 38px 36px;
+}
+
+/* 3. Health & Beauty (Top Right Card) */
+.showcase-card--health {
+  min-height: 283px;
+  background-color: #efeff1;
+}
+
+.showcase-card--health .showcase-card-bg {
+  background-position: right center;
+}
+
+.showcase-card--health .showcase-card-content {
+  padding: 38px 36px;
+}
+
+/* 4. Beauty & Spa Treatments (Bottom Wide Card) */
+.showcase-card--spa {
+  min-height: 283px;
+  background-color: #6a8290;
+  flex: 1;
+}
+
+.showcase-card--spa .showcase-card-bg {
+  background-position: right center;
+}
+
+.showcase-card--spa .showcase-card-content {
+  padding: 44px 44px;
+}
+
+/* Badges / Subtitles */
+.showcase-badge {
+  display: inline-block;
+  font-family: var(--aira-font, 'Outfit', sans-serif);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.badge-coral {
+  color: #f76262;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.6px;
+  margin-bottom: 12px;
+}
+
+.badge-bold-dark {
+  color: #1a1a1a;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.badge-golden {
+  color: #fdb82c;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  margin-bottom: 22px;
+}
+
+/* Titles */
+.showcase-title {
+  font-family: var(--aira-font, 'Outfit', sans-serif);
+  line-height: 1.18;
+  margin: 0;
+  letter-spacing: -0.3px;
+}
+
+.showcase-title.title-dark {
+  color: #1c1c1c;
+}
+
+.showcase-title.title-light {
+  color: #ffffff;
+}
+
+.showcase-card--tall .showcase-title {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.showcase-card--butter .showcase-title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+.showcase-card--health .showcase-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.showcase-card--spa .showcase-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* CTA Buttons */
+.showcase-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--aira-font, 'Outfit', sans-serif);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  transition: all 0.25s ease;
+  line-height: 1.2;
+}
+
+.showcase-btn.btn-dark {
+  color: #1a1a1a;
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.showcase-btn.btn-light {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.showcase-btn .btn-arrow {
+  display: inline-block;
+  font-size: 14px;
+  transition: transform 0.25s ease;
+}
+
+.showcase-card:hover .showcase-btn.btn-dark {
+  color: #f76262;
+  border-bottom-color: #f76262;
+}
+
+.showcase-card:hover .showcase-btn.btn-light {
+  color: #fdb82c;
+  border-bottom-color: #fdb82c;
+}
+
+.showcase-card:hover .btn-arrow {
+  transform: translateX(4px);
+}
+
+/* Responsive Media Queries */
+
+/* Tablet (Large) */
+@media (max-width: 1199px) {
+  .beautifo-showcase-grid {
+    grid-template-columns: 40% calc(60% - 20px);
+    gap: 20px;
+  }
+  .showcase-right-column {
+    gap: 20px;
+  }
+  .showcase-row-top {
+    gap: 20px;
+  }
+  .showcase-card--tall {
+    min-height: 540px;
+  }
+  .showcase-card--butter,
+  .showcase-card--health,
+  .showcase-card--spa {
+    min-height: 260px;
+  }
+  .showcase-card--tall .showcase-title {
+    font-size: 30px;
+  }
+  .showcase-card--spa .showcase-title {
+    font-size: 28px;
+  }
+}
+
+/* Medium Tablets & Below (Stack Grid to 1 Column) */
+@media (max-width: 991px) {
+  .beautifo-showcase-section {
+    padding: 10px 0 60px;
+  }
+  .beautifo-showcase-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .showcase-card--tall {
+    min-height: 440px;
+    height: auto;
+  }
+  .showcase-card--tall .showcase-card-bg {
+    background-position: center right;
+  }
+  .showcase-card--butter,
+  .showcase-card--health,
+  .showcase-card--spa {
+    min-height: 260px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 640px) {
+  .beautifo-showcase-section {
+    padding: 0 0 50px;
+  }
+  .beautifo-showcase-teaser {
+    font-size: 14.5px;
+    margin-bottom: 28px;
+    padding: 0 10px;
+  }
+  .showcase-row-top {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .showcase-right-column {
+    gap: 16px;
+  }
+  .beautifo-showcase-grid {
+    gap: 16px;
+  }
+  .showcase-card {
+    border-radius: 16px;
+  }
+  .showcase-card--tall {
+    min-height: 320px;
+  }
+  .showcase-card--tall .showcase-card-content {
+    padding: 34px 26px;
+  }
+  .showcase-card--tall .showcase-title {
+    font-size: 26px;
+    margin-bottom: 18px;
+  }
+  .showcase-card--butter,
+  .showcase-card--health,
+  .showcase-card--spa {
+    min-height: 220px;
+  }
+  .showcase-card--butter .showcase-card-content,
+  .showcase-card--health .showcase-card-content {
+    padding: 28px 24px;
+  }
+  .showcase-card--butter .showcase-title,
+  .showcase-card--health .showcase-title {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .showcase-card--spa .showcase-card-content {
+    padding: 30px 24px;
+  }
+  .showcase-card--spa .showcase-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .badge-golden {
+    margin-bottom: 16px;
+  }
+}

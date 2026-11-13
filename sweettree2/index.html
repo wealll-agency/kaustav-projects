@@ -1,0 +1,2128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweettree - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Top Information Bar -->
+    <div class="top-bar d-none d-lg-block">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-9 d-flex gap-4">
+                    <span><i class="fas fa-envelope"></i> info@webmail.com</span>
+                    <span><i class="fas fa-phone-alt"></i> 9748724689</span>
+                    <span><i class="fas fa-map-marker-alt"></i> 33, Maharshi Devendra Road Kolkata-700006</span>
+                </div>
+                <div class="col-md-3 text-end social-icons">
+                    <span>Follow Us</span>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-6">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="Sweettree Logo" class="brand-logo">
+                    </a>
+                </div>
+
+                <div class="col-lg-6 d-none d-lg-block">
+                    <form class="header-search-form">
+                        <select>
+                            <option>All Categories</option>
+                            <option>Nuts</option>
+                            <option>Seeds</option>
+                            <option>Dates</option>
+                        </select>
+                        <input type="text" placeholder="Search products">
+                        <button type="submit">SEARCH</button>
+                    </form>
+                </div>
+
+                <div class="col-lg-3 col-6 d-flex justify-content-end header-icons gap-4">
+                    <a href="#" class="header-icon-box d-none d-md-flex"><i class="far fa-user"></i></a>
+                    <a href="#" class="header-icon-box d-none d-md-flex"><i class="far fa-heart"></i></a>
+                    <a href="#" class="header-icon-box">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="badge">0</span>
+                        <div class="ms-2 d-none d-xl-block">
+                            <span class="d-block" style="font-size: 10px; color: #888; line-height: 1;">Shopping
+                                cart:</span>
+                            <span class="cart-amount">₹00.00</span>
+                        </div>
+                    </a>
+                    <a href="#" class="header-icon-box d-lg-none" data-bs-toggle="offcanvas"
+                        data-bs-target="#mobileMenu">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav d-none d-lg-block">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">🏠 HOME</a></li>
+                <li>
+                    <a href="shop.html">🛍️ SHOP </a>
+                    <!-- <ul class="dropdown-menu-custom">
+                        <li><a href="#">Dry Fruits</a></li>
+                        <li><a href="#">Spices</a></li>
+                        <li><a href="#">Health Food</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="#">🎁 COMBO GIFT BOX</a></li>
+                <li><a href="about.html">ℹ️ ABOUT</a></li>
+                <li><a href="blog.html">📝 BLOG</a></li>
+                <li><a href="#">📞 CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mobile Search Bar -->
+    <div class="container d-block d-lg-none mt-2 mb-2">
+        <form class="header-search-form w-100" style="height: 40px; border-color:#004c03;">
+            <input type="text" placeholder="Search products..." style="flex-grow: 1; padding: 0 15px; font-size: 13px;">
+            <button type="submit" style="padding: 0 15px;"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+
+    <!-- Mobile Offcanvas Menu -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+        <div class="offcanvas-header" style="background-color: #004c03; color: white;">
+            <h5 class="offcanvas-title fw-bold" id="mobileMenuLabel">Sweettree</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body p-0">
+            <ul class="list-group list-group-flush mobile-nav-links">
+                <li class="list-group-item"><a href="index.html"
+                        class="d-block py-2 text-dark text-decoration-none fw-bold"><i
+                            class="fas fa-home me-2 text-muted"></i>HOME</a></li>
+                <li class="list-group-item">
+                    <a class="d-flex justify-content-between align-items-center py-2 text-dark text-decoration-none fw-bold"
+                        href="shop.html">
+                        <span><i class="fas fa-shopping-bag me-2 text-muted"></i>SHOP</span>
+                        <!-- <i class="fas fa-chevron-down" style="font-size: 12px;"></i> -->
+                    </a>
+                    <!-- <div class="collapse" id="shopMobileMenu">
+                        <ul class="list-group list-group-flush ms-4 mt-2 mb-2 border-start">
+                            <li class="list-group-item border-0 py-1"><a href="#"
+                                    class="text-muted text-decoration-none">Dry Fruits</a></li>
+                            <li class="list-group-item border-0 py-1"><a href="#"
+                                    class="text-muted text-decoration-none">Spices</a></li>
+                            <li class="list-group-item border-0 py-1"><a href="#"
+                                    class="text-muted text-decoration-none">Health Food</a></li>
+                        </ul>
+                    </div> -->
+                </li>
+                <li class="list-group-item"><a href="#" class="d-block py-2 text-dark text-decoration-none fw-bold"><i
+                            class="fas fa-gift me-2 text-muted"></i>COMBO GIFT BOX</a></li>
+                <li class="list-group-item"><a href="about.html"
+                        class="d-block py-2 text-dark text-decoration-none fw-bold"><i
+                            class="fas fa-info-circle me-2 text-muted"></i>ABOUT</a></li>
+                <li class="list-group-item"><a href="blog.html"
+                        class="d-block py-2 text-dark text-decoration-none fw-bold"><i
+                            class="fas fa-blog me-2 text-muted"></i>BLOG</a></li>
+                <li class="list-group-item"><a href="#" class="d-block py-2 text-dark text-decoration-none fw-bold"><i
+                            class="fas fa-phone-alt me-2 text-muted"></i>CONTACT</a></li>
+            </ul>
+            <div class="p-3 bg-light mt-3">
+                <div class="d-flex justify-content-around">
+                    <a href="#" class="text-dark bg-white rounded-circle p-2 shadow-sm"><i class="far fa-user"></i></a>
+                    <a href="#" class="text-dark bg-white rounded-circle p-2 shadow-sm"><i class="far fa-heart"></i></a>
+                    <a href="#" class="text-dark bg-white rounded-circle p-2 shadow-sm"><i
+                            class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider-wrapper">
+        <div class="marquee-wrapper">
+            <marquee behavior="scroll" direction="left" scrollamount="5">
+                || 🥜 Sweettree Anmol Jumbo Nuts - Extra 10% OFF! 🥜 || 🎁 Nuts For Savings 🎁 || 🔥 PayDay Sale Is LIVE
+                -
+                Extra 15% OFF Sitewide! 🔥 ||
+            </marquee>
+        </div>
+        <div class="container mt-3">
+            <div class="owl-carousel owl-theme hero-slider">
+                <div class="item">
+                    <img src="assets/images/banner_slider_image1.jpeg" alt="Banner 1">
+                </div>
+                <div class="item">
+                    <img src="assets/images/banner_slider_image2.jpeg" alt="Banner 2">
+                </div>
+                <div class="item">
+                    <img src="assets/images/banner_slider_image1.jpeg" alt="Banner 1">
+                </div>
+                <div class="item">
+                    <img src="assets/images/banner_slider_image2.jpeg" alt="Banner 2">
+                </div>
+                <div class="item">
+                    <img src="assets/images/banner_slider_image1.jpeg" alt="Banner 1">
+                </div>
+                <div class="item">
+                    <img src="assets/images/banner_slider_image2.jpeg" alt="Banner 2">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Slider -->
+    <section class="section-wrapper bg-white collection-bg-section pb-2 mt-4 relative-nav popout-slider-wrapper">
+        <div class="container text-center">
+            <div class="owl-carousel owl-theme collection-slider mx-auto">
+                <a href="#" class="collection-card" style="background: #945A45;">
+                    <img src="assets/images/collection1.png" alt="Almond" class="collection-img">
+                    <div class="collection-name">Almond</div>
+                </a>
+                <a href="#" class="collection-card" style="background: #005B6E;">
+                    <img src="assets/images/collection2.png" alt="Cashew" class="collection-img">
+                    <div class="collection-name">Cashew</div>
+                </a>
+                <a href="#" class="collection-card" style="background: #525D3F;">
+                    <img src="assets/images/collection3.png" alt="Pista" class="collection-img">
+                    <div class="collection-name">Pista</div>
+                </a>
+                <a href="#" class="collection-card" style="background: #C88330;">
+                    <img src="assets/images/collection4.png" alt="Raisin" class="collection-img">
+                    <div class="collection-name">Raisin</div>
+                </a>
+                <a href="#" class="collection-card" style="background: #731A2B;">
+                    <img src="assets/images/collection5.png" alt="Walnut" class="collection-img">
+                    <div class="collection-name">Walnut</div>
+                </a>
+                <a href="#" class="collection-card" style="background: #945A45;">
+                    <img src="assets/images/collection6.png" alt="Fig" class="collection-img">
+                    <div class="collection-name">Fig</div>
+                </a>
+                <a href="#" class="collection-card" style="background: #005B6E;">
+                    <img src="assets/images/collection7.png" alt="Mix" class="collection-img">
+                    <div class="collection-name">Mix</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Selling Products (Screenshot 4 Accurate) -->
+    <section class="section-wrapper bg-white pb-5 relative-nav">
+        <div class="container text-center">
+            <h2 class="main-title">Top Selling Products</h2>
+            <div class="owl-carousel owl-theme product-slider">
+                <!-- Product Card 1 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-brown">PREMIUM</span>
+                            <span class="tag-right bg-brown">50% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/top_product1.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree ANMOL</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 4.9</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Anmol Premium Medjool Dates 500gm (Khajur/Khajoor)</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹1,578</del> <span class="current-price">₹789</span> <span class="per-gram">( ₹158
+                                / 100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-brown">PREMIUM</span>
+                            <span class="tag-right bg-brown">34% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/top_product2.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree ANMOL</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 4.8</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Anmol Premium Walnut Kernel (Jumbo Size - Rare Crop -...</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹1,499</del> <span class="current-price">₹975</span> <span class="per-gram">( ₹195
+                                / 100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-brown">PREMIUM</span>
+                            <span class="tag-right bg-brown">17% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/top_product3.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree ANMOL</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 5.0</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Anmol Jumbo Size Mamra Almonds 500gm</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹3,389</del> <span class="current-price">₹2,789</span> <span class="per-gram">(
+                                ₹558 / 100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-brown">PREMIUM</span>
+                            <span class="tag-right bg-brown">10% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/top_product4.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree ANMOL</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 5.0</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Anmol Roasted & Salted Jumbo Size Pistachio 500gm</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹975</del> <span class="current-price">₹869</span> <span class="per-gram">( ₹174 /
+                                100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 5 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-brown">PREMIUM</span>
+                            <span class="tag-right bg-brown">50% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/top_product1.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree ANMOL</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 4.9</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Anmol Premium Medjool Dates 500gm (Khajur/Khajoor)</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹1,578</del> <span class="current-price">₹789</span> <span class="per-gram">( ₹158
+                                / 100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 6 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-brown">PREMIUM</span>
+                            <span class="tag-right bg-brown">34% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/top_product2.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree ANMOL</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 4.8</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Anmol Premium Walnut Kernel (Jumbo Size - Rare Crop -...</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹1,499</del> <span class="current-price">₹975</span> <span class="per-gram">( ₹195
+                                / 100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 7 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-brown">PREMIUM</span>
+                            <span class="tag-right bg-brown">17% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/top_product3.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree ANMOL</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 5.0</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Anmol Jumbo Size Mamra Almonds 500gm</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹3,389</del> <span class="current-price">₹2,789</span> <span class="per-gram">(
+                                ₹558 / 100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product Card 8 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-brown">PREMIUM</span>
+                            <span class="tag-right bg-brown">10% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/top_product4.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree ANMOL</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 5.0</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Anmol Roasted & Salted Jumbo Size Pistachio 500gm</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹975</del> <span class="current-price">₹869</span> <span class="per-gram">( ₹174 /
+                                100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Healthy Snacking (Screenshot 5 Accurate) -->
+    <section class="section-wrapper bg-white pb-5 relative-nav">
+        <div class="container text-center">
+            <h2 class="main-title">Healthy Snacking</h2>
+            <div class="owl-carousel owl-theme product-slider">
+                <!-- Snacking Card 1 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-nmlaunch">NEW LAUNCH</span>
+                            <span class="tag-right bg-brown">36% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/new_product1.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 5.0</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree For Good Nutty Date Bites 180g (15g x 12 Pieces)</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹699</del> <span class="current-price">₹445</span> <span class="per-gram">( ₹124 /
+                                100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Snacking Card 2 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-nmlaunch">NEW LAUNCH</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/top_product1.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 5.0</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree For Good Daily Nutrition Protein Energy Nut Bar 100g (25g
+                            x...
+                        </h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹169</del> <span class="current-price">₹169</span> <span class="per-gram">( ₹169 /
+                                100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Snacking Card 3 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-right bg-brown ms-auto">54% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/new_product3.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree SNACKRITE</span>
+                            <div class="rating-heart">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Snackrite Roasted Makhana Pudina Chatka 70g</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹556</del> <span class="current-price">₹255</span> <span class="per-gram">( ₹182 /
+                                100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Snacking Card 4 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-nmlaunch">NEW LAUNCH</span>
+                            <span class="tag-right bg-brown">55% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/new_product4.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree SNACKRITE</span>
+                            <div class="rating-heart">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Snackrite Makhana Peri Peri 70g</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹556</del> <span class="current-price">₹249</span> <span class="per-gram">( ₹178 /
+                                100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Snacking Card 5 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-nmlaunch">NEW LAUNCH</span>
+                            <span class="tag-right bg-brown">36% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/new_product1.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 5.0</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree For Good Nutty Date Bites 180g (15g x 12 Pieces)</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹699</del> <span class="current-price">₹445</span> <span class="per-gram">( ₹124 /
+                                100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Snacking Card 6 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-nmlaunch">NEW LAUNCH</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/new_product2.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree</span>
+                            <div class="rating-heart">
+                                <span class="rating-badge"><i class="fas fa-star"></i> 5.0</span>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree For Good Daily Nutrition Protein Energy Nut Bar 100g (25g
+                            x...
+                        </h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹169</del> <span class="current-price">₹169</span> <span class="per-gram">( ₹169 /
+                                100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Snacking Card 7 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-right bg-brown ms-auto">54% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/new_product3.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree SNACKRITE</span>
+                            <div class="rating-heart">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Snackrite Roasted Makhana Pudina Chatka 70g</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹556</del> <span class="current-price">₹255</span> <span class="per-gram">( ₹182 /
+                                100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+
+                <!-- Snacking Card 8 -->
+                <div class="item h-100 px-2 py-3">
+                    <div class="Sweettree-product-card">
+                        <div class="product-tags d-flex justify-content-between">
+                            <span class="tag-left bg-nmlaunch">NEW LAUNCH</span>
+                            <span class="tag-right bg-brown">55% off</span>
+                        </div>
+                        <div class="product-img-box">
+                            <img src="assets/images/new_product4.png" alt="Product">
+                        </div>
+                        <div class="card-divider"></div>
+                        <div class="product-meta d-flex justify-content-between align-items-center">
+                            <span class="brand-text">Sweettree SNACKRITE</span>
+                            <div class="rating-heart">
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <h3 class="product-name">Sweettree Snackrite Makhana Peri Peri 70g</h3>
+                        <div class="product-pricing">
+                            MRP: <del>₹556</del> <span class="current-price">₹249</span> <span class="per-gram">( ₹178 /
+                                100g )</span>
+                        </div>
+                        <button class="Sweettree-btn-cart w-100 mt-2">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nutty Delight Offers Section -->
+    <section class="section-wrapper bg-white pb-5 relative-nav">
+        <div class="container text-center">
+            <h2 class="main-title" style="margin-bottom: 60px;">Nutty Delight Offers</h2>
+            <div class="owl-carousel owl-theme offers-slider mx-auto" style="width: 85%;">
+                <!-- Center -->
+                <div class="item">
+                    <div class="offer-card">
+                        <img src="assets/images/offer1.jpg" alt="Payday Sale">
+                    </div>
+                </div>
+                <!-- Right -->
+                <div class="item">
+                    <div class="offer-card">
+                        <img src="assets/images/offer3.jpg" alt="Tiny Seeds">
+                    </div>
+                </div>
+                <!-- Left -->
+                <div class="item">
+                    <div class="offer-card">
+                        <img src="assets/images/offer2.jpg" alt="Rare Crop">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Brands Section -->
+    <!-- <section class="section-wrapper our_brands">
+        <div class="container text-center">
+            <h2 class="main-title">Our Brands</h2>
+            <div class="owl-carousel owl-theme brands-slider mx-auto">
+                <div class="item">
+                    <div class="brand-box"><img src="assets/images/category1.png" alt="Brand 1"></div>
+                </div>
+                <div class="item">
+                    <div class="brand-box"><img src="assets/images/category2.png" alt="Brand 2"></div>
+                </div>
+                <div class="item">
+                    <div class="brand-box"><img src="assets/images/category3.png" alt="Brand 3"></div>
+                </div>
+                <div class="item">
+                    <div class="brand-box"><img src="assets/images/category4.png" alt="Brand 4"></div>
+                </div>
+                <div class="item">
+                    <div class="brand-box"><img src="assets/images/category5.png" alt="Brand 5"></div>
+                </div>
+                <div class="item">
+                    <div class="brand-box"><img src="assets/images/category6.png" alt="Brand 6"></div>
+                </div>
+            </div>
+            <p class="brands-subtext mx-auto mt-4">
+                Nourish your body and your budget with our selection of best-in-class dry fruits and nuts. Now enjoy the
+                goodness of nature without overspending.
+            </p>
+        </div>
+    </section> -->
+
+    <!-- Store Locator Section -->
+    <section class="store-section bg-white">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-lg-5 mt-lg-4">
+                    <img src="assets/images/banner_slider_image3.jpeg" alt="Sweettree Store Locations"
+                        class="img-fluid store-img mb-4 mb-lg-0">
+                </div>
+                <div class="col-lg-6 d-flex flex-column py-lg-5">
+                    <div class="store-text-box ps-lg-5 mt-lg-4">
+                        <h2 class="store-title mb-4">Hey, We Aren't That Far!</h2>
+                        <p class="store-desc mb-4">Our journey has led us to broaden our network. Now, you can easily
+                            spot us at your nearest location and get your healthy eating plans sorted!</p>
+                        <h4 class="fw-bold mb-3 text-dark">Find us Here</h4>
+                        <div class="mb-5 mb-lg-0 pb-lg-5">
+                            <button class="Sweettree-btn-maroon">All Location <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Box Overlapping -->
+            <div class="stats-box">
+                <div class="row text-center align-items-center h-100 w-100 m-0">
+                    <div class="col-4 border-end py-1">
+                        <h3 class="stats-number"><span class="counter" data-target="11">0</span>+</h3>
+                        <p class="stats-label">Stores</p>
+                    </div>
+                    <div class="col-4 border-end py-1">
+                        <h3 class="stats-number"><span class="counter" data-target="51750">0</span>+</h3>
+                        <p class="stats-label">Happy Customers</p>
+                    </div>
+                    <div class="col-4 py-1">
+                        <h3 class="stats-number"><span class="counter" data-target="57500">0</span>+</h3>
+                        <p class="stats-label">Order Delivered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Healthy Family Dry Fruits Combo Section -->
+    <section class="combo-section position-relative py-4 mt-4">
+        <!-- Magic background shape that allows the slider to break across it -->
+        <div class="combo-bg-shape"></div>
+
+        <div class="container position-relative z-1">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-8 pe-lg-4">
+                    <div style="max-width: 750px;">
+                        <h2 class="combo-title mb-3">Healthy Family Dry Fruits Combo</h2>
+                        <p class="combo-desc mb-0">Get more nutrition at great value with our Healthy Family Dry Fruits
+                            Combo. A cost-effective way to stock up on daily essentials while ensuring quality, taste,
+                            and health benefits for the entire family.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-4 mt-lg-0 d-flex justify-content-start gap-3">
+                    <button class="combo-nav prev-combo"><i class="fas fa-arrow-left"></i></button>
+                    <button class="combo-nav next-combo"><i class="fas fa-arrow-right"></i></button>
+                </div>
+                <!-- 1 Column left empty on the right to naturally pull arrows inwards into the black shape -->
+            </div>
+
+            <!-- Wrapper bleeds right so cards can hang over the edge while keeping dimensions standard -->
+            <div class="combo-slider-wrapper">
+                <div class="owl-carousel owl-theme combo-slider">
+                    <!-- Card 1 -->
+                    <div class="item">
+                        <div class="social-card">
+                            <div class="social-media-box">
+                                <span class="social-badge-top">VALUE OFFER</span>
+                                <iframe
+                                    src="https://www.youtube.com/embed/VLysJeyNBIk?controls=0&rel=0&autoplay=1&mute=1&loop=1&playlist=VLysJeyNBIk"
+                                    title="YouTube reel"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                                <div class="social-rating-float">
+                                    <i class="fas fa-star"></i> 5.0
+                                </div>
+                                <div class="social-actions-float">
+                                    <div class="social-action-btn"><i class="far fa-heart"></i></div>
+                                    <div class="social-action-btn"><i class="fas fa-share-alt"></i></div>
+                                </div>
+                            </div>
+                            <div class="social-content">
+                                <div class="social-header-info">
+                                    <img src="assets/images/logo.png" class="social-shop-logo" alt="Logo">
+                                    <div class="social-product-info">
+                                        <h3 class="social-title">Sweettree Seeds 800g Combo - Pack of 4 (Pumpkin Seeds
+                                            200g, Chia Seed..</h3>
+                                        <div class="social-price-box">
+                                            <span class="social-actual-price">₹325</span>
+                                            <span class="social-mrp-strike">₹926</span>
+                                        </div>
+                                    </div>
+                                    <div class="social-arrow"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <button class="Sweettree-btn-cart">BUY NOW</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="item">
+                        <div class="social-card">
+                            <div class="social-media-box">
+                                <span class="social-badge-top">BESTSELLER</span>
+                                <iframe
+                                    src="https://www.youtube.com/embed/VLysJeyNBIk?controls=0&rel=0&autoplay=1&mute=1&loop=1&playlist=VLysJeyNBIk"
+                                    title="YouTube reel"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                                <div class="social-rating-float">
+                                    <i class="fas fa-star"></i> 4.9
+                                </div>
+                                <div class="social-actions-float">
+                                    <div class="social-action-btn"><i class="far fa-heart"></i></div>
+                                    <div class="social-action-btn"><i class="fas fa-share-alt"></i></div>
+                                </div>
+                            </div>
+                            <div class="social-content">
+                                <div class="social-header-info">
+                                    <img src="assets/images/logo.png" class="social-shop-logo" alt="Logo">
+                                    <div class="social-product-info">
+                                        <h3 class="social-title">Sweettree Sunflower Seeds & Pumpkin Seeds Combo 400g -
+                                            (200g Each)</h3>
+                                        <div class="social-price-box">
+                                            <span class="social-actual-price">₹394</span>
+                                            <span class="social-mrp-strike">₹428</span>
+                                        </div>
+                                    </div>
+                                    <div class="social-arrow"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <button class="Sweettree-btn-cart">BUY NOW</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="item">
+                        <div class="social-card">
+                            <div class="social-media-box">
+                                <span class="social-badge-top">PREMIUM PACK</span>
+                                <iframe
+                                    src="https://www.youtube.com/embed/VLysJeyNBIk?controls=0&rel=0&autoplay=1&mute=1&loop=1&playlist=VLysJeyNBIk"
+                                    title="YouTube reel"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                                <div class="social-rating-float">
+                                    <i class="fas fa-star"></i> 4.7
+                                </div>
+                                <div class="social-actions-float">
+                                    <div class="social-action-btn"><i class="far fa-heart"></i></div>
+                                    <div class="social-action-btn"><i class="fas fa-share-alt"></i></div>
+                                </div>
+                            </div>
+                            <div class="social-content">
+                                <div class="social-header-info">
+                                    <img src="assets/images/logo.png" class="social-shop-logo" alt="Logo">
+                                    <div class="social-product-info">
+                                        <h3 class="social-title">Sweettree Daily Needs Dry Fruits Pack 1kg (Almonds,
+                                            Cashews..</h3>
+                                        <div class="social-price-box">
+                                            <span class="social-actual-price">₹1,656</span>
+                                            <span class="social-mrp-strike">₹1,999</span>
+                                        </div>
+                                    </div>
+                                    <div class="social-arrow"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <button class="Sweettree-btn-cart">BUY NOW</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="item">
+                        <div class="social-card">
+                            <div class="social-media-box">
+                                <span class="social-badge-top">VALUE OFFER</span>
+                                <iframe
+                                    src="https://www.youtube.com/embed/VLysJeyNBIk?controls=0&rel=0&autoplay=1&mute=1&loop=1&playlist=VLysJeyNBIk"
+                                    title="YouTube reel"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                                <div class="social-rating-float">
+                                    <i class="fas fa-star"></i> 5.0
+                                </div>
+                                <div class="social-actions-float">
+                                    <div class="social-action-btn"><i class="far fa-heart"></i></div>
+                                    <div class="social-action-btn"><i class="fas fa-share-alt"></i></div>
+                                </div>
+                            </div>
+                            <div class="social-content">
+                                <div class="social-header-info">
+                                    <img src="assets/images/logo.png" class="social-shop-logo" alt="Logo">
+                                    <div class="social-product-info">
+                                        <h3 class="social-title">Sweettree Seeds 1kg Combo Pack - Chia Seeds, Sunflower
+                                            Seeds..</h3>
+                                        <div class="social-price-box">
+                                            <span class="social-actual-price">₹364</span>
+                                            <span class="social-mrp-strike">₹1,125</span>
+                                        </div>
+                                    </div>
+                                    <div class="social-arrow"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <button class="Sweettree-btn-cart">BUY NOW</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop by Category Section -->
+    <section class="shop-by-category py-5 mt-5">
+        <div class="container text-center">
+            <h2 class="mb-5" style="font-weight: 800; font-size: 38px; color: #1a1a1a;">Shop by Category</h2>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="cat-box cat-nuts">
+                    <div class="cat-icon-wrap"><i class="fas fa-leaf"></i></div>
+                    <div class="cat-title">Nuts</div>
+                </a>
+                <a href="#" class="cat-box cat-berries">
+                    <div class="cat-icon-wrap"><i class="fas fa-lemon"></i></div>
+                    <div class="cat-title">Berries</div>
+                </a>
+                <a href="#" class="cat-box cat-dried-fruits">
+                    <div class="cat-icon-wrap"><i class="fas fa-apple-whole"></i></div>
+                    <div class="cat-title">Dried Fruits</div>
+                </a>
+                <a href="#" class="cat-box cat-seeds">
+                    <div class="cat-icon-wrap"><i class="fas fa-seedling"></i></div>
+                    <div class="cat-title">Seeds</div>
+                </a>
+                <a href="#" class="cat-box cat-mixes">
+                    <div class="cat-icon-wrap"><i class="fas fa-bowl-food"></i></div>
+                    <div class="cat-title">Mixes</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Banner Section -->
+    <section class="trust-banner-section py-4">
+        <div class="container">
+            <div class="trust-bar-outer py-4 px-3">
+                <div class="row m-0 text-center text-white">
+                    <div class="col-lg-3 col-6 trust-item">
+                        <img src="assets/images/shipping_icon1.gif" alt="Shipping" class="mb-3"
+                            style="max-height: 45px;">
+                        <div class="trust-text">Free Shipping On<br>Orders Above ₹1499</div>
+                    </div>
+                    <div class="col-lg-3 col-6 trust-item">
+                        <img src="assets/images/shipping_icon2.gif" alt="Payment" class="mb-3"
+                            style="max-height: 45px;">
+                        <div class="trust-text">Pay<br>On Delivery</div>
+                    </div>
+                    <div class="col-lg-3 col-6 trust-item">
+                        <img src="assets/images/shipping_icon3.gif" alt="Quality" class="mb-3"
+                            style="max-height: 45px;">
+                        <div class="trust-text">100% Quality<br>Guaranteed</div>
+                    </div>
+                    <div class="col-lg-3 col-6 trust-item border-lg-0">
+                        <img src="assets/images/shipping_icon4.gif" alt="Rewards" class="mb-3"
+                            style="max-height: 45px;">
+                        <div class="trust-text">Reward Points<br>On Every Purchase</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Whole Spices Section -->
+    <section class="whole-spices-section py-5">
+        <div class="container position-relative">
+            <h2 class="text-center mb-5" style="font-weight: 800; font-size: 38px; color: #1a1a1a;">Whole Spices</h2>
+
+            <div class="owl-carousel owl-theme spice-slider mx-auto">
+                <!-- Card 1 -->
+                <div class="item">
+                    <div class="spice-card-outer">
+                        <div class="spice-card-inner">
+                            <div class="spice-img-box">
+                                <span class="badge-new-launch">NEW LAUNCH</span>
+                                <span class="badge-spice-discount">34% off</span>
+                                <img src="assets/images/new_product1.png" alt="Spice 1" class="mx-auto d-block">
+                            </div>
+                            <hr class="spice-divider">
+                            <div class="spice-card-body">
+                                <div class="combo-brand-row d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold m-0" style="font-size: 12px; color: #1c72b9;">Sweettree
+                                        ANMOL</span>
+                                    <i class="far fa-heart" style="color: #1c72b9; font-size:15px;"></i>
+                                </div>
+                                <h3 class="spice-card-title">Sweettree Anmol Green Cardamom (Elaichi) 75g (Size - 8mm+)
+                                </h3>
+                                <div class="spice-price-row mb-3 mt-auto">
+                                    <span class="mrp-label">MRP:</span>
+                                    <span class="mrp-strike"><del>₹600</del></span>
+                                    <span class="price-final">₹393</span>
+                                    <span class="per-gram-text">(₹524 / 100g)</span>
+                                </div>
+                                <button class="Sweettree-btn-cart combo-btn w-100">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="item">
+                    <div class="spice-card-outer">
+                        <div class="spice-card-inner">
+                            <div class="spice-img-box">
+                                <span class="badge-spice-discount" style="right:0;">14% off</span>
+                                <img src="assets/images/new_product2.png" alt="Spice 2" class="mx-auto d-block">
+                            </div>
+                            <hr class="spice-divider">
+                            <div class="spice-card-body">
+                                <div class="combo-brand-row d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold m-0" style="font-size: 12px; color: #1c72b9;">Sweettree</span>
+                                    <i class="far fa-heart" style="color: #1c72b9; font-size:15px;"></i>
+                                </div>
+                                <h3 class="spice-card-title">Sweettree Anmol Clove (Laung) 80gm</h3>
+                                <div class="spice-price-row mb-3 mt-auto">
+                                    <span class="mrp-label">MRP:</span>
+                                    <span class="mrp-strike"><del>₹249</del></span>
+                                    <span class="price-final">₹212</span>
+                                    <span class="per-gram-text">(₹265 / 100g)</span>
+                                </div>
+                                <button class="Sweettree-btn-cart combo-btn w-100">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="item">
+                    <div class="spice-card-outer">
+                        <div class="spice-card-inner">
+                            <div class="spice-img-box">
+                                <img src="assets/images/new_product3.png" alt="Spice 3" class="mx-auto d-block">
+                                <span class="badge-preorder">Pre-order</span>
+                            </div>
+                            <hr class="spice-divider">
+                            <div class="spice-card-body">
+                                <div class="combo-brand-row d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold m-0" style="font-size: 12px; color: #1c72b9;">Sweettree</span>
+                                    <i class="far fa-heart" style="color: #1c72b9; font-size:15px;"></i>
+                                </div>
+                                <h3 class="spice-card-title">Sweettree Whole Spices 400g Combo Pack - Coriander Seeds
+                                    200g
+                                    &..
+                                </h3>
+                                <div class="spice-price-row mb-3 mt-auto">
+                                    <span class="mrp-label">MRP:</span>
+                                    <span class="price-final">₹240</span>
+                                    <span class="per-gram-text">(₹60 / 100g)</span>
+                                </div>
+                                <button class="Sweettree-btn-cart combo-btn w-100">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 Placeholder -->
+                <div class="item">
+                    <div class="spice-card-outer">
+                        <div class="spice-card-inner">
+                            <div class="spice-img-box">
+                                <span class="badge-new-launch">NEW LAUNCH</span>
+                                <span class="badge-spice-discount">10% off</span>
+                                <img src="assets/images/new_product4.png" alt="Spice 4" class="mx-auto d-block">
+                            </div>
+                            <hr class="spice-divider">
+                            <div class="spice-card-body">
+                                <div class="combo-brand-row d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold m-0" style="font-size: 12px; color: #1c72b9;">Sweettree
+                                        ANMOL</span>
+                                    <i class="far fa-heart" style="color: #1c72b9; font-size:15px;"></i>
+                                </div>
+                                <h3 class="spice-card-title">Sweettree Anmol Black Pepper (Kali Mirch) 100g</h3>
+                                <div class="spice-price-row mb-3 mt-auto">
+                                    <span class="mrp-label">MRP:</span>
+                                    <span class="mrp-strike"><del>₹400</del></span>
+                                    <span class="price-final">₹360</span>
+                                    <span class="per-gram-text">(₹360 / 100g)</span>
+                                </div>
+                                <button class="Sweettree-btn-cart combo-btn w-100">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 1 -->
+                <div class="item">
+                    <div class="spice-card-outer">
+                        <div class="spice-card-inner">
+                            <div class="spice-img-box">
+                                <span class="badge-new-launch">NEW LAUNCH</span>
+                                <span class="badge-spice-discount">34% off</span>
+                                <img src="assets/images/new_product1.png" alt="Spice 1" class="mx-auto d-block">
+                            </div>
+                            <hr class="spice-divider">
+                            <div class="spice-card-body">
+                                <div class="combo-brand-row d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold m-0" style="font-size: 12px; color: #1c72b9;">Sweettree
+                                        ANMOL</span>
+                                    <i class="far fa-heart" style="color: #1c72b9; font-size:15px;"></i>
+                                </div>
+                                <h3 class="spice-card-title">Sweettree Anmol Green Cardamom (Elaichi) 75g (Size - 8mm+)
+                                </h3>
+                                <div class="spice-price-row mb-3 mt-auto">
+                                    <span class="mrp-label">MRP:</span>
+                                    <span class="mrp-strike"><del>₹600</del></span>
+                                    <span class="price-final">₹393</span>
+                                    <span class="per-gram-text">(₹524 / 100g)</span>
+                                </div>
+                                <button class="Sweettree-btn-cart combo-btn w-100">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="item">
+                    <div class="spice-card-outer">
+                        <div class="spice-card-inner">
+                            <div class="spice-img-box">
+                                <span class="badge-spice-discount" style="right:0;">14% off</span>
+                                <img src="assets/images/new_product2.png" alt="Spice 2" class="mx-auto d-block">
+                            </div>
+                            <hr class="spice-divider">
+                            <div class="spice-card-body">
+                                <div class="combo-brand-row d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold m-0" style="font-size: 12px; color: #1c72b9;">Sweettree</span>
+                                    <i class="far fa-heart" style="color: #1c72b9; font-size:15px;"></i>
+                                </div>
+                                <h3 class="spice-card-title">Sweettree Anmol Clove (Laung) 80gm</h3>
+                                <div class="spice-price-row mb-3 mt-auto">
+                                    <span class="mrp-label">MRP:</span>
+                                    <span class="mrp-strike"><del>₹249</del></span>
+                                    <span class="price-final">₹212</span>
+                                    <span class="per-gram-text">(₹265 / 100g)</span>
+                                </div>
+                                <button class="Sweettree-btn-cart combo-btn w-100">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="item">
+                    <div class="spice-card-outer">
+                        <div class="spice-card-inner">
+                            <div class="spice-img-box">
+                                <img src="assets/images/new_product3.png" alt="Spice 3" class="mx-auto d-block">
+                                <span class="badge-preorder">Pre-order</span>
+                            </div>
+                            <hr class="spice-divider">
+                            <div class="spice-card-body">
+                                <div class="combo-brand-row d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold m-0" style="font-size: 12px; color: #1c72b9;">Sweettree</span>
+                                    <i class="far fa-heart" style="color: #1c72b9; font-size:15px;"></i>
+                                </div>
+                                <h3 class="spice-card-title">Sweettree Whole Spices 400g Combo Pack - Coriander Seeds
+                                    200g
+                                    &..
+                                </h3>
+                                <div class="spice-price-row mb-3 mt-auto">
+                                    <span class="mrp-label">MRP:</span>
+                                    <span class="price-final">₹240</span>
+                                    <span class="per-gram-text">(₹60 / 100g)</span>
+                                </div>
+                                <button class="Sweettree-btn-cart combo-btn w-100">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 Placeholder -->
+                <div class="item">
+                    <div class="spice-card-outer">
+                        <div class="spice-card-inner">
+                            <div class="spice-img-box">
+                                <span class="badge-new-launch">NEW LAUNCH</span>
+                                <span class="badge-spice-discount">10% off</span>
+                                <img src="assets/images/new_product4.png" alt="Spice 4" class="mx-auto d-block">
+                            </div>
+                            <hr class="spice-divider">
+                            <div class="spice-card-body">
+                                <div class="combo-brand-row d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold m-0" style="font-size: 12px; color: #1c72b9;">Sweettree
+                                        ANMOL</span>
+                                    <i class="far fa-heart" style="color: #1c72b9; font-size:15px;"></i>
+                                </div>
+                                <h3 class="spice-card-title">Sweettree Anmol Black Pepper (Kali Mirch) 100g</h3>
+                                <div class="spice-price-row mb-3 mt-auto">
+                                    <span class="mrp-label">MRP:</span>
+                                    <span class="mrp-strike"><del>₹400</del></span>
+                                    <span class="price-final">₹360</span>
+                                    <span class="per-gram-text">(₹360 / 100g)</span>
+                                </div>
+                                <button class="Sweettree-btn-cart combo-btn w-100">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+    </section>
+
+    <!-- Shop By Purpose Section -->
+    <section class="shop-by-purpose-section bg-white">
+        <div class="container text-center pt-4">
+            <h2 class="main-title mb-2">Shop By Purpose</h2>
+            <p class="mb-5 mx-auto" style="max-width: 650px; color: #444; font-size: 15px;">We just made it easy for you
+                to shop on your terms. Let's get started to find your way for Passion for Nutrition.</p>
+
+            <div class="row g-4 justify-content-center pt-5 pb-4"> <!-- pt-5 for circle overflow -->
+                <!-- Gifting -->
+                <div class="col-6 col-md-3">
+                    <div class="purpose-card card-bg-gifting">
+                        <div class="purpose-default">
+                            <div class="purpose-circle">
+                                <img src="assets/images/shop-by-purpose1.svg" alt="Gifting">
+                            </div>
+                            <h4 class="purpose-title">Gifting</h4>
+                        </div>
+                        <div class="purpose-hover">
+                            <p class="hover-text">Wanna gift your special ones something healthy and tasty? Let's go!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cooking -->
+                <div class="col-6 col-md-3">
+                    <div class="purpose-card card-bg-cooking">
+                        <div class="purpose-default">
+                            <div class="purpose-circle">
+                                <img src="assets/images/shop-by-purpose2.svg" alt="Cooking">
+                            </div>
+                            <h4 class="purpose-title">Cooking</h4>
+                        </div>
+                        <div class="purpose-hover">
+                            <p class="hover-text">Elevate your culinary creations with our premium assortment of cooking
+                                ingredients.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Snacking -->
+                <div class="col-6 col-md-3">
+                    <div class="purpose-card card-bg-snacking">
+                        <div class="purpose-default">
+                            <div class="purpose-circle">
+                                <img src="assets/images/shop-by-purpose3.svg" alt="Snacking">
+                            </div>
+                            <h4 class="purpose-title">Snacking</h4>
+                        </div>
+                        <div class="purpose-hover">
+                            <p class="hover-text">Grab our perfectly roasted, crunchy and flavored treats for a
+                                guilt-free bite.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Daily Nutrition -->
+                <div class="col-6 col-md-3">
+                    <div class="purpose-card card-bg-nutrition">
+                        <div class="purpose-default">
+                            <div class="purpose-circle">
+                                <img src="assets/images/shop-by-purpose4.svg" alt="Daily Nutrition">
+                            </div>
+                            <h4 class="purpose-title">Daily Nutrition</h4>
+                        </div>
+                        <div class="purpose-hover">
+                            <p class="hover-text">Power your day with protein-packed essential nuts for your health
+                                goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wholesale Banner Section -->
+    <section class="wholesale-banner-section py-4 bg-white">
+        <div class="container container-fluid-md">
+            <a href="#">
+                <img src="assets/images/wholesale-banner.png" class="w-100 banner-rounded" alt="Wholesale Banner">
+            </a>
+        </div>
+    </section>
+
+    <!-- Our Recent Blogs Section -->
+    <section class="recent-blogs-section pb-5 pt-3 bg-white relative-nav">
+        <div class="container text-center">
+            <h2 class="main-title mb-5">Our Recent Blogs</h2>
+            <div class="owl-carousel owl-theme blog-slider mx-auto">
+
+                <!-- Blog 1 -->
+                <div class="item">
+                    <div class="blog-card">
+                        <img src="assets/images/blog_image1.png" class="blog-img" alt="Blog 1">
+                        <div class="blog-content-box">
+                            <div class="d-flex justify-content-between align-items-center mb-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="logo-circle-mini">
+                                        <img src="assets/images/logo.png" alt="Sweettree Logo">
+                                    </div>
+                                    <div class="text-start ms-2">
+                                        <h6 class="mb-0 fw-bold" style="font-size: 11px;">Admin</h6>
+                                        <span style="font-size: 10px; color: #888;">Apr 03, 2026</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-end me-2">
+                                        <h6 class="mb-0 fw-bold" style="font-size: 11px;">Sweettree</h6>
+                                        <span style="font-size: 10px; color: #888;"><i class="fas fa-file-alt"
+                                                style="font-size: 8px;"></i> Sweettree Blog</span>
+                                    </div>
+                                    <i class="fas fa-share" style="color: #666; font-size: 13px; cursor: pointer;"></i>
+                                </div>
+                            </div>
+                            <hr class="blog-hr">
+                            <h4 class="blog-heading">What Makes Sweettree Dry Fruits a Preferred Choice for
+                                Quality-Conscious Buyers?</h4>
+                            <p class="blog-excerpt">In today's food industry, quality is no longer optional, it is
+                                expected. Consumers and businesses are becoming more aware of what they eat and use in
+                                their..</p>
+                            <a href="#" class="blog-read-more">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 2 -->
+                <div class="item">
+                    <div class="blog-card">
+                        <img src="assets/images/blog_image2.png" class="blog-img" alt="Blog 2">
+                        <div class="blog-content-box">
+                            <div class="d-flex justify-content-between align-items-center mb-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="logo-circle-mini">
+                                        <img src="assets/images/logo.png" alt="Sweettree Logo">
+                                    </div>
+                                    <div class="text-start ms-2">
+                                        <h6 class="mb-0 fw-bold" style="font-size: 11px;">Admin</h6>
+                                        <span style="font-size: 10px; color: #888;">Apr 03, 2026</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-end me-2">
+                                        <h6 class="mb-0" style="font-size: 10px; color: #888;">Healthy Living <i
+                                                class="fas fa-file-alt" style="font-size: 8px;"></i></h6>
+                                    </div>
+                                    <i class="fas fa-share" style="color: #666; font-size: 13px; cursor: pointer;"></i>
+                                </div>
+                            </div>
+                            <hr class="blog-hr">
+                            <h4 class="blog-heading">Which Snacks Provide Energy Without Causing Heaviness or
+                                Sluggishness?</h4>
+                            <p class="blog-excerpt">Choosing the right snack can make a big difference in how you feel
+                                throughout the day. While many snacks give quick satisfaction, they often leave you
+                                feeling..</p>
+                            <a href="#" class="blog-read-more">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog 3 -->
+                <div class="item">
+                    <div class="blog-card">
+                        <img src="assets/images/blog_image3.png" class="blog-img" alt="Blog 3">
+                        <div class="blog-content-box">
+                            <div class="d-flex justify-content-between align-items-center mb-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="logo-circle-mini">
+                                        <img src="assets/images/logo.png" alt="Sweettree Logo">
+                                    </div>
+                                    <div class="text-start ms-2">
+                                        <h6 class="mb-0 fw-bold" style="font-size: 11px;">Admin</h6>
+                                        <span style="font-size: 10px; color: #888;">Apr 01, 2026</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="text-end me-2">
+                                        <h6 class="mb-0 fw-bold" style="font-size: 11px;">Institutional <i
+                                                class="fas fa-file-alt" style="font-size: 8px;"></i></h6>
+                                        <span style="font-size: 10px; color: #888;">Sweettree Blog <i
+                                                class="fas fa-file-alt" style="font-size: 8px;"></i></span>
+                                    </div>
+                                    <i class="fas fa-share" style="color: #666; font-size: 13px; cursor: pointer;"></i>
+                                </div>
+                            </div>
+                            <hr class="blog-hr">
+                            <h4 class="blog-heading">How Sweettree Is Helping QSR Chains and Food Manufacturers
+                                Streamline
+                                Bulk Dry...</h4>
+                            <p class="blog-excerpt">For quick service restaurants (QSRs) and food manufacturers,
+                                ingredient sourcing plays a critical role in maintaining consistency, quality and
+                                operations...</p>
+                            <a href="#" class="blog-read-more">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section bg-white pt-3 pb-5">
+        <div class="container" style="max-width: 900px;">
+            <h2 class="main-title mb-5" style="font-weight: 800; font-size: 38px;">FAQs</h2>
+
+            <div class="accordion custom-accordion" id="faqAccordion">
+
+                <!-- FAQ 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            1. How many dry fruits to eat in a day?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            A handful of dry fruits, roughly 30 grams (or about 10-15 mixed nuts and dried fruits), is a
+                            healthy daily amount for most individuals.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            2. Which dry fruit is best for weight loss?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Almonds, walnuts, and pistachios are excellent for weight loss due to their high fiber and
+                            protein content which keeps you full longer.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            3. Which dry fruit is good for skin?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Almonds and walnuts are rich in Vitamin E and omega-3 fatty acids, making them highly
+                            beneficial for maintaining glowing, healthy skin.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            4. Which dry fruit is good for hair?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Dates, raisins, and walnuts are packed with iron, biotin, and proteins which significantly
+                            promote hair growth and strength.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            5. Which all dry fruits are good for weight gain?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Dates, prunes, dried figs, and raisins are calorie-dense and excellent choices for healthy
+                            and sustained weight gain.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            6. Can we eat dry fruits at night?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, having a small portion of almonds or walnuts before bed can actually improve sleep
+                            quality due to their melatonin content.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            7. Which dry fruit is best for brain?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Walnuts are widely considered the best dry fruit for brain health as they are exceptionally
+                            rich in DHA, a type of Omega-3 fatty acid.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container py-4">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <h2 class="fw-bold mb-0">Words From Our Delighted Customer</h2>
+                <div class="testimonial-nav d-flex gap-2">
+                    <div class="custom-prev t-arrow bg-white"><i class="fas fa-arrow-left" style="color: #666;"></i>
+                    </div>
+                    <div class="custom-next t-arrow bg-success"><i class="fas fa-arrow-right" style="color: #fff;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="owl-carousel owl-theme testimonial-slider">
+                <!-- Testimonial 1 -->
+                <div class="item">
+                    <div class="testimonial-card bg-white p-4 h-100 rounded-4" style="border: none;">
+                        <i class="fas fa-quote-left d-block mb-3" style="font-size: 40px; color: #cdead4;"></i>
+                        <p class="mb-4" style="font-size: 14px; line-height: 1.6; color: #555; min-height: 80px;">
+                            Excellent quality dry fruits and delicious Fresh, flavorful, and perfect for gifting.
+                            I used to take dry fruits from this website from last 1 year no quality issue.
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="assets/images/testimonial_image1.png" alt="Siddhartha Nandi"
+                                    style="width: 40px; height: 40px; border-radius: 50%;">
+                                <div>
+                                    <h6 class="mb-0 fw-bold" style="font-size: 14px; color: #333;">Siddhartha Nandi</h6>
+                                    <small style="font-size: 12px; color: #aaa;">Customer</small>
+                                </div>
+                            </div>
+                            <div class="text-warning" style="font-size: 12px;">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="item">
+                    <div class="testimonial-card bg-white p-4 h-100 rounded-4" style="border: none;">
+                        <i class="fas fa-quote-left d-block mb-3" style="font-size: 40px; color: #cdead4;"></i>
+                        <p class="mb-4" style="font-size: 14px; line-height: 1.6; color: #555; min-height: 80px;">
+                            Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit
+                            eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="assets/images/testimonial_image2.png" alt="Dianne Russell"
+                                    style="width: 40px; height: 40px; border-radius: 50%;">
+                                <div>
+                                    <h6 class="mb-0 fw-bold" style="font-size: 14px; color: #333;">Dianne Russell</h6>
+                                    <small style="font-size: 12px; color: #aaa;">Customer</small>
+                                </div>
+                            </div>
+                            <div class="text-warning" style="font-size: 12px;">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="item">
+                    <div class="testimonial-card bg-white p-4 h-100 rounded-4" style="border: none;">
+                        <i class="fas fa-quote-left d-block mb-3" style="font-size: 40px; color: #cdead4;"></i>
+                        <p class="mb-4" style="font-size: 14px; line-height: 1.6; color: #555; min-height: 80px;">
+                            Pellentesque eu nibh eget mauris congue mattis mattis nec tellus. Phasellus imperdiet elit
+                            eu magna dictum, bibendum cursus velit sodales. Donec sed neque eget
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center mt-auto">
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="assets/images/testimonial_image3.png" alt="Md. Dilsad Ali"
+                                    style="width: 40px; height: 40px; border-radius: 50%;">
+                                <div>
+                                    <h6 class="mb-0 fw-bold" style="font-size: 14px; color: #333;">Md. Dilsad Ali</h6>
+                                    <small style="font-size: 12px; color: #aaa;">Customer</small>
+                                </div>
+                            </div>
+                            <div class="text-warning" style="font-size: 12px;">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- People Are Also Looking For Section -->
+    <section class="tags-section bg-white py-5">
+        <div class="container py-3">
+            <h3 class="mb-4 text-start" style="font-size: 24px; color: #333;">People Are Also Looking For</h3>
+            <div class="d-flex flex-wrap gap-2">
+                <a href="#" class="search-tag-pill">Cashew Royale</a>
+                <a href="#" class="search-tag-pill">Cashew Premium</a>
+                <a href="#" class="search-tag-pill">Almond American</a>
+                <a href="#" class="search-tag-pill">Mamra</a>
+                <a href="#" class="search-tag-pill">Kishmish Royale</a>
+                <a href="#" class="search-tag-pill">Kishmish Premium</a>
+                <a href="#" class="search-tag-pill">Walnut Royale</a>
+                <a href="#" class="search-tag-pill">Anjeer</a>
+                <a href="#" class="search-tag-pill">Pista</a>
+                <a href="#" class="search-tag-pill">Dates Royale</a>
+
+                <a href="#" class="search-tag-pill">Kishmish Black</a>
+                <a href="#" class="search-tag-pill">Mate Coffee Creamer</a>
+                <a href="#" class="search-tag-pill">Shahi Rose Trail Mix</a>
+                <a href="#" class="search-tag-pill">Crazy Crunchy Corn</a>
+                <a href="#" class="search-tag-pill">Museli Dry Fruits Medley</a>
+                <a href="#" class="search-tag-pill">Fruity Orchard Mix</a>
+                <a href="#" class="search-tag-pill">BBQ Millets Trail Mix</a>
+
+                <a href="#" class="search-tag-pill">Museli Fruit & Nut</a>
+                <a href="#" class="search-tag-pill">Cashew Green Chilli</a>
+                <a href="#" class="search-tag-pill">Cashew Salted</a>
+                <a href="#" class="search-tag-pill">Almond Salted</a>
+                <a href="#" class="search-tag-pill">Almond Peri Peri</a>
+                <a href="#" class="search-tag-pill">Cashew Cheese</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Footer Section -->
+    <footer class="main-footer" style="background-color: #1b1b1b; color: #ccc; padding-top: 60px;">
+        <div class="container">
+            <div class="row align-items-start gy-5 mb-5">
+                <!-- Branding Col -->
+                <div class="col-lg-4 col-md-12 pe-lg-5">
+                    <img src="assets/images/logo.png" alt="Sweettree" class="mb-4 filter-white"
+                        style="max-width: 200px;">
+                    <p style="font-size: 13px; line-height: 1.6; color: #888; font-weight: 300;">
+                        Sweettree brings you a collection of carefully selected foods from India and across the world.
+                    </p>
+                    <div class="mt-4"
+                        style="font-size: 13px; font-weight: 500; color: #ddd; display: inline-block; padding-bottom: 5px;">
+                        +91 9748724689 &nbsp;
+                        <img src="assets/images/fssai_logo.png" class="fssai_logo" alt="">
+                    </div>
+                </div>
+
+                <!-- My Account -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5 class="text-white mb-4" style="font-size: 14px; font-weight: 600;">My Account</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order History</a></li>
+                        <li><a href="#">Shoping Cart</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                    </ul>
+                </div>
+
+                <!-- Helps -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5 class="text-white mb-4" style="font-size: 14px; font-weight: 600;">Helps</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Faqs</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Proxy -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5 class="text-white mb-4" style="font-size: 14px; font-weight: 600;">Proxy</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categories -->
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h5 class="text-white mb-4" style="font-size: 14px; font-weight: 600;">Categories</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Dry Fruits</a></li>
+                        <li><a href="#">Flavoured Nuts</a></li>
+                        <li><a href="#">Seeds And Berries</a></li>
+                        <li><a href="#">Healthy Snacking</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Sub Footer -->
+            <div class="footer_bottom row pt-4 pb-4" style="border-top: 1px solid #333;">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0" style="font-size: 12px; color: #666;">Sweettree eCommerce &copy; 2026. All Rights
+                        Reserved <img src="assets/images/heart.webp" alt="heart" class="footer-heart-icon">
+                        and developed by
+                        <img src="assets/images/Wealll_new.webp" alt="we alll" class="footer-developer-logo">
+
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="d-inline-flex gap-1 align-items-center opacity-75">
+                        <img src="assets/images/payment1.png" alt="">
+                        <img src="assets/images/payment2.png" alt="">
+                        <img src="assets/images/payment3.png" alt="">
+                        <img src="assets/images/payment4.png" alt="">
+                        <img src="assets/images/payment5.png" alt="">
+                        <span style="font-size: 10px; font-weight: 600;"><i class="fas fa-lock text-warning"></i> Secure
+                            Payment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky Bottom Navigation (Nutraj Style) -->
+    <div class="m-bottom-nav d-lg-none">
+        <a href="index.html" class="m-nav-item active">
+            <i class="fas fa-home"></i>
+            <span>HOME</span>
+        </a>
+        <a href="shop.html" class="m-nav-item">
+            <i class="fas fa-shopping-bag"></i>
+            <span>SHOP</span>
+        </a>
+        <a href="#" class="m-nav-item" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas">
+            <i class="fas fa-shopping-cart"></i>
+            <span>CART</span>
+        </a>
+        <a href="#" class="m-nav-item m-nav-promo">
+            <i class="fas fa-percent"></i>
+            <span>Combo Offers</span>
+        </a>
+        <a href="#" class="m-nav-item">
+            <i class="fas fa-user-circle"></i>
+            <span>LOGIN</span>
+        </a>
+    </div>
+
+    <!-- Offcanvas Cart (Nutraj Style) -->
+    <div class="offcanvas offcanvas-end nutraj-cart-offcanvas" tabindex="-1" id="cartOffcanvas"
+        aria-labelledby="cartOffcanvasLabel">
+
+        <!-- START: CART VIEW -->
+        <div class="cart-view-container d-flex flex-column h-100 w-100">
+            <!-- Cart Header -->
+            <div class="offcanvas-header cart-header">
+                <h5 class="offcanvas-title d-flex align-items-center gap-2" id="cartOffcanvasLabel">
+                    <i class="fas fa-shopping-cart text-danger" style="font-size: 16px;"></i> Cart
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body p-0 cart-body">
+
+                <div class="p-3 bg-white">
+                    <!-- Shipping Progress -->
+                    <div class="shipping-progress-section">
+                        <div class="d-flex align-items-center gap-2 text-dark"
+                            style="font-size: 11px; font-weight: 600;">
+                            <i class="fas fa-truck text-muted" style="font-size: 13px;"></i>
+                            <span>Add ₹643 More To Unlock <strong style="color: #000;">Free Shipping</strong></span>
+                        </div>
+
+                        <div class="custom-progress-bar-container">
+                            <div class="custom-progress-track">
+                                <div class="custom-progress-fill" style="width: 75%;"></div>
+                                <div class="custom-progress-milestone" style="left: 70%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between text-muted"
+                            style="font-size: 10px; font-weight: 500;">
+                            <span>1499 - Free Shipping</span>
+                            <span>1599 - Extra 15% Off*</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Free Shipping Success Banner -->
+                <div class="cart-success-banner">
+                    Yay, You Just Unlocked FREE SHIPPING!
+                </div>
+
+                <div class="p-3">
+                    <!-- Promo Box -->
+                    <div class="cart-promo-box text-center mb-4">
+                        Keep Nourishing Your Cart With HEALTHINESS, Add Some More! <span
+                            style="font-size: 14px;">🥣</span>
+                    </div>
+
+                    <!-- Cart Items Wrapper -->
+                    <div class="cart-items-wrapper">
+
+                        <!-- Single Cart Item 1 -->
+                        <div class="cart-item-card position-relative mb-3">
+                            <button class="cart-item-remove">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+
+                            <div class="d-flex w-100">
+                                <!-- Image -->
+                                <div class="cart-item-img-box me-3">
+                                    <img src="assets/images/top_product1.png" alt="Product">
+                                </div>
+
+                                <!-- Details -->
+                                <div class="cart-item-details pe-4 flex-grow-1">
+                                    <div class="cart-item-brand">Nutraj Anmol</div>
+                                    <h6 class="cart-item-title">Nutraj Anmol Premium Medjool Dates 500gm
+                                        (Khajur/Khajoor)</h6>
+
+                                    <div class="d-flex align-items-center justify-content-between mt-auto">
+                                        <div class="cart-qty-selector">
+                                            <button class="qty-btn">-</button>
+                                            <input type="text" value="1" class="qty-input" readonly>
+                                            <button class="qty-btn">+</button>
+                                        </div>
+                                        <div class="cart-item-pricing">
+                                            <span class="mrp"><del>₹1,579</del></span>
+                                            <span class="current-price">₹856</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr style="opacity: 0.05; margin: 25px 0;">
+
+                    <!-- Upsell Header -->
+                    <div class="text-start mb-3">
+                        <span class="upsell-title">
+                            Don't Miss Out! Add Premium Exotic Nuts To Make Your Order Extra Special!
+                        </span>
+                    </div>
+
+                    <!-- Upsell Carousel -->
+                    <div class="owl-carousel owl-theme cart-upsell-slider ps-1">
+                        <!-- Upsell Item 1 -->
+                        <div class="item">
+                            <div class="Sweettree-product-card mini-upsell-card">
+                                <div class="product-tags">
+                                    <span class="tag-left" style="background:#742431;">TRENDING</span>
+                                    <span class="tag-right" style="background:#bfa38a;">32% off</span>
+                                </div>
+                                <div class="product-img-box">
+                                    <img src="assets/images/top_product5.png" alt="Product" class="img-fluid">
+                                </div>
+                                <div class="product-details-content p-0">
+                                    <div class="product-meta d-flex justify-content-between align-items-center mb-1"
+                                        style="font-size: 8px;">
+                                        <span class="brand-text fw-bold" style="color:#742431;">NUTRAJ</span>
+                                        <span class="rating-badge"
+                                            style="font-size: 8px; background:#f5f5f5; padding: 2px 4px; border-radius: 4px;"><i
+                                                class="fas fa-star text-warning"></i> 4.8</span>
+                                    </div>
+                                    <h3 class="product-name">Nutraj Dried Figs 250gm</h3>
+                                    <div class="product-pricing mb-2" style="font-size: 10px;">
+                                        <span class="current-price">₹311</span>
+                                    </div>
+                                    <button class="Sweettree-btn-cart py-1 w-100"
+                                        style="font-size: 9px; font-weight: 700;">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Upsell Item 2 -->
+                        <div class="item">
+                            <div class="Sweettree-product-card mini-upsell-card">
+                                <div class="product-tags">
+                                    <span class="tag-left" style="background:#1eb394;">NEW LAUNCH</span>
+                                    <span class="tag-right" style="background:#bfa38a;">36% off</span>
+                                </div>
+                                <div class="product-img-box">
+                                    <img src="assets/images/new_product1.png" alt="Product" class="img-fluid">
+                                </div>
+                                <div class="product-details-content p-0">
+                                    <div class="product-meta d-flex justify-content-between align-items-center mb-1"
+                                        style="font-size: 8px;">
+                                        <span class="brand-text fw-bold" style="color:#742431;">NUTRAJ</span>
+                                        <span class="rating-badge"
+                                            style="font-size: 8px; background:#f5f5f5; padding: 2px 4px; border-radius: 4px;"><i
+                                                class="fas fa-star text-warning"></i> 5.0</span>
+                                    </div>
+                                    <h3 class="product-name">Nutraj For Good Nutty Date Bites 180g</h3>
+                                    <div class="product-pricing mb-2" style="font-size: 10px;">
+                                        <span class="current-price">₹442</span>
+                                    </div>
+                                    <button class="Sweettree-btn-cart py-1 w-100"
+                                        style="font-size: 9px; font-weight: 700;">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sticky Footer (Nutraj Style) -->
+            <div class="cart-sticky-footer">
+                <div class="cart-order-summary-compact">
+                    <div class="summary-row-item">
+                        <span>MRP:</span>
+                        <span>₹1,579</span>
+                    </div>
+                    <div class="summary-row-item">
+                        <span>Offer Discount:</span>
+                        <span class="text-success">- ₹723</span>
+                    </div>
+                    <div class="summary-row-item">
+                        <span>Nutty Reward Points:</span>
+                        <span class="text-success">- ₹0</span>
+                    </div>
+                    <div class="summary-total-row">
+                        <span class="total-label">Sub-Total:</span>
+                        <span class="total-amount">₹856</span>
+                    </div>
+                    <div class="text-center mt-1" style="font-size: 10px; color: #888;">
+                        *Coupon code is applied at checkout.
+                    </div>
+                </div>
+
+                <button class="btn-place-order mt-2" id="checkoutBtn">
+                    <span>Place Order Now</span>
+                    <div class="payment-icons">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-google-pay"></i>
+                        <i class="fas fa-wallet" style="font-size: 14px;"></i>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <!-- END: CART VIEW -->
+
+        <!-- START: CHECKOUT VIEW (Hidden initially) -->
+        <div class="checkout-view-container d-none flex-column h-100 w-100 bg-white">
+            <!-- Header -->
+            <div class="checkout-header d-flex justify-content-between align-items-center p-3 border-bottom shadow-sm">
+                <button class="btn btn-link text-dark checkout-back-btn p-0 text-decoration-none" id="checkoutBackBtn">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <img src="assets/images/logo.png" alt="Logo"
+                    style="height: 30px; margin: 0 auto; transform: translateX(-12px);">
+            </div>
+
+            <!-- Promo Bar -->
+            <div class="text-white text-center py-2 fw-bold d-flex justify-content-center align-items-center gap-2"
+                style="font-size: 12px; background-color: #5e1a29;">
+                Free shipping on all orders above ₹1499 <i class="fas fa-star text-warning"
+                    style="font-size: 13px;"></i>
+            </div>
+
+            <!-- Body area with grey scrollable background -->
+            <div class="checkout-body flex-grow-1 p-3" style="background-color: #f7f5f9; overflow-y: auto;">
+
+                <!-- Mobile Input Box -->
+                <div class="bg-white p-4 rounded-3 shadow-sm mb-3 border border-light">
+                    <h6 class="mb-3 text-dark" style="font-size: 14px; font-weight: 500;">Enter your mobile number to
+                        continue.</h6>
+                    <div class="d-flex mb-3 shadow-none">
+                        <input type="text" class="form-control focus-ring-none shadow-none text-muted"
+                            placeholder="10-digit mobile number"
+                            style="border-radius: 4px 0 0 4px; font-size: 14px; border-color: #ddd;">
+                        <button class="btn border-0 text-white fw-bold"
+                            style="border-radius: 0 4px 4px 0; background-color: #b0b0b0; padding: 0 25px;">Next</button>
+                    </div>
+                    <div class="form-check d-flex align-items-center gap-1 m-0 p-0"
+                        style="font-size: 13px; color: #555;">
+                        <input class="form-check-input ms-0 mt-0" type="checkbox" checked id="notifyCheck"
+                            style="font-size: 14px;">
+                        <label class="form-check-label ms-1" for="notifyCheck" style="color: #666; font-weight: 500;">
+                            Notify me on orders & offers
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Order Summary Detail Box -->
+                <div class="bg-white rounded-3 shadow-sm p-3 border border-light">
+                    <div class="d-flex align-items-center mb-3 pb-2 border-bottom"
+                        style="border-color: #f0f0f0 !important;">
+                        <i class="far fa-clipboard me-2 text-muted"></i>
+                        <h6 class="mb-0 fw-bold text-dark" style="font-size: 14px;">Order Summary | 1 item</h6>
+                    </div>
+
+                    <div class="d-flex mb-4">
+                        <div class="position-relative me-3">
+                            <img src="assets/images/top_product1.png" alt="Product"
+                                style="width: 50px; height: 50px; object-fit: contain; border: 1px solid #eee; border-radius: 4px; padding: 2px;">
+                            <span class="position-absolute"
+                                style="top: -5px; right: -5px; background: #888; color: white; border-radius: 50%; width: 16px; height: 16px; font-size: 10px; display: flex; align-items: center; justify-content: center; font-weight: bold;">1</span>
+                        </div>
+                        <div class="flex-grow-1">
+                            <h6 class="mb-1 text-dark" style="font-size: 13px; line-height: 1.4;">Nutraj Anmol Premium
+                                Medjool Dates 500gm (Khajur/Khajoor)</h6>
+                            <div style="font-size: 12px; color: #3b82f6;">500g</div>
+                        </div>
+                        <div class="text-end ms-2">
+                            <div class="fw-bold mb-1" style="font-size: 14px; color: #111;">₹856.00</div>
+                            <del style="font-size: 12px; color: #aaa;">₹1,579.00</del>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-2 pb-1" style="font-size: 13px; color: #555;">
+                        <span>Subtotal</span>
+                        <span class="fw-bold" style="color: #666;">₹1,579.00</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2 pb-1" style="font-size: 13px; color: #2ea05b;">
+                        <span>Discount on MRP</span>
+                        <span>- ₹723.00</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3" style="font-size: 13px; color: #628aca;">
+                        <span>Shipping fee to be calculated</span>
+                        <span></span>
+                    </div>
+
+                    <hr class="text-muted mb-3" style="opacity: 0.15; margin: 0 -1rem;">
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="fw-bold text-dark" style="font-size: 15px;">Total</span>
+                        <span class="fw-bold text-dark" style="font-size: 16px;">₹856.00</span>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5 mb-2 pb-2">
+                    <span style="font-size: 14px; color: #222; font-weight: 800; letter-spacing: -0.5px;">
+                        <i class="fas fa-bolt text-primary me-1"></i>super.money
+                    </span>
+                    <span class="badge bg-primary ms-1 px-2 py-1" style="border-radius: 2px;">breeze</span>
+                </div>
+
+            </div>
+        </div>
+        <!-- END: CHECKOUT VIEW -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

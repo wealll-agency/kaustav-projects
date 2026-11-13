@@ -1,0 +1,203 @@
+/* Product Widget Columns Section - 100% Exact Replica of Beautifo Reference */
+
+.beautifo-product-widgets-section {
+  padding: 40px 0 80px;
+  background-color: #ffffff;
+}
+
+/* 3-Column Grid */
+.beautifo-widget-columns-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  row-gap: 40px;
+  align-items: start;
+}
+
+/* Single Column */
+.beautifo-widget-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Column Header Title */
+.beautifo-widget-title {
+  font-family: var(--aira-font, 'Jost', -apple-system, BlinkMacSystemFont, sans-serif);
+  font-size: 24px;
+  font-weight: 700;
+  color: #111111;
+  letter-spacing: -0.3px;
+  margin: 0 0 28px 0;
+  line-height: 1.25;
+}
+
+/* Item List Container */
+.beautifo-widget-items {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* Single Product Item Row */
+.beautifo-widget-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  transition: transform 0.2s ease;
+}
+
+/* Thumbnail Box */
+.beautifo-widget-thumb {
+  width: 90px;
+  height: 90px;
+  min-width: 90px;
+  min-height: 90px;
+  background-color: #f7f7f7;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 6px;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.beautifo-widget-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.beautifo-widget-item:hover .beautifo-widget-img {
+  transform: scale(1.08);
+}
+
+/* Details Info Box */
+.beautifo-widget-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  min-width: 0;
+}
+
+/* Product Title */
+.beautifo-widget-item-name {
+  font-family: var(--aira-font, 'Jost', -apple-system, BlinkMacSystemFont, sans-serif);
+  font-size: 15px;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin: 0 0 5px 0;
+  line-height: 1.35;
+}
+
+.beautifo-widget-item-name a {
+  color: #1a1a1a;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: color 0.25s ease;
+}
+
+.beautifo-widget-item:hover .beautifo-widget-item-name a {
+  color: var(--aira-primary, #fa9090);
+}
+
+/* Rating Stars */
+.beautifo-widget-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+
+.beautifo-widget-rating .star-filled {
+  color: var(--aira-primary, #fa9090);
+}
+
+.beautifo-widget-rating .star-empty {
+  color: #e0e0e0;
+}
+
+/* Price Wrap */
+.beautifo-widget-price-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-family: var(--aira-font, 'Jost', -apple-system, BlinkMacSystemFont, sans-serif);
+}
+
+.beautifo-widget-price {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #111111;
+  line-height: 1;
+}
+
+.beautifo-widget-old-price {
+  font-size: 13.5px;
+  font-weight: 400;
+  color: #8c8c8c;
+  text-decoration: line-through;
+  line-height: 1;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+  .beautifo-widget-columns-grid {
+    column-gap: 28px;
+  }
+
+  .beautifo-widget-thumb {
+    width: 82px;
+    height: 82px;
+    min-width: 82px;
+    min-height: 82px;
+  }
+}
+
+@media (max-width: 880px) {
+  .beautifo-widget-columns-grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 36px;
+  }
+
+  .beautifo-product-widgets-section {
+    padding: 30px 0 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .beautifo-widget-columns-grid {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+
+  .beautifo-widget-title {
+    font-size: 21px;
+    margin-bottom: 20px;
+  }
+
+  .beautifo-widget-thumb {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    min-height: 80px;
+  }
+
+  .beautifo-widget-item-name {
+    font-size: 14.5px;
+  }
+
+  .beautifo-product-widgets-section {
+    padding: 24px 0 50px;
+  }
+}
